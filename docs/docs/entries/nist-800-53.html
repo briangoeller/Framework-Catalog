@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NIST 800-53 — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>NIST 800-53</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">cybersecurity</span> ·
+    <span class="meta-band">regulatory-standard</span>
+  </p>
+  <p class="one-liner">Catalog of security and privacy controls for federal information systems and organizations.</p>
+</header>
+
+<section class="extended-summary">
+  <p>NIST Special Publication 800-53 is the comprehensive catalog of security and privacy controls developed by the National Institute of Standards and Technology for federal information systems, originally mandated by the Federal Information Security Management Act (FISMA, 2002, updated FISMA 2014). The catalog (Revision 5, published September 2020 with subsequent updates) organizes 1,189 controls across 20 control families including Access Control, Audit and Accountability, Configuration Management, Contingency Planning, Identification and Authentication, Incident Response, Risk Assessment, System and Communications Protection, and System and Information Integrity. Controls are tailored to system risk levels (Low, Moderate, High) per FIPS 199 categorization, with control baselines specifying which controls apply at each level (NIST 800-53B). Revision 5 substantially restructured the catalog with control statements written more clearly, with explicit privacy controls integrated alongside security (rather than as a separate publication), and with substantial new content on supply chain risk, cyber resilience, and modernization. NIST 800-53 is the foundational control catalog for US federal systems, has substantial influence beyond federal contexts (state and local government, healthcare via HITRUST, defense industrial base via CMMC), and is widely used internationally as a reference even where not explicitly required. The catalog is used in conjunction with NIST 800-37 (Risk Management Framework, separately enriched) which specifies the process for selecting, implementing, assessing, authorizing, and monitoring controls.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>National Institute of Standards and Technology (NIST); Computer Security Division; substantial federal-agency input through Joint Task Force <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2002 (FISMA mandate); 2005 (initial publication); 2020 (Revision 5, current); ongoing updates <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>NIST (2020). Special Publication 800-53 Revision 5: Security and Privacy Controls for Information Systems and Organizations, NIST (2020). Special Publication 800-53B: Control Baselines for Information Systems and Organizations, FISMA (2002, 2014). Federal Information Security Management Act / Federal Information Security Modernization Act <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Catalog of 1,189 controls (Rev 5)</li><li>20 control families (Access Control, Audit, Configuration Management, Contingency Planning, IA, Incident Response, Risk Assessment, etc.)</li><li>Three baselines: Low, Moderate, High (NIST 800-53B)</li><li>Control structure: control text, discussion, related controls, references</li><li>Privacy controls integrated in Rev 5</li><li>Supply chain risk management additions</li><li>Tailoring guidance for system-specific selection</li><li>Use with NIST 800-37 RMF</li><li>FISMA mandate for federal systems</li><li>Influence beyond federal contexts (HITRUST, CMMC, state/local government)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundational control catalog for US federal information systems under FISMA; basis for control selection in federal authorization to operate (ATO) decisions; reference framework in defense industrial base (CMMC), healthcare (HITRUST CSF), and state/local government cybersecurity; foundation for substantial cybersecurity consulting and certification practice; pedagogical reference in cybersecurity education; integration with FedRAMP for cloud service authorization.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Volume of controls (1,189 in Rev 5) makes implementation enormously demanding even with tailoring guidance — many federal systems struggle with comprehensive 800-53 compliance</li><li>cost of implementation and assessment is substantial, with much federal cyber budget consumed by 800-53 process work</li><li>tendency toward checklist compliance rather than substantive security improvement (the same critique applies to most regulatory-standard frameworks)</li><li>some controls are written at high abstraction level requiring substantial interpretive work for specific environments</li><li>integration with cloud, DevOps, and modern architecture patterns has improved through Rev 5 but remains incomplete</li><li>distinguishing between controls that meaningfully reduce risk and controls that exist for compliance reasons is genuinely difficult</li><li>commercial GRC platforms have produced compliance-tracking automation that may obscure substantive security questions</li><li>cross-walking with other frameworks (ISO 27002, CIS Controls, etc.) requires substantial effort that organizations often duplicate</li><li>the framework&#x27;s federal origin has shaped specific control choices that don&#x27;t always travel well to non-federal contexts.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/nist-risk-management-framework.html">NIST Risk Management Framework</a>, <a href="../entries/iso-iec-27002.html">ISO/IEC 27002</a>, <a href="../entries/cis-controls.html">CIS Controls</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_21.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

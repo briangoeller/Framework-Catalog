@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Linear Programming — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Linear Programming</h1>
+  <p class="aliases">Also known as: LP</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Optimization of a linear objective subject to linear constraints.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Linear Programming is the optimization problem of maximizing or minimizing a linear objective function subject to linear equality and inequality constraints, with variables typically constrained to be non-negative. Standard form: maximize c^T x subject to Ax ≤ b, x ≥ 0. The discipline was substantially founded by George Dantzig&#x27;s 1947 development of the Simplex Method, an algorithm that moves from vertex to vertex of the polyhedron defined by constraints, terminating at an optimal solution. Dantzig developed the method while working for the US Air Force on planning problems; the term &#x27;programming&#x27; here meant scheduling/planning rather than computer programming. Independently and earlier (1939, with substantial development through 1940s), Soviet mathematician Leonid Kantorovich had developed similar techniques for production planning, for which he received the 1975 Nobel Memorial Prize in Economics (sharing with Tjalling Koopmans). Theoretical foundations include LP duality (every LP has a dual LP with deeply connected structure), the strong duality theorem, and the LP relaxation as foundation for discrete optimization. Subsequent algorithmic development includes Khachiyan&#x27;s 1979 ellipsoid method (first polynomial-time LP algorithm), Karmarkar&#x27;s 1984 interior-point method (practical polynomial-time alternative to Simplex), and modern primal-dual interior-point methods. LP is foundational to operations research, has substantial applications across economics, finance (portfolio optimization), logistics (transportation and assignment problems), engineering (resource allocation), and forms the foundation for integer programming, mixed-integer programming, and many discrete optimization formulations through LP relaxation.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>George Dantzig (Simplex Method, 1947); Leonid Kantorovich (independent earlier development, 1939); Tjalling Koopmans (substantial economic application development); subsequent algorithmic developers Leonid Khachiyan, Narendra Karmarkar <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1939 (Kantorovich earlier work); 1947 (Dantzig Simplex Method); 1979 (Khachiyan polynomial-time); 1984 (Karmarkar interior-point) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Dantzig, G.B. (1963). Linear Programming and Extensions, Kantorovich, L.V. (1939). Mathematical Methods of Organizing and Planning Production (translated 1960), Bertsimas, D. &amp; Tsitsiklis, J.N. (1997). Introduction to Linear Optimization, Chvátal, V. (1983). Linear Programming <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Linear objective function</li><li>Linear equality and inequality constraints</li><li>Non-negativity constraints (typical)</li><li>Standard form, canonical form, slack variables</li><li>Simplex method (Dantzig 1947, vertex-to-vertex movement)</li><li>LP duality (primal-dual relationship, strong duality theorem)</li><li>Sensitivity analysis and shadow prices</li><li>Interior-point methods (Karmarkar 1984 and subsequent)</li><li>Foundation for integer programming via LP relaxation</li><li>Connection to game theory (LP duality and minimax)</li><li>Substantial commercial solvers (Gurobi, CPLEX, COIN-OR CBC)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundation of operations research; resource allocation problems across industries; logistics, transportation, and assignment problems; production planning and scheduling; financial portfolio optimization; network flow problems; foundation for mixed-integer programming via LP relaxation; pedagogical foundation in operations research, applied mathematics, and quantitative business education; substantial commercial software ecosystem.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Real-world problems often have nonlinear features (economies of scale, integer indivisibilities, fixed costs) that LP can&#x27;t directly model — requires extensions to nonlinear programming, integer programming, or mixed-integer programming</li><li>LP relaxation gap for some discrete problems is large, limiting LP&#x27;s usefulness for discrete optimization in those cases</li><li>large-scale LPs (millions of variables and constraints) can challenge even modern solvers despite the theoretical polynomial-time complexity</li><li>modeling skill — translating real problems into LP form — is the principal practical challenge</li><li>degenerate LPs can cause Simplex method to cycle (resolved by anti-cycling rules but adds complexity)</li><li>sensitivity analysis assumes infinitesimal changes that may not match practical decision-making</li><li>LP optimal solutions can be brittle to small parameter changes</li><li>commercial solvers&#x27; polynomial-time guarantees mask substantial constant-factor variation in practice.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/optimization-theory.html">Optimization Theory</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/optimization-theory.html">Optimization Theory</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/optimization-theory.html">Optimization Theory</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

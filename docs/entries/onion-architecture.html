@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Onion Architecture — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Onion Architecture</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Concentric layers with dependencies pointing inward toward the domain core.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Onion Architecture was articulated by Jeffrey Palermo in a series of 2008 blog posts, building on Hexagonal Architecture&#x27;s core insight while presenting it as concentric layers — the domain model at the center, surrounded by domain services, then application services, then infrastructure and UI at the outer edges. The defining rule is the Dependency Rule: source code dependencies can point only inward (an outer layer can depend on an inner layer, but never the reverse), with the practical implementation using dependency inversion (interfaces defined in inner layers, implementations in outer layers). The concentric structure was Palermo&#x27;s pedagogical contribution — making the inward dependency direction visually obvious. Onion sits between Hexagonal Architecture&#x27;s ports-and-adapters framing and Clean Architecture&#x27;s later synthesis, with the three patterns sharing the same fundamental dependency-inversion principle while differing in vocabulary, diagramming, and emphasis. Onion was particularly influential in the .NET community where Palermo was active.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Jeffrey Palermo <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2008 (Palermo blog posts: &#x27;The Onion Architecture: Part 1, 2, 3, 4&#x27;) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Palermo, J. (2008). &#x27;The Onion Architecture: Part 1, 2, 3, 4&#x27; (jeffreypalermo.com) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Concentric layers: Domain Model (innermost)</li><li>Domain Services</li><li>Application Services</li><li>Infrastructure (and UI, Tests) (outermost)</li><li>Dependency Rule (dependencies point only inward)</li><li>Dependency inversion via interfaces in inner layers</li><li>Domain at the center as application&#x27;s reason for existing</li><li>.NET community context</li><li>Distinction from traditional N-tier (which has database at the bottom, leading to dependencies pointing toward infrastructure)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Application architecture, particularly in .NET and adjacent ecosystems; alternative diagramming for the same dependency-inversion principles as Hexagonal Architecture; teaching framework for layered architecture done right; common reference in enterprise application architecture discussions.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Substantial overlap with Hexagonal Architecture and Clean Architecture creates which-pattern-when confusion</li><li>concentric-layers diagram is pedagogically clearer than Hexagonal but can suggest more rigid layering than Hexagonal&#x27;s symmetric framing</li><li>distinction between Domain Services and Application Services is genuine but often confusing in practice</li><li>like Hexagonal, complexity overhead is unjustified for simple CRUD applications</li><li>layer definitions and what belongs in each are somewhat arbitrary, creating team-by-team variations</li><li>can be cargo-culted as four-or-five layers without the underlying dependency-rule discipline.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    <dt>Parent of</dt><dd><a href="../entries/clean-architecture.html">Clean Architecture</a></dd>
+    <dt>Child of</dt><dd><a href="../entries/hexagonal-architecture.html">Hexagonal Architecture</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/hexagonal-architecture.html">Hexagonal Architecture</a>, <a href="../entries/clean-architecture.html">Clean Architecture</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/hexagonal-architecture.html">Hexagonal Architecture</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

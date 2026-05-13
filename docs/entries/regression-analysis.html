@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Regression Analysis — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Regression Analysis</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Statistical modeling of relationships between dependent and independent variables.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Regression Analysis is the family of statistical techniques for modeling the relationship between a dependent variable (response, outcome) and one or more independent variables (predictors, covariates), estimating the conditional expectation of the dependent given the independents and quantifying the uncertainty of the estimates. The technique&#x27;s name comes from Francis Galton&#x27;s 1886 observation of &#x27;regression toward mean stature&#x27; — children of unusually tall parents tend to be tall but less so than their parents, and vice versa. Galton&#x27;s collaborator Karl Pearson developed the mathematical framework for correlation and the early formalization of linear regression in the 1890s-1900s, with substantial subsequent development through R.A. Fisher (maximum likelihood, ANOVA), the Yule, Wald, and Cochran traditions. The basic model — linear regression with normally distributed errors — extends through enormous generalizations: multiple regression (multiple predictors), generalized linear models (Nelder-Wedderburn 1972 — Poisson regression for counts, logistic regression for binary outcomes, etc.), nonlinear regression, robust regression (Huber 1964), regularized regression (ridge — Hoerl-Kennard 1970, lasso — Tibshirani 1996, elastic net — Zou-Hastie 2005), nonparametric regression (kernel methods, splines, additive models), and machine-learning regression (decision trees, random forests, gradient boosting, neural networks). Regression analysis is foundational across essentially every quantitative scientific discipline and is the workhorse method in epidemiology, economics, social sciences, and applied machine learning. The framework&#x27;s apparent simplicity masks substantial sophistication required for valid inference (assumption checking, confounding, multicollinearity, heteroscedasticity, omitted variable bias, causal identification).</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Francis Galton (concept of regression, 1886); Karl Pearson (mathematical formalization, 1890s-1900s); R.A. Fisher (substantial development, 1920s-1950s); subsequent foundational figures including John Nelder, Robert Wedderburn, Robert Tibshirani, Trevor Hastie <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1886 (Galton concept); 1890s-1900s (Pearson formalization); 1920s onward (Fisher development); ongoing extensions <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Galton, F. (1886). &#x27;Regression towards Mediocrity in Hereditary Stature&#x27;, Fisher, R.A. (1925). Statistical Methods for Research Workers, Nelder, J.A. &amp; Wedderburn, R.W.M. (1972). &#x27;Generalized Linear Models&#x27;, JRSS Series A, Hastie, T., Tibshirani, R. &amp; Friedman, J. (2009, 2nd ed.). The Elements of Statistical Learning <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Dependent variable (response) and independent variables (predictors)</li><li>Linear regression as foundational case</li><li>Multiple regression</li><li>Generalized linear models (logistic, Poisson, etc.)</li><li>Nonlinear and nonparametric regression</li><li>Regularized regression (ridge, lasso, elastic net)</li><li>Robust regression</li><li>Goodness of fit (R², AIC, BIC, cross-validation)</li><li>Standard errors and confidence intervals</li><li>Distinction from causal inference (regression coefficients are not causal effects without identifying assumptions)</li><li>Connection to ANOVA, ANCOVA, mixed models</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundational statistical method across essentially every quantitative scientific discipline; epidemiology (risk factor analysis); economics (econometrics); social sciences (sociology, political science, education); biostatistics; psychometrics; finance (asset pricing, factor models); machine learning (linear/logistic regression as baselines, regularized regression for high-dimensional data); foundation for substantial commercial software (SPSS, SAS, R packages, scikit-learn); pedagogical foundation in essentially every applied statistics curriculum.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Substantial misuse of regression in applied research — interpreting regression coefficients as causal effects without identifying assumptions, ignoring confounding, multicollinearity, omitted variable bias, and other assumption violations</li><li>the assumption of correct functional form is often violated</li><li>heteroscedasticity, non-normality, and outliers can produce misleading inference</li><li>high-dimensional regression (more predictors than observations) requires regularization and careful methodology</li><li>machine-learning regression methods often have better predictive performance but worse interpretability than classical regression</li><li>commercial regression software produces output without sufficient diagnostic checking</li><li>cross-validation and out-of-sample evaluation are often skipped in applied research, producing optimistic in-sample fits</li><li>integration with causal inference methodology requires understanding that regression coefficients are conditional expectations, not causal effects (Pearl&#x27;s substantial point about the limits of regression-only thinking)</li><li>tendency to over-interpret statistical significance (small p-value) as practical significance</li><li>reproducibility and replication concerns in regression-based research.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/frequentist-statistics.html">Frequentist Statistics</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/frequentist-statistics.html">Frequentist Statistics</a>, <a href="../entries/causal-inference.html">Causal Inference</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/frequentist-statistics.html">Frequentist Statistics</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

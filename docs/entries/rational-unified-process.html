@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rational Unified Process — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Rational Unified Process</h1>
+  <p class="aliases">Also known as: RUP</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">IBM&#x27;s iterative software development process organized around inception, elaboration, construction, and transition phases.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The Rational Unified Process (RUP) is the iterative software-engineering process framework developed by Philippe Kruchten, Ivar Jacobson, Grady Booch, and James Rumbaugh at Rational Software through the mid-1990s, articulated in Kruchten&#x27;s The Rational Unified Process: An Introduction (1998, third edition 2003) and broader Rational publications. RUP combines Jacobson&#x27;s use-case-driven approach, Booch and Rumbaugh&#x27;s object-oriented-design tradition, and iterative development principles into a comprehensive process framework structured around four phases (Inception, Elaboration, Construction, Transition) and nine workflows (six engineering: Business Modeling, Requirements, Analysis and Design, Implementation, Test, Deployment; three supporting: Configuration and Change Management, Project Management, Environment). RUP was acquired by IBM in 2003 (along with Rational Software) and subsequently published as the Rational Method Composer customizable framework. RUP represents the foundational heavyweight iterative-process tradition that the Agile Manifesto subsequently challenged, though RUP itself includes iterative principles.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Philippe Kruchten (Rational Software, foundational process author of The Rational Unified Process: An Introduction 1998); Ivar Jacobson (Rational Software, foundational use-case-driven approach Object-Oriented Software Engineering 1992); Grady Booch (Rational Software, foundational object-oriented-design approach); James Rumbaugh (Rational Software, OMT methodology co-developer); Three Amigos (Booch, Jacobson, Rumbaugh) at Rational produced UML standardization and RUP in parallel 1995-1997; intellectual antecedents in Booch method, OMT (Object Modeling Technique), Objectory (Jacobson), Spiral Model (Boehm 1986), broader 1980s-90s iterative software-engineering tradition; IBM acquisition 2003 (with Rational Software); Subsequent: Rational Method Composer (RMC) customizable framework, Eclipse Process Framework <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Mid-1990s (initial development at Rational); 1998 (Kruchten foundational text); 2003 (IBM acquisition and Rational Method Composer) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Kruchten, P. (1998, third edition 2003). The Rational Unified Process: An Introduction, Jacobson, I., Booch, G. &amp; Rumbaugh, J. (1999). The Unified Software Development Process, Boehm, B. (1986). &#x27;A Spiral Model of Software Development and Enhancement&#x27;, ACM SIGSOFT Software Engineering Notes (intellectual antecedent), IBM Rational (multiple publications). Rational Method Composer documentation (post-2003) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Four phases: (1) Inception — feasibility, business case, scope</li><li>(2) Elaboration — architecture, use cases, addressing main risks (substantial RUP emphasis)</li><li>(3) Construction — implementation</li><li>(4) Transition — deployment, user training, operational handover</li><li>Iterations within phases: each phase contains one or more iterations producing executable releases</li><li>Nine workflows: Business Modeling, Requirements, Analysis and Design, Implementation, Test, Deployment, Configuration and Change Management, Project Management, Environment</li><li>Use-case driven: requirements expressed primarily as use cases following Jacobson tradition</li><li>Architecture-centric: Elaboration phase produces executable architecture proven by partial implementation</li><li>Iterative and incremental: explicit rejection of waterfall sequencing in favor of iterative refinement</li><li>Risk-driven: each iteration addresses highest-priority risks first (Boehm-influenced)</li><li>Best practices: develop iteratively, manage requirements, use component architectures, model visually using UML, continuously verify quality, manage change</li><li>Tailoring approach: RUP is configurable framework rather than prescriptive process — tailored instances can be small (lightweight) or large</li><li>Rational Method Composer (RMC) and Eclipse Process Framework (EPF): subsequent IBM-era configurability infrastructure</li><li>Application contexts: enterprise software development, particularly large-scale and regulated-industry projects requiring substantial process documentation</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Iterative software-engineering process framework for enterprise development; applied principally in: large-scale enterprise software development (1990s-2000s), regulated-industry software (financial services, defense, healthcare), complex-systems development requiring substantial architectural-design phase; Rational Software / IBM Rational tools ecosystem: Rational Rose, Rational ClearCase, Rational ClearQuest, Rational RequisitePro substantial commercial infrastructure; academic and professional reference in software engineering, software-process methodology, and iterative-development literature; intellectual antecedent for Disciplined Agile (which substantially extends RUP-style tailoring into agile context); complementary to UML standardization (Three Amigos produced both); diminished use post-2010 as Agile methodologies (Scrum, XP) and modern DevOps practices substantially displaced RUP in mainstream software development.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>RUP has been substantively criticized as heavyweight process — the comprehensive framework with nine workflows, four phases, substantial documentation templates, and complex tailoring guidance produces process overhead that lighter-weight Agile methods (Scrum, XP) explicitly designed against</li><li>the tailoring-framework approach (RUP can be customized small or large) has been argued to produce in-practice heavyweight implementations regardless of theoretical tailoring options, with documented tendency for organizations to adopt RUP comprehensively rather than minimally</li><li>the Elaboration phase&#x27;s substantial upfront architectural commitment has been argued by Agile advocates to reintroduce big-design-up-front anti-pattern, with iteration-within-phases insufficient to capture Agile&#x27;s incremental-discovery advantages</li><li>RUP&#x27;s commercial association with Rational Software tools (Rational Rose, ClearCase, RequisitePro, subsequently IBM Rational suite) raised vendor-lock-in concerns and produced perceptions that RUP adoption required substantial Rational tool investment</li><li>the methodology&#x27;s substantial documentation requirements have been argued to produce &#x27;shelfware&#x27; artifacts that consume effort without informing actual development decisions</li><li>diminished use post-2010 reflects substantial displacement by Agile methodologies and modern DevOps practices, with new projects rarely adopting RUP and existing RUP implementations frequently migrating to lighter-weight frameworks</li><li>IBM&#x27;s diminished investment in Rational Method Composer post-2010 has produced perceptions of abandoned-product status</li><li>the methodology&#x27;s intellectual contributions (use-case-driven development, iterative architecture, four-phase structure) remain influential but the named-framework status has been substantially eclipsed</li><li>integration with modern DevOps and continuous-deployment practices has been incompletely worked out in canonical RUP literature</li><li>cross-industry applicability is uneven — RUP fits regulated-industry contexts requiring substantial documentation better than less-regulated contexts.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/spiral-model.html">Spiral Model</a>, <a href="../entries/waterfall-model.html">Waterfall Model</a>, <a href="../entries/disciplined-agile.html">Disciplined Agile</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_44.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

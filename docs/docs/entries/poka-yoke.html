@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Poka-Yoke — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Poka-Yoke</h1>
+  <p class="aliases">Also known as: Mistake-Proofing</p>
+  <p class="meta">
+    <span class="meta-type">technique</span> ·
+    <span class="meta-discipline">engineering</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Design constraints that make errors impossible or immediately obvious.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Poka-Yoke (Japanese: poka &#x27;inadvertent mistake&#x27; + yokeru &#x27;to avoid&#x27;) is the engineering and design technique of building constraints into products and processes that make errors impossible to commit (mistake-proofing) or immediately obvious when they occur (mistake-detection). The technique was substantially developed by Shigeo Shingo (industrial engineer at Toyota and broader Japanese manufacturing) from the 1960s onward, originally called &#x27;baka-yoke&#x27; (fool-proofing) before Shingo substantially renamed it in 1963 to remove the implicit insult. Poka-yoke is foundational to the Toyota Production System and broader lean-manufacturing tradition (cross-batch link to TQM in management batch 1), substantially shaping contemporary quality engineering globally. Shingo distinguished three approaches: (1) Contact methods — physical features (shapes, fits, sensors) that prevent assembly in incorrect configurations (USB connectors that only insert one way; gas-pump nozzles sized differently for different fuel types); (2) Constant-number methods — alerts when a fixed count isn&#x27;t met (medication-pill counters; assembly-line part counts); (3) Sequence methods — controls that ensure operations occur in correct order (interlocks requiring previous step completion before next step). The technique substantially extends across manufacturing (assembly errors, quality control), software design (input validation, type checking, idempotent operations), medical devices (color-coded connectors preventing wrong tube connections, dose-limiting features), automotive (gear-shift interlocks, seatbelt-warning systems), consumer products (microwave doors that disable cooking when open, child-resistant medication containers). Donald Norman&#x27;s design principles (separately enriched in design batch 24) substantially extend poka-yoke logic into broader interaction design — Norman&#x27;s &#x27;forcing functions&#x27; and &#x27;constraints&#x27; substantially codify mistake-proofing into design philosophy. Poka-yoke is foundational to contemporary user-experience design, safety engineering, and quality engineering globally, with substantial influence on contemporary &#x27;safe by design&#x27; approaches.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Shigeo Shingo (foundational at Toyota, 1960s onward); intellectual antecedents in broader Japanese quality-engineering tradition; subsequent extension by Donald Norman (separately enriched), broader design and safety-engineering communities <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1960s (Shingo foundational at Toyota); 1963 (renamed from baka-yoke to poka-yoke); ongoing development <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Shingo, S. (1986, English). Zero Quality Control: Source Inspection and the Poka-Yoke System, Shingo, S. (1989, English). A Study of the Toyota Production System from an Industrial Engineering Viewpoint, Norman, D.A. (1988). The Design of Everyday Things (substantial extension into design), Hinckley, C.M. (2001). Make No Mistake! An Outcome-Based Approach to Mistake-Proofing <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Contact methods (physical constraints preventing wrong configurations)</li><li>Constant-number methods (alerts when fixed count not met)</li><li>Sequence methods (order-enforcing controls)</li><li>Foundation in Toyota Production System and lean manufacturing</li><li>Substantial application across manufacturing, software, medical devices, automotive, consumer products</li><li>Connection to Donald Norman&#x27;s design principles (forcing functions, constraints)</li><li>Distinction from purely procedural quality control</li><li>Foundation for &#x27;safe by design&#x27; approaches</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundational technique in quality engineering and safety design globally; basis for substantial work across manufacturing, software development, medical devices, automotive, consumer products; reference technique in lean manufacturing and quality engineering education; foundation for substantial Toyota Production System practice; integration with broader quality-management frameworks; pedagogical foundation in engineering and design curricula; influence on user-experience design (Norman&#x27;s design principles); foundation for substantial commercial &#x27;safe by design&#x27; consulting; basis for many regulatory safety requirements in healthcare, aviation, automotive industries.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Poka-yoke is among the more empirically validated quality-engineering techniques — substantive critiques concern its application boundaries rather than the framework itself</li><li>commercial &#x27;mistake-proofing&#x27; adoption sometimes produces poka-yoke that&#x27;s superficial (adding warning labels) rather than substantive (designing physical constraints)</li><li>cross-cultural variation in error patterns affects which mistakes need proofing</li><li>integration with complex software and digital systems is genuinely difficult — physical poka-yoke approaches don&#x27;t always translate to software contexts where forcing functions can be implemented but require substantial design discipline</li><li>tendency for poka-yoke implementations to multiply over time, producing system complexity that itself becomes error-prone</li><li>cost-benefit analysis for specific poka-yoke implementations is often incomplete — adding constraints adds manufacturing or development cost that needs to be weighed against expected error reduction</li><li>works better for predictable error modes than for novel or rare error categories</li><li>integration with broader human-factors and ergonomics analysis is incomplete in some applications</li><li>commercial training in poka-yoke varies in analytical fidelity to Shingo&#x27;s substantive methodology</li><li>tendency to apply &#x27;poka-yoke&#x27; label to any safety design without engaging the substantive distinction Shingo drew among contact, constant-number, and sequence methods</li><li>recent automation contexts raise new questions — when AI-mediated systems make errors, poka-yoke logic requires substantial extension that the original manufacturing-focused framework didn&#x27;t anticipate.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/quality-function-deployment.html">Quality Function Deployment</a>, <a href="../entries/robust-design.html">Robust Design</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_30.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

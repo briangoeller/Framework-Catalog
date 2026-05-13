@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RICE Scoring — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>RICE Scoring</h1>
+  
+  <p class="meta">
+    <span class="meta-type">tool</span> ·
+    <span class="meta-discipline">management</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Prioritizes features by Reach, Impact, Confidence, and Effort.</p>
+</header>
+
+<section class="extended-summary">
+  <p>RICE Scoring is a prioritization framework developed by Sean McBride at Intercom and published on the company&#x27;s blog in 2017, designed to bring more quantitative discipline to product feature prioritization than purely qualitative methods like MoSCoW. The score for each candidate is computed as Reach × Impact × Confidence ÷ Effort, where Reach is the number of users affected per time period, Impact is the per-user effect on the relevant goal (typically scored 0.25 for minimal up to 3 for massive), Confidence is a percentage discount on Reach and Impact estimates reflecting estimation certainty, and Effort is the person-months of work required. Higher scores represent better impact-per-effort opportunities. The framework forces explicit quantification of what would otherwise be intuitive judgments, surfaces low-confidence inputs that warrant validation work, and supports comparison across heterogeneous initiatives. It&#x27;s widely used in product management, particularly in B2C SaaS contexts where Reach is meaningfully measurable.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Sean McBride (Intercom) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2017 (Intercom blog publication) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>McBride, S. (2017). &#x27;RICE: Simple prioritization for product managers&#x27;, Intercom blog <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Reach (users affected per time period)</li><li>Impact (per-user effect on goal, typically 0.25 to 3 scale)</li><li>Confidence (percentage discount for estimation uncertainty)</li><li>Effort (person-months)</li><li>Score = Reach × Impact × Confidence / Effort</li><li>Comparative ranking of candidates</li><li>Originally developed for product feature prioritization</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Product feature prioritization in product management; structured quantitative comparison of heterogeneous backlog items; basis for product-roadmap discussions; complement to qualitative prioritization frameworks.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Quantification creates false precision — Impact and Confidence scores are largely guesses dressed in numbers</li><li>Reach is hard to measure for genuinely new features</li><li>Effort estimates are notoriously inaccurate, particularly for novel work</li><li>multiplicative formula amplifies small estimation errors</li><li>doesn&#x27;t account for strategic value, dependencies, or option value of learning from experiments</li><li>can shift attention to high-Reach incremental features over higher-impact strategic bets (the local maximum trap)</li><li>confidence percentages often reflect optimism bias rather than genuine uncertainty assessment</li><li>works less well in B2B contexts where customer counts are small.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/ice-scoring.html">ICE Scoring</a>, <a href="../entries/moscow.html">MoSCoW</a>, <a href="../entries/kano-model.html">Kano Model</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_02.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

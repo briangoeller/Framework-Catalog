@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PASTA — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>PASTA</h1>
+  <p class="aliases">Also known as: Process for Attack Simulation and Threat Analysis</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">cybersecurity</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Seven-stage risk-centric threat modeling methodology.</p>
+</header>
+
+<section class="extended-summary">
+  <p>PASTA (Process for Attack Simulation and Threat Analysis) was developed by Tony UcedaVélez and Marco Morana, presented in their 2015 book Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis. PASTA distinguishes itself from STRIDE-style categorical threat modeling by being explicitly risk-centric and process-driven, with seven sequential stages: (1) Define Objectives — establish business and security objectives, regulatory context; (2) Define Technical Scope — identify assets, dependencies, infrastructure; (3) Application Decomposition — analyze application architecture, data flows, trust boundaries; (4) Threat Analysis — identify relevant threats and threat agents; (5) Vulnerability and Weakness Analysis — identify exploitable conditions; (6) Attack Modeling — construct attack trees and scenarios; (7) Risk Analysis and Management — quantify risks and identify countermeasures. The framework&#x27;s central commitments include: business-objective alignment (security decisions should align with what the business is trying to achieve and protect); attacker-perspective modeling (think like an adversary, not just like a defender); risk quantification (move beyond categorical threat lists to actionable risk decisions); integration with development lifecycle (threat modeling as ongoing practice, not one-time exercise). PASTA is more demanding than STRIDE — the seven-stage process produces more thorough analysis but requires substantial expertise and time. The framework has been adopted in mature security programs particularly in financial services, where its risk-centric framing aligns with broader enterprise risk management. Adoption is narrower than STRIDE&#x27;s but typically deeper.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Tony UcedaVélez; Marco M. Morana <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2012 (initial articulation); 2015 (Risk Centric Threat Modeling book); ongoing development <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>UcedaVélez, T. &amp; Morana, M.M. (2015). Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis, ongoing PASTA training materials and consulting practice <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Seven sequential stages: Define Objectives, Define Technical Scope, Application Decomposition, Threat Analysis, Vulnerability and Weakness Analysis, Attack Modeling, Risk Analysis and Management</li><li>Risk-centric rather than threat-categorical</li><li>Business-objective alignment</li><li>Attacker-perspective modeling (attack trees, scenarios)</li><li>Risk quantification</li><li>Integration with development lifecycle</li><li>Distinction from STRIDE (process methodology vs categorization)</li><li>More demanding than STRIDE — substantial expertise and time required</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Risk-centric threat modeling in mature security programs; foundation for substantial threat-modeling practice in financial services and regulated industries; basis for some enterprise threat-modeling certifications; integration with broader enterprise risk management; reference framework in advanced threat-modeling education; complement to STRIDE in organizations needing more thorough risk-centric analysis; foundation for some commercial threat-modeling consulting practices.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Substantially more demanding than STRIDE — the seven-stage process can take weeks or months for a single application, limiting scalability across application portfolios</li><li>requires substantial expertise that not all security teams have</li><li>integration with agile and DevSecOps practices is genuinely difficult — full PASTA cycle doesn&#x27;t fit sprint cadences</li><li>commercial PASTA training and consulting industry has produced compliance-style adoption with varying analytical fidelity</li><li>less widely adopted than STRIDE, with smaller community of practitioners and less tooling support</li><li>cross-walking with STRIDE-based threat models requires substantial interpretive work</li><li>the framework&#x27;s complexity can produce thorough but unactionable threat models</li><li>integration with risk frameworks like FAIR is conceptually compatible but operationally complex</li><li>tendency to produce static threat models that don&#x27;t keep pace with continuous deployment realities</li><li>the &#x27;risk-centric&#x27; framing requires risk-quantification capability that many organizations lack.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/stride.html">STRIDE</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_21.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PACELC Theorem — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>PACELC Theorem</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Extension of CAP: even without partitions, systems trade latency against consistency.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The PACELC Theorem, articulated by Daniel Abadi in 2010 (&#x27;Problems with CAP, and Yahoo&#x27;s little known NoSQL system&#x27;), extends CAP by capturing a trade-off CAP misses: even when the system is not experiencing a partition, replication-based distributed databases must trade latency against consistency. The acronym reads: if Partition (P), then trade Availability (A) versus Consistency (C); Else (E), trade Latency (L) versus Consistency (C). Different distributed databases make different default PACELC choices: PA/EL (Cassandra, DynamoDB at certain configurations); PC/EC (Spanner, BigTable); PA/EC (MongoDB at certain configurations); PC/EL (less common). The theorem&#x27;s analytical contribution is making explicit that CAP-style consistency-availability trade-offs apply only during partitions, while a separate consistency-latency trade-off applies the rest of the time — meaning system design choices have effects every day, not just during outages. PACELC has substantially clarified distributed-database design discussions.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Daniel J. Abadi <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2010 (Abadi blog post and subsequent paper); 2012 (IEEE Computer formal article) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Abadi, D.J. (2010). &#x27;Problems with CAP, and Yahoo&#x27;s little known NoSQL system&#x27; (DBMS Musings blog), Abadi, D.J. (2012). &#x27;Consistency Tradeoffs in Modern Distributed Database System Design: CAP is Only Part of the Story&#x27;, IEEE Computer <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>If Partition (P), trade Availability (A) vs Consistency (C)</li><li>Else (E), trade Latency (L) vs Consistency (C)</li><li>System classification (PA/EL, PC/EC, PA/EC, PC/EL)</li><li>Latency-consistency trade-off applies during normal operation, not just partitions</li><li>Connection to replication choice and synchronous vs asynchronous replication</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Distributed database design and selection; analytical framework for understanding everyday-operation trade-offs in distributed systems beyond partition-only thinking; teaching tool for distributed-systems courses; reference in evaluating database default consistency levels and tunable consistency.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Less widely-known than CAP and sometimes treated as a footnote rather than substantive extension</li><li>binary classifications (PA/EL etc.) oversimplify systems that offer tunable consistency per operation</li><li>doesn&#x27;t address the spectrum of consistency models between strong and eventual (causal, sequential, snapshot, etc.) which contemporary distributed-systems work has elaborated</li><li>like CAP, can be invoked to dismiss design space that is actually achievable</li><li>the latency-vs-consistency trade-off is real but quantitatively small in some configurations relative to other latency factors.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/cap-theorem.html">CAP Theorem</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/cap-theorem.html">CAP Theorem</a>, <a href="../entries/acid-properties.html">ACID Properties</a>, <a href="../entries/base-properties.html">BASE Properties</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/cap-theorem.html">CAP Theorem</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

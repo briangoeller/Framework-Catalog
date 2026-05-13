@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Small-World Networks — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Small-World Networks</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Watts and Strogatz&#x27;s networks combining high clustering with short path lengths.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Small-World Networks are networks that combine high local clustering (your friends know each other) with short average path lengths between any two nodes (you can reach anyone through a small number of intermediaries) — properties that random networks have only the latter and regular lattice networks have only the former. The framework was articulated by Duncan Watts and Steven Strogatz in their 1998 Nature paper &#x27;Collective Dynamics of Small-World Networks,&#x27; which substantially launched (alongside Barabási-Albert&#x27;s 1999 scale-free networks paper) the modern network-science movement. The Watts-Strogatz model: start with a regular ring lattice where each node connects to k nearest neighbors; with probability p, randomly rewire each edge to a different node. At p=0 you have a regular lattice (high clustering, long paths); at p=1 you have a random graph (low clustering, short paths); for intermediate p, you have a small-world network (high clustering, short paths). The empirical motivation includes Stanley Milgram&#x27;s 1967 &#x27;small world&#x27; experiments (Milgram found that any two people in the US could be connected through an average of about six intermediaries — &#x27;six degrees of separation&#x27;); the structure of biological neural networks; the structure of the internet, the World Wide Web, and scientific collaboration networks. The framework&#x27;s distinctive contribution is showing that small-world properties emerge from a small number of random long-range shortcuts added to an otherwise regular network — explaining why so many real networks combine local structure with global reachability. Small-world properties have substantial implications for synchronization, disease spread, and information flow in networks.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Duncan J. Watts; Steven H. Strogatz; intellectual antecedents in Stanley Milgram&#x27;s 1967 &#x27;small world&#x27; experiments and Frigyes Karinthy&#x27;s 1929 short story &#x27;Chains&#x27; <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1929 (Karinthy literary precursor); 1967 (Milgram empirical); 1998 (Watts-Strogatz foundational paper) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Watts, D.J. &amp; Strogatz, S.H. (1998). &#x27;Collective Dynamics of Small-World Networks&#x27;, Nature, Watts, D.J. (1999). Small Worlds: The Dynamics of Networks between Order and Randomness, Milgram, S. (1967). &#x27;The Small World Problem&#x27;, Psychology Today (empirical antecedent), Karinthy, F. (1929). &#x27;Láncszemek&#x27; / &#x27;Chains&#x27; (literary precursor) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>High local clustering combined with short average path lengths</li><li>Watts-Strogatz model (rewire edges in regular lattice with probability p)</li><li>Connection to Milgram&#x27;s &#x27;six degrees of separation&#x27; empirical finding</li><li>Distinct from random graphs (which have short paths but low clustering) and regular lattices (which have high clustering but long paths)</li><li>Implications for network dynamics (synchronization, spreading, search)</li><li>Co-occurrence with scale-free property in many real networks</li><li>Foundation for modern network science alongside scale-free networks</li><li>Substantial empirical examples (neural, social, internet, citation networks)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Network science research; epidemiology (disease spread in small-world networks differs from random and regular lattice models); social network analysis; neuroscience (brain networks exhibit small-world properties at multiple scales); information spread and viral marketing; foundation for substantial network-science research; pedagogical reference in network-science and complex-systems education; integration with practical network-analysis problems.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>The Watts-Strogatz model is a simplification of how real networks form — actual networks typically grow rather than rewire, with substantial mechanism differences</li><li>small-world properties can emerge from many different mechanisms, not just the Watts-Strogatz rewiring</li><li>characterizing &#x27;high&#x27; clustering and &#x27;short&#x27; paths quantitatively requires comparison to baseline models that involves analyst choices</li><li>many networks initially classified as small-world are also scale-free, and disentangling the two properties&#x27; contributions to network dynamics is genuinely difficult</li><li>commercial network-analysis platforms report &#x27;small-world&#x27; classifications based on simple metrics that don&#x27;t always meet careful methodological standards</li><li>the framework&#x27;s prominence in 2000s popular network-science writing exceeds its specific analytical contributions</li><li>integration with directed and weighted networks (the original framework was for undirected unweighted) involves additional complexity</li><li>the popular &#x27;six degrees of separation&#x27; framing is more cultural reference than precise empirical claim — Milgram&#x27;s original experiments had substantial methodological limitations.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/network-theory.html">Network Theory</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/scale-free-networks.html">Scale-Free Networks</a>, <a href="../entries/network-theory.html">Network Theory</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/network-theory.html">Network Theory</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

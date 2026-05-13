@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STRIDE — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>STRIDE</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">cybersecurity</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Microsoft threat modeling categorization: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege.</p>
+</header>
+
+<section class="extended-summary">
+  <p>STRIDE is the threat-modeling categorization framework developed at Microsoft in the late 1990s, principally by Praerit Garg and Loren Kohnfelder, and substantially popularized through Microsoft&#x27;s Security Development Lifecycle (SDL) and Adam Shostack&#x27;s Threat Modeling: Designing for Security (2014). The acronym maps to six threat categories: Spoofing (impersonating someone or something — counter with authentication); Tampering (modifying data or code without authorization — counter with integrity controls); Repudiation (denying having performed an action — counter with non-repudiation, audit logs); Information disclosure (exposing information to unauthorized parties — counter with confidentiality controls, encryption); Denial of service (degrading or preventing legitimate use — counter with availability controls); Elevation of privilege (gaining capabilities not authorized — counter with authorization). The framework provides a memorable taxonomy for systematically considering threats during software design, typically applied to data flow diagrams (DFDs) where each element (process, data store, data flow, external entity, trust boundary) is examined for each STRIDE threat category. Microsoft&#x27;s Threat Modeling Tool (free, currently SDL Threat Modeling Tool 2016) automates much of the STRIDE-based analysis. STRIDE is commonly used alongside DREAD (a now-deprecated risk-rating method also from Microsoft) or with other risk-rating approaches. Adam Shostack&#x27;s substantial advocacy through his 2014 book and ongoing work has shaped contemporary threat-modeling practice substantially. The framework remains the most widely-taught threat-modeling categorization, though competing approaches (PASTA, attack trees, LINDDUN for privacy) address different threat-modeling purposes.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Praerit Garg and Loren Kohnfelder (Microsoft, late 1990s); Microsoft Security Development Lifecycle (SDL); Adam Shostack (substantial popularization) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Late 1990s (Microsoft origin); 2014 (Shostack&#x27;s Threat Modeling); 2016 (current SDL Threat Modeling Tool) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Howard, M. &amp; LeBlanc, D. (2002). Writing Secure Code, Shostack, A. (2014). Threat Modeling: Designing for Security, Microsoft Security Development Lifecycle documentation (ongoing) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Six threat categories: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege</li><li>Mapping to security properties: Authentication, Integrity, Non-repudiation, Confidentiality, Availability, Authorization</li><li>Application to data flow diagrams (DFDs)</li><li>Per-element analysis (process, data store, data flow, external entity, trust boundary)</li><li>Microsoft Threat Modeling Tool</li><li>Often used with DREAD (deprecated) or other risk-rating</li><li>Distinction from PASTA (process methodology) and attack-tree approaches</li><li>Foundation of Microsoft Security Development Lifecycle threat modeling</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Threat modeling during software design; foundation of Microsoft&#x27;s Security Development Lifecycle; reference framework in secure development education; basis for many enterprise threat-modeling programs; integration with software development lifecycle and DevSecOps practices; pedagogical reference in software security courses; foundation for several commercial threat-modeling tools (Microsoft Threat Modeling Tool, IriusRisk, ThreatModeler).</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>STRIDE is a categorization, not a methodology — applying STRIDE requires substantial complementary process for actually identifying threats, prioritizing them, and addressing them</li><li>tends to produce extensive threat catalogs without clear prioritization (DREAD was the original prioritization companion but was deprecated by Microsoft due to inconsistent application)</li><li>the data flow diagram approach can become bureaucratic with little security improvement when not paired with substantive design discussion</li><li>cloud-native, microservices, and modern architecture patterns create challenges for traditional STRIDE application that haven&#x27;t been fully resolved in practice</li><li>tendency for STRIDE to produce &#x27;check the box&#x27; threat models that don&#x27;t reflect actual adversary thinking</li><li>integration with agile and continuous-delivery practices is incomplete — threat modeling at design time misses threats arising from operational and configuration changes</li><li>commercial threat-modeling tools vary substantially in usability and analytical fidelity</li><li>STRIDE focus on technical threats can underweight social-engineering, supply-chain, and governance-level threats</li><li>competing approaches (PASTA for risk-centric, LINDDUN for privacy, attack trees for adversary-perspective) address different needs that STRIDE alone doesn&#x27;t cover.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/pasta.html">PASTA</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_21.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

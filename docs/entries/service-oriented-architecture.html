@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Service-Oriented Architecture — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Service-Oriented Architecture <span class="needs-verify-marker" title="Flagged for verification">⚑</span></h1>
+  <p class="aliases">Also known as: SOA</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Earlier service composition style with heavier orchestration than microservices.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Service-Oriented Architecture is the architectural style in which application functionality is exposed as services that can be composed and reused across applications and processes, popularized in the early 2000s and substantially associated with the WS-* family of standards (SOAP, WSDL, UDDI, WS-Security, WS-Coordination, WS-BPEL) and Enterprise Service Buses (ESBs) from vendors including IBM, Oracle, TIBCO, and Microsoft BizTalk. The Open Group&#x27;s 2009 SOA standard articulated principles including service abstraction, loose coupling, reusability, autonomy, and discoverability. SOA&#x27;s emphasis on enterprise-wide service catalogs, central governance, and mediation through ESBs reflected the integration challenges of large enterprises with many systems of record from different vendors. Microservices emerged in the early 2010s as a deliberate counter-style — preserving service-oriented decomposition while explicitly rejecting heavyweight WS-* protocols, ESB orchestration, and central governance in favor of HTTP-based APIs, choreography over orchestration, and independent team ownership. SOA remains in active use in large enterprises, particularly in finance and healthcare, while microservices dominates new internet-application development.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Industry consortia and vendors (OASIS, W3C, The Open Group); Don Box and others on SOAP/WS-*; broad enterprise IT practice <span class="conf conf-medium">medium</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Late 1990s to early 2000s emergence; 2003-2008 peak of enterprise SOA adoption <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Erl, T. (2005). Service-Oriented Architecture: Concepts, Technology, and Design, The Open Group (2009). SOA Source Book <span class="conf conf-medium">medium</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Services as composable, reusable units of business functionality</li><li>Service catalog and registry (UDDI)</li><li>WS-* standards: SOAP, WSDL, WS-Security, WS-Coordination, WS-BPEL</li><li>Enterprise Service Bus (ESB) for mediation, transformation, and routing</li><li>Service contracts</li><li>Loose coupling and abstraction principles</li><li>Central governance over service catalog</li><li>Orchestration via BPEL or similar</li><li>Distinction from microservices (heavier protocols, central governance, ESB mediation)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Enterprise application integration, particularly across heterogeneous vendor systems; large enterprises with substantial legacy investment (banking, insurance, government, healthcare); regulated industries requiring centralized governance and standards compliance; B2B integration via SOAP-based services; foundation for many enterprise integration patterns.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>WS-* standards became enormously complex and difficult to implement correctly across vendor stacks</li><li>ESB-mediated communication created hub-and-spoke choke points and operational fragility</li><li>central governance frequently slowed delivery rather than enabling it</li><li>service-to-service contract evolution proved difficult under WS-*</li><li>vendor lock-in to specific ESB and WS-* implementations was common</li><li>many enterprise SOA programs over-promised reuse benefits that didn&#x27;t materialize</li><li>SOAP&#x27;s verbosity and tooling complexity left it largely displaced by simpler REST-based APIs</li><li>the term &#x27;SOA&#x27; became damaged enough that microservices practitioners deliberately distanced themselves.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    <dt>Parent of</dt><dd><a href="../entries/microservices.html">Microservices</a></dd>
+    
+    <dt>Siblings</dt><dd><a href="../entries/microservices.html">Microservices</a>, <a href="../entries/event-driven-architecture.html">Event-Driven Architecture</a></dd>
+    
+  </dl>
+</section>
+
+<aside class="needs-verify-banner">This entry is flagged for verification. Originator, date, or source attribution is uncertain.</aside>
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scale-Free Networks — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Scale-Free Networks</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Barabási and Albert&#x27;s network class with power-law degree distributions.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Scale-Free Networks are networks whose degree distribution (probability that a randomly chosen node has k connections) follows a power law: P(k) ∝ k^(-γ), typically with γ between 2 and 3. The framework was articulated by Albert-László Barabási and Réka Albert in their 1999 Science paper &#x27;Emergence of Scaling in Random Networks,&#x27; which substantially launched modern network science. The key empirical claim was that many real-world networks (the World Wide Web, Internet topology, scientific citation networks, social networks, biological networks) exhibit power-law degree distributions rather than the Poisson distribution that classical Erdős-Rényi random graph theory would predict. The proposed generative mechanism is preferential attachment: as new nodes join the network, they preferentially link to high-degree existing nodes (&#x27;rich get richer&#x27;), producing a small number of highly-connected hubs and many low-degree nodes — a pattern that emerges from simple growth dynamics rather than from explicit design. Properties of scale-free networks include: presence of hubs (a few extremely high-degree nodes); robustness to random node removal but vulnerability to targeted hub attacks; small average path lengths; substantial overlap with small-world property. The framework had enormous influence in network science, sociology, and complex-systems research from 2000 onward. However, subsequent careful analysis (Anna Broido and Aaron Clauset&#x27;s 2019 &#x27;Scale-Free Networks Are Rare&#x27;) has substantially complicated the scale-free claim — only a minority of real-world networks studied are unambiguously scale-free under rigorous statistical testing, and many are better described by other heavy-tailed distributions or are scale-free only over limited degree ranges.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Albert-László Barabási; Réka Albert; intellectual antecedents in preferential-attachment models including Yule (1925), Simon (1955) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1925 (Yule precursor); 1999 (Barabási-Albert foundational paper); 2019 (Broido-Clauset critical re-examination) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Barabási, A.-L. &amp; Albert, R. (1999). &#x27;Emergence of Scaling in Random Networks&#x27;, Science, Albert, R. &amp; Barabási, A.-L. (2002). &#x27;Statistical Mechanics of Complex Networks&#x27;, Reviews of Modern Physics, Broido, A.D. &amp; Clauset, A. (2019). &#x27;Scale-Free Networks Are Rare&#x27;, Nature Communications (critique) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Power-law degree distribution P(k) ∝ k^(-γ)</li><li>Preferential attachment generative mechanism (&#x27;rich get richer&#x27;)</li><li>Hubs (high-degree nodes)</li><li>Robustness to random failures, vulnerability to targeted attacks</li><li>Connection to small-world property (often co-occur)</li><li>Scale invariance of network structure</li><li>Empirical claim of widespread occurrence in real-world networks</li><li>Substantial subsequent critique (Broido-Clauset 2019) on rigor of scale-free claims</li><li>Connection to power laws and complex-systems thinking</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Network science research and complex systems analysis; epidemiology (disease spread modeling, vaccination strategies — targeting hubs is more effective); cybersecurity (network resilience analysis); web science and search (PageRank exploits hub structure); biology (gene regulatory networks, protein interaction networks); foundation for substantial network-science textbooks; pedagogical reference in complex-systems education.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Substantial subsequent re-examination has complicated the scale-free claim — Anna Broido and Aaron Clauset&#x27;s 2019 &#x27;Scale-Free Networks Are Rare&#x27; (Nature Communications) found that under rigorous statistical testing, only a minority of real-world networks studied are unambiguously scale-free</li><li>many networks are better described by other heavy-tailed distributions (lognormal, stretched exponential) or are scale-free only over limited degree ranges</li><li>the original Barabási-Albert evidence was based on visual inspection of log-log plots that is unreliable for distinguishing distributions</li><li>preferential attachment is not the only mechanism that can generate heavy-tailed degree distributions</li><li>the network-science enthusiasm of 2000s for scale-free networks has been substantially tempered</li><li>commercial network-analysis platforms still report &#x27;scale-free&#x27; classifications based on weak methodology</li><li>the framework&#x27;s centrality in popular complex-systems writing exceeds its empirical foundation</li><li>the original empirical claim (universal scale-free property) has not survived careful methodological scrutiny, though some networks do exhibit scale-free properties.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/network-theory.html">Network Theory</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/small-world-networks.html">Small-World Networks</a>, <a href="../entries/network-theory.html">Network Theory</a>, <a href="../entries/power-laws.html">Power Laws</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/network-theory.html">Network Theory</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

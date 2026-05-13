@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brooks&#x27; Law — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Brooks&#x27; Law</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">structured-empirical</span>
+  </p>
+  <p class="one-liner">Adding manpower to a late software project makes it later.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Brooks&#x27; Law was articulated by Frederick P. Brooks Jr. in The Mythical Man-Month: Essays on Software Engineering (1975), based on Brooks&#x27;s experience as project manager for IBM&#x27;s OS/360 operating system. The law&#x27;s mechanism is twofold: ramp-up time (newly added engineers must learn the system before they contribute productively, and the engineers needed to onboard them are pulled from productive work to do so) and communication overhead (the number of communication channels in a team grows as n(n-1)/2, so doubling team size more than doubles coordination cost). The 1995 anniversary edition of The Mythical Man-Month added &#x27;No Silver Bullet&#x27; and other essays, with Brooks reflecting on which propositions had held up and which had not. Brooks&#x27; Law is widely cited in software engineering and has substantial empirical and intuitive support — the conversation between adding-people and shipping-faster is one every software leader recognizes — though the law has been critiqued for being asserted as if absolute when its actual force varies by team modularity, project structure, and onboarding investment.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Frederick P. Brooks Jr. <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1975 (The Mythical Man-Month); 1995 (anniversary edition) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Brooks, F.P. Jr. (1975). The Mythical Man-Month: Essays on Software Engineering, Brooks, F.P. Jr. (1995). The Mythical Man-Month, Anniversary Edition <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Adding manpower to a late project makes it later</li><li>Ramp-up time for new engineers</li><li>Communication overhead grows as n(n-1)/2</li><li>Contrast with intuitive &#x27;throw more people at it&#x27; management response</li><li>Implication: software development time cannot be linearly traded for headcount</li><li>Connection to project planning and the cost of late-cycle additions</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Software project management and planning; pushback on intuitive but counterproductive &#x27;add more engineers&#x27; responses to schedule pressure; teaching framework in software engineering; reference in agile project management; foundational consideration in team scaling decisions.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Asserted as if absolute when its strength varies by team modularity, project structure, and onboarding investment — well-modularized projects with strong onboarding can absorb new engineers with less productivity penalty</li><li>doesn&#x27;t quantify when adding people becomes net-negative vs net-positive</li><li>doesn&#x27;t address adding entire pre-formed teams to parallel work streams (which can succeed where adding individuals to one team fails)</li><li>empirical evidence is largely from large monolithic projects of the 1960s-80s, with less direct evidence for modern microservices or platform engineering contexts</li><li>can be invoked as excuse against any team growth even when justified</li><li>frames software development as fundamentally constrained by communication when modern tooling has substantially changed coordination economics.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/no-silver-bullet.html">No Silver Bullet</a>, <a href="../entries/conways-law.html">Conway&#x27;s Law</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_09.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

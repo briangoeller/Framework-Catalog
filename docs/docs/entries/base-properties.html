@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BASE Properties — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>BASE Properties</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Basically Available, Soft state, Eventual consistency — pragmatic alternative to ACID.</p>
+</header>
+
+<section class="extended-summary">
+  <p>BASE is the deliberate counterpoint to ACID for distributed systems, articulated by Dan Pritchett in his 2008 ACM Queue article &#x27;BASE: An ACID Alternative&#x27; to characterize the consistency model used by large-scale internet systems including those at eBay where Pritchett was an architect. The acronym (deliberately playing on chemistry — bases are weaker than acids) stands for Basically Available (the system responds to every request, possibly with stale or partial data), Soft state (system state may change without input as eventual consistency propagates), and Eventually consistent (the system will become consistent over time, given the absence of new updates). BASE captures the architectural compromises made when AP-side CAP trade-offs are necessary at internet scale, and is associated with NoSQL databases, caching layers, and eventually-consistent replication. The framework provides vocabulary for the design choices but does not, unlike ACID, specify formal semantic guarantees — applications using BASE systems must reason carefully about which inconsistencies are tolerable.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Dan Pritchett (codification); Eric Brewer (foundational thinking through CAP work) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2008 (Pritchett ACM Queue article); 1990s-2000s industry practice precursor <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Pritchett, D. (2008). &#x27;BASE: An ACID Alternative&#x27;, ACM Queue <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Basically Available (responds to every request, possibly with stale data)</li><li>Soft state (state may change without input as consistency propagates)</li><li>Eventually consistent (will reach consistency given quiet time)</li><li>Trade-off vs ACID strict guarantees</li><li>Application-level reasoning about acceptable inconsistencies</li><li>Connection to AP-side CAP choices</li><li>Common in NoSQL databases, caching, eventually-consistent replication</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Internet-scale distributed systems where availability matters more than strict consistency; e-commerce, social media, content delivery, caching layers; NoSQL database design (Cassandra, Riak, DynamoDB at certain configurations); architectural framing for designing systems on the AP side of CAP.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Less precise than ACID&#x27;s formal guarantees — &#x27;eventually consistent&#x27; permits a wide range of behaviors that applications must reason about individually</li><li>BASE-labeled systems vary substantially in actual consistency semantics</li><li>can become an excuse for not thinking carefully about correctness (&#x27;we&#x27;re just eventually consistent&#x27;)</li><li>the chemistry-pun acronym is sometimes more memorable than analytically useful</li><li>many real systems are neither pure ACID nor pure BASE but mixed, with BASE-style framing potentially obscuring needed nuance</li><li>doesn&#x27;t address what to do when eventual consistency takes too long for application requirements.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/acid-properties.html">ACID Properties</a>, <a href="../entries/cap-theorem.html">CAP Theorem</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

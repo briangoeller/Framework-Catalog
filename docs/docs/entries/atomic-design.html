@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atomic Design — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Atomic Design</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">design</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Frost&#x27;s component hierarchy: atoms, molecules, organisms, templates, pages.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Atomic Design is the framework for designing component-based design systems articulated by Brad Frost in his 2013 blog post &#x27;Atomic Design&#x27; and substantially elaborated in his 2016 book Atomic Design. Frost drew an analogy from chemistry — atoms combining into molecules, molecules into organisms, organisms into more complex entities — to articulate a hierarchical structure for digital interface design components: (1) Atoms — the smallest design elements, including HTML elements like form labels, inputs, buttons, plus abstract elements like color palettes, typography styles, icons; (2) Molecules — simple groupings of atoms functioning together as units, such as a search form combining label, input, and button atoms; (3) Organisms — relatively complex components composed of molecules and atoms, such as a header containing logo, navigation, and search molecule; (4) Templates — page-level layouts placing components into structural arrangements without final content, focusing on content structure; (5) Pages — specific instances of templates with real representative content, where the design is validated against actual context. The framework provides a vocabulary and structural approach for design systems — the systematic design libraries that have become standard practice for organizations producing digital products at scale. Atomic Design has been enormously influential in digital design practice, particularly through its alignment with component-based front-end frameworks (React, Vue, Angular) where engineering and design vocabulary can directly correspond. The framework integrates with broader design-system practice (Material Design, Salesforce Lightning, IBM Carbon, Atlassian Design System and many others), though commercial implementations vary in fidelity to Frost&#x27;s specific framing. Critics note that the chemistry metaphor breaks down in some contexts and that strict atomic-design hierarchies can become bureaucratic, but the framework remains foundational to contemporary design system practice.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Brad Frost <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2013 (foundational blog post); 2016 (Atomic Design book) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Frost, B. (2013). &#x27;Atomic Design&#x27; (blog post, bradfrost.com), Frost, B. (2016). Atomic Design, subsequent design-system literature including Alla Kholmatova (2017). Design Systems <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Five-level hierarchy: Atoms, Molecules, Organisms, Templates, Pages</li><li>Chemistry metaphor for component composition</li><li>Templates as page-level structural layouts without final content</li><li>Pages as instances with real content for validation</li><li>Foundation for design systems and component libraries</li><li>Connection to component-based front-end frameworks (React, Vue, Angular)</li><li>Integration with broader design-system practice (Material Design, Salesforce Lightning, IBM Carbon)</li><li>Distinction from page-level mockup design</li><li>Application across digital product design</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Design systems and component library development across digital product design; foundation for substantial design-system practice in technology companies; reference framework in design and front-end engineering education; basis for design-engineering collaboration through shared component vocabulary; integration with component-based engineering frameworks; pedagogical foundation in design-system education; foundation for substantial commercial design-system consulting practice; influence on design tools (Sketch, Figma, Adobe XD all support atomic-design organization).</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Chemistry metaphor breaks down in some contexts — molecules are not always meaningfully distinct from organisms, and the boundaries between levels are often interpretive rather than structurally clear</li><li>strict atomic-design hierarchies can become bureaucratic, with design-system teams spending substantial effort categorizing components rather than improving designs</li><li>commercial implementations vary substantially in fidelity to Frost&#x27;s specific framing — many &#x27;atomic design systems&#x27; are component libraries with the atomic terminology applied without substantive structural commitment</li><li>tendency for atomic design to optimize for component reuse at expense of contextual appropriateness</li><li>integration with brand-system flexibility and theming requires substantial additional structure</li><li>the framework&#x27;s emphasis on hierarchical composition can underweight the cross-cutting concerns (accessibility, internationalization, theming) that good design systems must address</li><li>works better for component libraries than for the broader design-system practice (which includes substantial governance, contribution, and maintenance dimensions)</li><li>cross-product design systems (covering multiple distinct products) face challenges that single-product atomic-design frameworks don&#x27;t address</li><li>the framework&#x27;s pedagogical clarity has produced widespread adoption with varying substantive design-system maturity.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/don-normans-design-principles.html">Don Norman&#x27;s Design Principles</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_24.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

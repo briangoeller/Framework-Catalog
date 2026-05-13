@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Behavior-Driven Development — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Behavior-Driven Development</h1>
+  <p class="aliases">Also known as: BDD</p>
+  <p class="meta">
+    <span class="meta-type">practice</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">TDD variant using natural-language scenarios to specify behavior.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Behavior-Driven Development was articulated by Dan North beginning in 2003 as a deliberate evolution of Test-Driven Development that addresses what North argued was TDD&#x27;s framing problem: unit tests are easily understood as testing rather than as specifying behavior, with the result that they often fail to capture the why of the code. BDD reframes test-first development as specification-first development, expressed in natural-language scenarios using the Given-When-Then template (Given some initial context, When an event occurs, Then ensure outcomes). The Gherkin syntax used by tools including Cucumber, SpecFlow, and Behat operationalizes scenarios as executable specifications that domain experts and developers can read and edit collaboratively. BDD distinguishes itself from TDD primarily through emphasis: where TDD&#x27;s red-green-refactor focuses on the developer&#x27;s design feedback loop, BDD&#x27;s outside-in flow focuses on the conversation among stakeholders, business analysts, and developers, with executable scenarios serving as the shared artifact. The framework has substantial overlap with Acceptance Test-Driven Development (ATDD) and Specification by Example (Adzic).</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Dan North; subsequent contributors including Liz Keogh, Aslak Hellesøy (Cucumber), Gojko Adzic (Specification by Example) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2003 (North&#x27;s initial articulation); 2006 (Cucumber); 2009 (North&#x27;s &#x27;What&#x27;s in a Story?&#x27;) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>North, D. (2006). &#x27;Introducing BDD&#x27; (dannorth.net), North, D. (2009). &#x27;What&#x27;s in a Story?&#x27; (dannorth.net), Adzic, G. (2011). Specification by Example <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Given-When-Then scenario template</li><li>Gherkin syntax for executable scenarios</li><li>Cucumber and similar BDD tooling</li><li>Outside-in development flow</li><li>Three-amigos collaboration (business, dev, QA on each story)</li><li>Connection to Specification by Example</li><li>Living documentation as scenarios remain executable</li><li>Distinction from TDD by emphasis on stakeholder communication</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Software development with substantial business-stakeholder collaboration; foundation for executable specifications and living documentation; complement to TDD particularly for application-level rather than unit-level behavior; basis for some agile-coaching practices around story refinement; integration with continuous integration pipelines via Cucumber and similar tools.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>BDD scenarios written by developers without genuine domain-expert involvement become indirect unit tests with extra ceremony</li><li>Gherkin syntax can produce verbose, brittle scenarios that are harder to maintain than direct unit tests</li><li>the promise of business-readable specifications often unrealized as scenarios drift toward implementation language</li><li>tooling overhead is substantial — Cucumber and similar add complexity that isn&#x27;t always justified</li><li>works best where genuine collaboration with domain experts is feasible, less well in product-management-mediated organizations</li><li>some critics argue BDD is essentially TDD with extra ceremony, with the framework&#x27;s distinct contribution being communication culture rather than technical practice.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/test-driven-development.html">Test-Driven Development</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/test-driven-development.html">Test-Driven Development</a>, <a href="../entries/extreme-programming.html">Extreme Programming</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/test-driven-development.html">Test-Driven Development</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_09.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event-Driven Architecture — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Event-Driven Architecture <span class="needs-verify-marker" title="Flagged for verification">⚑</span></h1>
+  <p class="aliases">Also known as: EDA</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">System organized around production, detection, and reaction to events.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Event-Driven Architecture organizes system components around the production, detection, and reaction to events — discrete records of something that has happened in the system or its environment. Components communicate by emitting events to a shared infrastructure (event bus, message broker, log) rather than calling each other directly, with consumers subscribing to event types they care about. The architecture was articulated as a distinct style by Brenda Michelson and others in the mid-2000s, building on earlier publish-subscribe and message-oriented middleware traditions. Two principal patterns within EDA: Event Notification (lightweight &#x27;something happened&#x27; messages where consumers fetch additional data if needed) and Event-Carried State Transfer (events carry the full state needed for downstream consumers to operate independently). Event Sourcing is a related but distinct pattern in which events are also the canonical record of system state. Modern event-driven systems are commonly built on Apache Kafka, AWS Kinesis, RabbitMQ, or cloud-provider event services, and EDA has substantially shaped microservices integration patterns.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Multiple lineage; codified by Brenda Michelson, Hugh Taylor, Roy Schulte, Mani Chandy among others; foundational publish-subscribe work decades earlier <span class="conf conf-medium">medium</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Mid-2000s codification; foundational pub-sub patterns from 1980s-90s <span class="conf conf-medium">medium</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Michelson, B. (2006). &#x27;Event-Driven Architecture Overview&#x27;, Patricia Seybold Group, Hohpe, G. &amp; Woolf, B. (2003). Enterprise Integration Patterns, Fowler, M. (2017). &#x27;What do you mean by &#x27;Event-Driven&#x27;?&#x27; <span class="conf conf-medium">medium</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Event (immutable record of something that happened)</li><li>Event producer</li><li>Event consumer (subscriber)</li><li>Event broker / bus / log</li><li>Patterns: Event Notification, Event-Carried State Transfer, Event Sourcing, CQRS combination</li><li>Topic-based, type-based, content-based subscription models</li><li>Asynchronous decoupled communication</li><li>At-least-once, at-most-once, exactly-once delivery semantics</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Microservices integration and decoupling; real-time data processing pipelines; reactive systems; integration with legacy systems; foundation for modern data engineering (Kafka-centric architectures); event-sourced systems; CQRS implementations; complex event processing.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Eventual consistency complicates reasoning about system state across components</li><li>debugging is harder than in synchronous systems — distributed tracing is essential and often inadequate</li><li>ordering and exactly-once delivery guarantees are subtle and frequently violated in implementation</li><li>schema evolution across event versions is a persistent operational challenge</li><li>can produce &#x27;distributed monolith&#x27; if events become tightly coupled to consumer expectations</li><li>the rebuild-state-from-events promise of event sourcing is real but operationally challenging at scale</li><li>team responsibility for events crossing service boundaries is often unclear, leading to coordination overhead.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/cqrs.html">CQRS</a>, <a href="../entries/event-sourcing.html">Event Sourcing</a>, <a href="../entries/domain-driven-design.html">Domain-Driven Design</a>, <a href="../entries/microservices.html">Microservices</a></dd>
+    
+  </dl>
+</section>
+
+<aside class="needs-verify-banner">This entry is flagged for verification. Originator, date, or source attribution is uncertain.</aside>
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

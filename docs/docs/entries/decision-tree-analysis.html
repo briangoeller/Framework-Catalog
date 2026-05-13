@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decision Tree Analysis — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Decision Tree Analysis</h1>
+  
+  <p class="meta">
+    <span class="meta-type">tool</span> ·
+    <span class="meta-discipline">management</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Branching diagram of choices, chance events, and outcomes with associated values.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Decision Tree Analysis represents a sequential decision problem as a branching diagram with three node types: decision nodes (squares, where the decision-maker chooses an action), chance nodes (circles, where nature determines the outcome with given probabilities), and terminal nodes (triangles, with associated payoffs or utilities). The tree is solved by &#x27;rolling back&#x27; from terminal nodes — computing expected values at chance nodes (probability-weighted averages of subsequent values) and selecting the maximum-value branch at decision nodes — yielding both the optimal first-decision choice and the expected value of the entire problem. The technique was substantially developed in Howard Raiffa&#x27;s Decision Analysis (1968) within the broader Bayesian decision-theoretic framework that emerged from the Harvard Business School and Stanford operations research traditions in the 1950s and 1960s. Decision trees are foundational in operations research, management consulting (particularly oil and gas, pharmaceuticals, and capital projects), and the related field of real options analysis.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Howard Raiffa (decision-analysis formalization); Ronald Howard (Stanford decision analysis school) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1960s formalization; 1968 (Raiffa Decision Analysis) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Raiffa, H. (1968). Decision Analysis: Introductory Lectures on Choices Under Uncertainty, Howard, R.A. (1966). &#x27;Decision Analysis: Applied Decision Theory&#x27; <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Decision nodes (squares, choice points)</li><li>Chance nodes (circles, with probability distributions)</li><li>Terminal nodes (with payoffs or utilities)</li><li>Roll-back solution method (backward induction)</li><li>Expected value computation</li><li>Sensitivity analysis on probabilities and payoffs</li><li>Connection to Bayesian decision theory</li><li>Real options extension</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Capital budgeting and investment decisions under uncertainty; pharmaceutical R&amp;D portfolio decisions; oil and gas exploration; clinical decision analysis; structured analysis of sequential decisions; foundation for real options analysis.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Requires probability assignments that are often subjective or unavailable</li><li>expected-value maximization may not match risk-averse decision-maker preferences (driving utility-function refinements)</li><li>tree complexity grows exponentially with decision and chance variables</li><li>doesn&#x27;t easily handle continuous variables, requiring discretization</li><li>assumes decisions are made at clearly defined points rather than continuously</li><li>backward-induction logic can produce optimal decisions that violate intuition (St Petersburg paradox and similar)</li><li>behavioral departures from expected-utility maximization (prospect theory) are not captured.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/pugh-matrix.html">Pugh Matrix</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_03.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

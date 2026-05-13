@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cyber Kill Chain — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Cyber Kill Chain</h1>
+  <p class="aliases">Also known as: Lockheed Martin Kill Chain</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">cybersecurity</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Seven-phase model of intrusion: reconnaissance, weaponization, delivery, exploitation, installation, command-and-control, actions on objectives.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The Cyber Kill Chain was articulated by Eric M. Hutchins, Michael J. Cloppert, and Rohan M. Amin of Lockheed Martin&#x27;s Computer Incident Response Team in their 2011 paper &#x27;Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains.&#x27; Adapted from US military doctrine on targeting (find, fix, track, target, engage, assess), the framework articulates seven phases of a cyber intrusion: (1) Reconnaissance — gathering target information; (2) Weaponization — coupling exploit with deliverable payload; (3) Delivery — transmitting weapon to target (email, web, USB); (4) Exploitation — triggering vulnerability to execute on victim system; (5) Installation — installing backdoor or malware; (6) Command and Control (C2) — establishing communication channel to attacker; (7) Actions on Objectives — achieving the attacker&#x27;s goals (data exfiltration, lateral movement, destruction). The framework&#x27;s central commitment is that defense should aim to break the chain at any point — disrupting any one phase prevents the intrusion from succeeding, with detection and response opportunities at each phase. The framework substantially shaped intrusion analysis and threat intelligence practice from 2011 onward and remains widely cited in incident response and security operations. However, the framework has drawn substantial critique for: (1) perimeter-centric thinking that doesn&#x27;t fit cloud and zero-trust architectures; (2) linear sequential framing that doesn&#x27;t capture sophisticated attacks involving lateral movement, persistence across phases, and multi-vector approaches; (3) less granularity than MITRE ATT&amp;CK provides. ATT&amp;CK has substantially superseded Cyber Kill Chain in many security operations contexts while Cyber Kill Chain retains pedagogical and conceptual value.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Eric M. Hutchins, Michael J. Cloppert, Rohan M. Amin (Lockheed Martin Computer Incident Response Team) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2011 (Hutchins-Cloppert-Amin paper) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Hutchins, E.M., Cloppert, M.J. &amp; Amin, R.M. (2011). &#x27;Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains&#x27; (Lockheed Martin), Pols, P. (2017). &#x27;The Unified Kill Chain&#x27; (extension) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field"><h3>Band notes</h3><p>Lockheed Martin&#x27;s framework biases toward perimeter-centric thinking; less aligned with cloud and zero-trust architectures.</p></div>
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Seven phases: Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command and Control, Actions on Objectives</li><li>Adapted from US military targeting doctrine</li><li>Defense by disrupting any phase</li><li>Detection and response opportunities at each phase</li><li>Connection to threat intelligence and intrusion analysis</li><li>Application to APT (Advanced Persistent Threat) analysis</li><li>Substantial influence on early-2010s security operations</li><li>Linear sequential structure (a noted limitation)</li><li>Largely superseded by MITRE ATT&amp;CK in many contexts</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Intrusion analysis and threat intelligence frameworks; incident response and forensic analysis structuring; security operations playbook development (particularly pre-2020); threat-intelligence reporting structure; pedagogical reference in cybersecurity education for understanding attack progression; basis for some commercial security products marketed around &#x27;kill chain&#x27; framing; reference framework in security awareness training.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Perimeter-centric framing — the Delivery phase assumes attackers must penetrate a defended perimeter, which doesn&#x27;t fit cloud-first, zero-trust, or supply-chain attack scenarios</li><li>linear sequential structure doesn&#x27;t capture sophisticated attacks involving lateral movement, persistence, and multi-vector approaches</li><li>less granular than MITRE ATT&amp;CK, which provides specific techniques rather than broad phases</li><li>some attacks (insider threats, supply chain attacks like SolarWinds, identity-based attacks) don&#x27;t fit the kill chain structure cleanly</li><li>the framework&#x27;s military-targeting origins shape specific assumptions that don&#x27;t always map to cybersecurity reality</li><li>commercial security products marketed around kill chain framing varied in fidelity to the original paper</li><li>substantial subsequent frameworks (Mandiant Attack Lifecycle, Unified Kill Chain by Paul Pols) have addressed these limitations with extensions</li><li>pedagogical role remains valuable but operational use has substantially shifted to ATT&amp;CK</li><li>tendency to treat kill chain as if intrusions are always sequential when actual sophisticated attacks loop, branch, and parallelize phases.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/mitre-att-ck.html">MITRE ATT&amp;CK</a>, <a href="../entries/diamond-model-of-intrusion-analysis.html">Diamond Model of Intrusion Analysis</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_21.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

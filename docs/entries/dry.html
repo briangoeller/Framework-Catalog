@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DRY — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>DRY</h1>
+  <p class="aliases">Also known as: Don&#x27;t Repeat Yourself</p>
+  <p class="meta">
+    <span class="meta-type">technique</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Hunt and Thomas&#x27; principle: every piece of knowledge should have one authoritative representation.</p>
+</header>
+
+<section class="extended-summary">
+  <p>DRY (Don&#x27;t Repeat Yourself) was articulated by Andy Hunt and Dave Thomas in The Pragmatic Programmer (1999) as the principle that &#x27;every piece of knowledge must have a single, unambiguous, authoritative representation within a system.&#x27; The principle is often summarized as avoiding code duplication, but Hunt and Thomas&#x27;s original meaning was broader and subtler: knowledge in a system, whether expressed in code, configuration, documentation, schemas, or build scripts, should have one canonical source from which other representations are derived if needed. The pragmatic intent is preventing the divergence and inconsistency that arises when the &#x27;same&#x27; fact is expressed in multiple places that must be kept in sync manually. Sandi Metz&#x27;s &#x27;duplication is far cheaper than the wrong abstraction&#x27; has become a widely-cited corrective: the antidote to duplication is the right abstraction, not any abstraction, and premature abstraction can be more costly than the duplication it removes. DRY is thus best understood as guidance against accidental duplication of shared knowledge, not as a prohibition on superficially similar code.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Andy Hunt; Dave Thomas <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1999 (The Pragmatic Programmer) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Hunt, A. &amp; Thomas, D. (1999, 2nd ed. 2019). The Pragmatic Programmer, Metz, S. (2014). &#x27;The Wrong Abstraction&#x27; (sandimetz.com) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Single authoritative representation of knowledge</li><li>Distinction between knowledge duplication and superficially similar code</li><li>Application across code, configuration, documentation, schemas, build scripts</li><li>Code generation and template-based derivation as DRY-supporting techniques</li><li>Sandi Metz&#x27;s corrective: &#x27;duplication is far cheaper than the wrong abstraction&#x27;</li><li>Connection to abstraction quality rather than abstraction quantity</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Code review and refactoring heuristic; teaching tool in software engineering education; widely-cited reference in clean-code and software-craftsmanship communities; basis for many code-quality and static-analysis rules.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Often misapplied as &#x27;don&#x27;t have any code that looks similar&#x27; rather than the original &#x27;don&#x27;t duplicate knowledge&#x27;, leading to premature and incorrect abstractions</li><li>Sandi Metz, Dan Abramov, and others have argued the wrong abstraction is more costly than duplication and recommend duplicating until the right abstraction reveals itself</li><li>cross-cutting abstractions (DRY at all costs) often produce coupling that makes systems harder to change</li><li>the &#x27;rule of three&#x27; (Hunt and Thomas&#x27;s later refinement: extract abstraction only after the third occurrence) is often forgotten</li><li>DRY can mask domain differences that should be preserved, particularly when applied across bounded contexts</li><li>mechanical de-duplication tools enforce DRY at the syntactic level rather than the knowledge level Hunt and Thomas intended.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/kiss.html">KISS</a>, <a href="../entries/yagni.html">YAGNI</a>, <a href="../entries/solid-principles.html">SOLID Principles</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Differential Privacy — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Differential Privacy</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Formal definition guaranteeing that the inclusion or exclusion of any single record does not significantly affect query outputs.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Differential Privacy is a formal mathematical framework for privacy-preserving data analysis, providing a precise definition of privacy that can be quantified, composed across queries, and operationally guaranteed by appropriate algorithms. The framework was articulated by Cynthia Dwork, Frank McSherry, Kobbi Nissim, and Adam Smith in their 2006 paper &#x27;Calibrating Noise to Sensitivity in Private Data Analysis&#x27; (Dwork&#x27;s 2006 &#x27;Differential Privacy&#x27; paper provides the canonical definition). The formal definition: a randomized algorithm M is ε-differentially private if for any two datasets D and D&#x27; differing in a single record, and for any subset S of possible outputs, P[M(D) ∈ S] ≤ exp(ε) × P[M(D&#x27;) ∈ S]. This means the algorithm&#x27;s output distribution changes only slightly when any single individual&#x27;s record is added or removed, providing a strong privacy guarantee independent of attacker prior knowledge. The parameter ε quantifies the privacy-utility tradeoff: smaller ε means stronger privacy but typically less accuracy. Mechanisms achieving differential privacy include: Laplace mechanism (add Laplace noise scaled to query sensitivity); Gaussian mechanism (Gaussian noise, with relaxed (ε,δ)-DP definition); exponential mechanism (for non-numeric outputs); subsampling and shuffle amplification; private machine learning via DP-SGD (Abadi et al. 2016). Applications include the US Census Bureau&#x27;s adoption of differential privacy for the 2020 Census, Apple&#x27;s deployment in iOS for telemetry collection, Google&#x27;s RAPPOR system for Chrome telemetry, and substantial regulatory interest. The framework provides genuine technical guarantees but with substantial practical complexity in choosing ε, calibrating noise to sensitivity, and managing the privacy budget across multiple queries.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Cynthia Dwork; Frank McSherry; Kobbi Nissim; Adam Smith <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2006 (foundational papers); 2014 (Dwork-Roth Algorithmic Foundations of Differential Privacy); ongoing development <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Dwork, C., McSherry, F., Nissim, K. &amp; Smith, A. (2006). &#x27;Calibrating Noise to Sensitivity in Private Data Analysis&#x27;, TCC, Dwork, C. (2006). &#x27;Differential Privacy&#x27;, ICALP, Dwork, C. &amp; Roth, A. (2014). &#x27;The Algorithmic Foundations of Differential Privacy&#x27;, Abadi, M. et al. (2016). &#x27;Deep Learning with Differential Privacy&#x27;, CCS <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Formal ε-differential privacy definition: P[M(D) ∈ S] ≤ exp(ε) × P[M(D&#x27;) ∈ S] for neighboring datasets</li><li>(ε,δ)-DP relaxation</li><li>Privacy budget ε quantifying privacy-utility tradeoff</li><li>Composition theorems (sequential composition, parallel composition, advanced composition)</li><li>Laplace and Gaussian noise mechanisms</li><li>Exponential mechanism for non-numeric outputs</li><li>Sensitivity analysis of queries</li><li>DP-SGD for private machine learning (Abadi et al. 2016)</li><li>Local vs central differential privacy</li><li>Substantial industry deployment (US Census, Apple, Google)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Privacy-preserving data analysis particularly for sensitive personal data; US Census Bureau deployment for 2020 Census disclosure avoidance; Apple iOS telemetry collection; Google&#x27;s RAPPOR system; private machine learning (DP-SGD); regulatory frameworks responding to privacy concerns (GDPR, state privacy laws); foundation for substantial commercial &#x27;privacy tech&#x27; tools and services; reference framework in privacy-preserving computation research.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Choosing the privacy parameter ε is genuinely difficult and contested — there is no clear principled basis for selecting specific ε values, and the same ε can mean substantially different operational privacy in different contexts</li><li>small ε (strong privacy) often produces substantial utility loss</li><li>the privacy budget ε accumulates across queries, requiring careful management that is operationally complex</li><li>the formal guarantee is for a single dataset definition that may not match how attackers actually query</li><li>local differential privacy (where individuals add noise locally before sending data) has weaker privacy-utility tradeoffs than central DP</li><li>commercial &#x27;differential privacy&#x27; implementations vary substantially in fidelity to the formal definition and in noise calibration quality</li><li>the framework is often misunderstood — including by some implementers — as providing privacy &#x27;in general&#x27; rather than the specific neighboring-dataset guarantee</li><li>recent attacks (Carlini et al. on language model memorization) have raised questions about whether DP-SGD privacy guarantees translate to operational privacy in deep learning</li><li>the US Census Bureau&#x27;s 2020 deployment generated substantial controversy about utility loss for downstream uses.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/information-theory.html">Information Theory</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

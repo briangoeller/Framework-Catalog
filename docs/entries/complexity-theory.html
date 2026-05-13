@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Complexity Theory — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Complexity Theory</h1>
+  <p class="aliases">Also known as: Computational Complexity</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Study of resource requirements (time, space) for solving problems.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Computational Complexity Theory is the branch of computer science that studies the inherent resource requirements (time, space, randomness, communication, etc.) necessary to solve computational problems, classifying problems into complexity classes and proving relationships between them. The field&#x27;s foundational concepts emerged from Alan Turing&#x27;s 1936 work on computability and the Turing machine, with computational complexity as a distinct field developed through Hartmanis and Stearns&#x27;s 1965 paper introducing time-complexity classes, Edmonds&#x27;s 1965 articulation of polynomial-time as the boundary of practical solvability, Cobham&#x27;s 1965 thesis identifying P with feasibly-solvable problems, Cook&#x27;s 1971 introduction of NP-completeness, and Karp&#x27;s 1972 demonstration that 21 important problems are NP-complete. The discipline&#x27;s central open question — whether P = NP, that is, whether every problem whose solution can be verified in polynomial time can also be solved in polynomial time — is the most famous open problem in computer science and one of the seven Clay Mathematics Institute Millennium Prize Problems. The framework&#x27;s vocabulary (polynomial, exponential, NP-hard, NP-complete, intractable) has become standard for reasoning about algorithm scalability and is central to cryptography (which depends on certain problems being computationally intractable), optimization, and complexity-aware system design.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Alan Turing (computability foundation); Juris Hartmanis and Richard Stearns (complexity classes); Stephen Cook and Leonid Levin (NP-completeness, independently); Richard Karp (NP-completeness expansion) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1936 (Turing computability); 1965 (Hartmanis-Stearns time complexity, Edmonds-Cobham); 1971 (Cook NP-completeness); 1972 (Karp&#x27;s 21 problems) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Cook, S.A. (1971). &#x27;The Complexity of Theorem-Proving Procedures&#x27;, Karp, R.M. (1972). &#x27;Reducibility Among Combinatorial Problems&#x27;, Sipser, M. (multiple editions). Introduction to the Theory of Computation, Arora, S. &amp; Barak, B. (2009). Computational Complexity: A Modern Approach <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Complexity classes (P, NP, NP-complete, NP-hard, PSPACE, EXPTIME, BPP, BQP, others)</li><li>Polynomial-time as feasibility threshold</li><li>NP-completeness and reductions between problems</li><li>Time and space complexity hierarchies</li><li>The P vs NP open problem</li><li>Probabilistic and quantum complexity classes</li><li>Approximation hardness and PCP theorem</li><li>Lower bounds and unconditional vs conditional separations</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Algorithm analysis and design; foundation for cryptography (depends on hardness assumptions including factoring, discrete log, lattice problems); intractability arguments justifying heuristic approaches to NP-hard problems; theoretical computer science research; pedagogical framework for understanding what computation can and cannot do efficiently; basis for thinking about quantum computing&#x27;s computational implications.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Worst-case asymptotic framing — most relevant complexity-theory results — does not always reflect average-case or practical performance, leading to gaps between theoretical hardness and practical solvability (NP-hard problems often solvable in practice through heuristics, SMT solvers, etc.)</li><li>P vs NP remains unresolved after 50+ years and unconditional lower-bound progress on most natural problems is glacial</li><li>the assumption that &#x27;polynomial-time = feasible&#x27; breaks down for high-degree polynomials</li><li>quantum complexity and post-quantum classical algorithms have introduced new uncertainty about long-standing assumptions</li><li>theoretical-vs-applied tension is real — many applied problems are &#x27;NP-hard&#x27; in worst case but easily solved in practice</li><li>some critics argue the asymptotic framing obscures more than it reveals about the actual cost structure of computation.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_09.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test-Driven Development — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Test-Driven Development</h1>
+  <p class="aliases">Also known as: TDD</p>
+  <p class="meta">
+    <span class="meta-type">practice</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Red-green-refactor cycle: write failing test, make it pass, then improve design.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Test-Driven Development was articulated by Kent Beck within Extreme Programming and developed in Test-Driven Development: By Example (2002), with deep antecedents including the test-first practices of NASA&#x27;s Mercury Project (per Beck&#x27;s research) and Smalltalk testing traditions. The TDD cycle has three phases that practitioners cycle through rapidly: Red (write a failing test for a small unit of new behavior); Green (write the minimum code to make the test pass, even if the implementation is ugly); Refactor (improve the design of both production and test code while keeping all tests passing). The discipline produces a comprehensive automated test suite as a side effect of development, surfaces design issues early through the test-first constraint (testable design and well-decomposed code tend to align), and provides confidence for refactoring and continuous deployment. London School TDD (Steve Freeman, Nat Pryce, in Growing Object-Oriented Software, Guided by Tests) emphasizes outside-in development with mocking; Detroit (Classical) School TDD favors state-based testing with minimal mocking. TDD has substantial impact on subsequent practices — Behavior-Driven Development, Acceptance Test-Driven Development, and continuous-deployment practices all build on TDD foundations.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Kent Beck (modern formulation); precursors in Smalltalk testing and (per Beck) NASA Mercury practice <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Late 1990s within XP; 2002 (TDD by Example) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Beck, K. (2002). Test-Driven Development: By Example, Freeman, S. &amp; Pryce, N. (2009). Growing Object-Oriented Software, Guided by Tests, Hansson, D.H. (2014). &#x27;TDD is Dead. Long Live Testing&#x27; (signalvnoise.com) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Three-phase cycle: Red (failing test), Green (minimum code to pass), Refactor</li><li>Test-first ordering as design constraint</li><li>Comprehensive automated test suite as byproduct</li><li>London School (mockist, outside-in) vs Detroit/Classical School (state-based, inside-out)</li><li>Connection to refactoring discipline</li><li>xUnit family of testing frameworks</li><li>Distinction from test-after development</li><li>Pairs with continuous integration</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Software development practice across many languages and domains; foundation for refactoring confidence and continuous deployment; substantial influence on modern software engineering practice even where full XP is not adopted; core practice in software craftsmanship community; foundation for BDD and ATDD extensions.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Adoption requires substantial discipline that many teams don&#x27;t sustain</li><li>Detroit-vs-London School disagreement reflects real tensions in testing approach</li><li>&#x27;TDD is dead&#x27; debate (David Heinemeier Hansson, 2014) argued TDD damages design and overweights testability</li><li>many teams write tests after code while claiming TDD</li><li>mocking-heavy London School TDD can produce brittle tests coupled to implementation</li><li>effectiveness depends on test design quality — large test suites of poor tests are a liability</li><li>works less well for some categories of code (UI, exploratory data analysis, deeply concurrent code)</li><li>empirical research on TDD&#x27;s productivity effects is mixed and methodologically challenging.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/extreme-programming.html">Extreme Programming</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/extreme-programming.html">Extreme Programming</a>, <a href="../entries/yagni.html">YAGNI</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/extreme-programming.html">Extreme Programming</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAIR — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>FAIR</h1>
+  <p class="aliases">Also known as: Factor Analysis of Information Risk</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">cybersecurity</span> ·
+    <span class="meta-band">regulatory-standard</span>
+  </p>
+  <p class="one-liner">Quantitative risk framework decomposing risk into loss event frequency and loss magnitude with probabilistic factors.</p>
+</header>
+
+<section class="extended-summary">
+  <p>FAIR (Factor Analysis of Information Risk) is the quantitative information-risk methodology developed by Jack Jones beginning in the early 2000s while at Nationwide Insurance, with substantial subsequent development through Jones&#x27;s RiskLens consultancy and standardization as Open FAIR through The Open Group. The framework&#x27;s central commitment is that information risk can and should be quantified in monetary terms (annualized loss expectancy, value-at-risk distributions) rather than expressed in qualitative high/medium/low ratings that obscure decision-making. FAIR decomposes risk into Loss Event Frequency (how often loss events occur) and Loss Magnitude (how much loss results), each further decomposed: LEF = Threat Event Frequency × Vulnerability; LM = Primary Loss + Secondary Loss (with secondary loss decomposed into productivity, response, replacement, fines/judgments, competitive advantage, reputation). Each factor is estimated as a probability distribution (typically using PERT distributions over min/most-likely/max estimates), with Monte Carlo simulation aggregating to produce loss-distribution outputs. FAIR explicitly distinguishes itself from qualitative approaches (NIST 800-30 high/medium/low matrices, ISO 27005 qualitative) and from purely actuarial approaches that require historical loss data many organizations don&#x27;t have. The framework has been substantially adopted in enterprise risk management, particularly in financial services, with growing recognition by regulators and standards bodies. Open FAIR (The Open Group standard) provides the canonical reference and a certification track.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Jack A. Jones (foundational at Nationwide Insurance, early 2000s); subsequent development through RiskLens and The Open Group&#x27;s Open FAIR standard; co-author Jack Freund (Measuring and Managing Information Risk, 2014) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Early 2000s development; 2009 (Open FAIR Standard); 2014 (Jones-Freund book); ongoing <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Jones, J.A. (2005). &#x27;An Introduction to Factor Analysis of Information Risk&#x27; (FAIR white paper), Freund, J. &amp; Jones, J.A. (2014). Measuring and Managing Information Risk: A FAIR Approach, The Open Group (2009, multiple editions). Open FAIR Risk Analysis Standard <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field"><h3>Band notes</h3><p>Quantitative methodology now standardized as Open FAIR through The Open Group; distinct from qualitative risk-rating approaches.</p></div>
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Loss Event Frequency (LEF) = Threat Event Frequency × Vulnerability</li><li>Loss Magnitude (LM) = Primary Loss + Secondary Loss</li><li>Six secondary loss types: productivity, response, replacement, fines/judgments, competitive advantage, reputation</li><li>PERT distributions for factor estimates</li><li>Monte Carlo simulation for aggregation</li><li>Quantification in monetary terms (annualized loss expectancy, VaR)</li><li>Distinction from qualitative high/medium/low approaches</li><li>Open FAIR as canonical standard through The Open Group</li><li>Certification track</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Quantitative cyber-risk analysis particularly in financial services; foundation for risk-based budget allocation and security investment decisions; basis for board-level cyber-risk reporting in monetary terms; integration with enterprise risk management; growing use in regulatory contexts (NYDFS Part 500 risk assessments, OCC guidance); foundation for substantial commercial software (RiskLens, others); pedagogical reference in cyber-risk-quantification education.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Estimates of probability distributions for threat event frequency and vulnerability often rest on substantial subjective expert judgment that varies across analysts</li><li>commercial FAIR implementations vary in quality of factor decomposition and estimation</li><li>the framework&#x27;s apparent quantitative rigor can mask substantial subjectivity in input estimates</li><li>integration with cybersecurity-control prioritization (which controls reduce LEF or LM by how much?) is genuinely difficult</li><li>some critics argue that quantitative risk analysis encourages false precision in domains where uncertainty is fundamentally epistemic (Knightian uncertainty)</li><li>FAIR works better in mature security organizations with substantial data and expertise than in early-stage programs</li><li>certification industry has produced compliance-style FAIR adoption with varying analytical fidelity</li><li>tension between FAIR&#x27;s commitment to monetary quantification and the practical reality that some cyber consequences (catastrophic systemic events, national-security implications) resist credible monetary estimation</li><li>convergence with broader operational risk quantification has been incomplete.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/nist-risk-management-framework.html">NIST Risk Management Framework</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_21.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

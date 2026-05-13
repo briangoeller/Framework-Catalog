@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gantt Chart Methodology — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Gantt Chart Methodology</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">project management</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Time-decomposition framework visualizing tasks as horizontal bars on a timeline, originating with Henry Gantt&#x27;s industrial scheduling work.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The Gantt chart is the time-decomposition framework visualizing project tasks as horizontal bars on a timeline, named for American mechanical engineer and management consultant Henry L. Gantt who developed his version around 1910-1915 for industrial production scheduling. The visualization predates Gantt&#x27;s specific articulation: Polish economist Karol Adamiecki published the harmonogram in 1896 with substantially the same concept, though his work remained largely unknown outside Russian and Polish industrial circles until the mid-20th century. Gantt charts became widely used in US industrial production during World War I (notably in shipbuilding under Edward Hurley) and have been the standard project-time-visualization technique since. Modern computer-supported variants integrate dependency networks, resource loading, baseline tracking, and progress shading, with PMBOK and PRINCE2 treating the bar chart as a foundational scheduling representation alongside network diagrams (PERT/CPM) for dependency analysis.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Henry L. Gantt (c.1910-1915 articulation, foundational for the named technique); Karol Adamiecki (1896 harmonogram, substantively equivalent earlier work); intellectual antecedents in 19th-century industrial scheduling and Frederick Taylor&#x27;s scientific management <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1896 (Adamiecki harmonogram); c.1910-1915 (Gantt&#x27;s published charts) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Gantt, H.L. (1919). Organizing for Work, Adamiecki, K. (1931). &#x27;Harmonygraph&#x27; (Polish original work c.1896, published decades later), Clark, W. (1922). The Gantt Chart: A Working Tool of Management <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Horizontal time axis with project tasks listed as rows</li><li>Bar length proportional to task duration</li><li>Bar position indicating start and finish dates</li><li>Modern extensions: dependency arrows, milestone diamonds, baseline-vs-actual shading, percent-complete indicators, resource assignments, critical path highlighting</li><li>Integration with Work Breakdown Structure for hierarchical task display</li><li>Integration with network-diagram (PERT/CPM) underlying logic</li><li>Software implementation (Microsoft Project, Primavera, JIRA Gantt views, Smartsheet, etc.)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Standard project schedule visualization across virtually all project management methodologies (PMBOK, PRINCE2, IPMA, ISO 21502); stakeholder communication of project plans and status; input to milestone reporting, progress reviews, and executive dashboards; academic and pedagogical reference in project-management curricula; foundation for computer-based scheduling tools.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Gantt charts have been substantially criticized in the agile community as encoding a planning paradigm incompatible with iterative delivery — the bar presentation implies date-certain task durations that empirical project research consistently finds unreliable for non-trivial scope</li><li>complexity growth: Gantt charts of large projects become unreadable, defeating the communication purpose</li><li>the visualization hides dependency information that underlying network diagrams (PERT, CPM) make explicit, leading to common misuse where users update task bars without recalculating dependent task implications</li><li>rebaselining practices in real projects undermine the longitudinal-comparison value the chart structurally promises</li><li>software implementations (Microsoft Project particularly) have ergonomic weaknesses documented in HCI research and practitioner experience</li><li>the convention of presenting Gantt charts to executives produces social pressure for optimistic schedules and date commitments that subsequent project history rarely supports — a behavioral pattern researched by Flyvbjerg in megaproject literature</li><li>for resource-constrained projects, the Gantt presentation can actively mislead about delivery feasibility unless integrated with explicit resource-loading views.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/pert.html">PERT</a>, <a href="../entries/critical-path-method.html">Critical Path Method</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_35.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

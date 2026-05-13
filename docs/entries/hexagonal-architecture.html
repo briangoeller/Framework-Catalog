@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hexagonal Architecture — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Hexagonal Architecture</h1>
+  <p class="aliases">Also known as: Ports and Adapters</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Cockburn&#x27;s design isolating business logic from delivery and infrastructure concerns.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Hexagonal Architecture, articulated by Alistair Cockburn in his 2005 essay &#x27;Hexagonal Architecture&#x27; (also known as Ports and Adapters), structures applications so that core business logic at the center is isolated from external concerns (UI, databases, external services) at the edges, with the connection mediated by ports (interfaces defined by the core) and adapters (implementations connecting external systems to those ports). The hexagonal shape in Cockburn&#x27;s diagrams is symbolic — it suggests multiple equal sides for different connections, in contrast to layered diagrams that imply UI-on-top hierarchy. The architecture&#x27;s central commitment is that the application&#x27;s behavior should be testable in isolation from any specific UI, database, or external service, with adapters substitutable in tests. Hexagonal is closely related to Onion Architecture (Palermo 2008) and Clean Architecture (Martin 2012), all of which share the core insight that dependencies should point inward toward the domain core rather than outward toward infrastructure. Cockburn&#x27;s original framing emphasized the practical testability benefits more than philosophical layering.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Alistair Cockburn <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2005 (Cockburn essay); broader principle implicit in Cockburn&#x27;s earlier work <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Cockburn, A. (2005). &#x27;Hexagonal Architecture&#x27; (alistair.cockburn.us) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Core business logic at the center</li><li>Ports (interfaces defined by the core for what it needs from outside)</li><li>Adapters (implementations connecting external systems to ports)</li><li>Symmetric structure (UI, database, external services all on equal footing)</li><li>Driving adapters (initiate flow into the core: UI, API) vs Driven adapters (called by the core: database, external services)</li><li>Substitutability in tests</li><li>Dependency inversion at port boundaries</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Application architecture where business logic complexity warrants isolation from infrastructure concerns; foundation for testable application design; basis for microservices internal structure; combination with DDD&#x27;s tactical patterns; teaching tool for dependency-inversion thinking.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Substantial complexity overhead for simple CRUD applications where business logic is thin</li><li>learning curve is steep, with many adopters cargo-culting the structure without the underlying testability discipline</li><li>risk of over-abstraction creating layers and indirection without value</li><li>the hexagon shape and &#x27;ports and adapters&#x27; vocabulary can become more confusing than the dependency-inversion principle they encode</li><li>substantial overlap with Onion and Clean Architecture creates which-pattern-when confusion</li><li>adapter-per-external-thing structure can produce excessive infrastructure code</li><li>some implementations adopt Hexagonal but violate the dependency rule by leaking infrastructure types into the core.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    <dt>Parent of</dt><dd><a href="../entries/onion-architecture.html">Onion Architecture</a>, <a href="../entries/clean-architecture.html">Clean Architecture</a></dd>
+    
+    <dt>Siblings</dt><dd><a href="../entries/onion-architecture.html">Onion Architecture</a>, <a href="../entries/clean-architecture.html">Clean Architecture</a>, <a href="../entries/domain-driven-design.html">Domain-Driven Design</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

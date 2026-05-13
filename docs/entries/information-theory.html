@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Information Theory — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Information Theory</h1>
+  <p class="aliases">Also known as: Shannon Theory</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Shannon&#x27;s framework quantifying information, entropy, and communication channels.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Information Theory was founded by Claude Shannon in his 1948 Bell System Technical Journal paper &#x27;A Mathematical Theory of Communication&#x27; (substantially expanded into book form by Shannon and Warren Weaver in 1949), creating an entirely new mathematical discipline that quantifies information independent of meaning or content. Shannon&#x27;s foundational results include: information measured in bits as the logarithm of the number of equally likely possibilities; entropy as the average information content of a probability distribution (H = -Σp log p); the source coding theorem (data can be compressed to its entropy but no further); the noisy channel coding theorem (reliable communication is possible at any rate below the channel capacity); mutual information as the reduction in uncertainty of one variable given another. Subsequent development has been enormous: error-correcting codes (Hamming, Reed-Solomon, LDPC, Turbo codes); Kullback-Leibler divergence; algorithmic information theory (Kolmogorov, Chaitin, Solomonoff); rate-distortion theory; network information theory; quantum information theory. The framework has had outsized impact on telecommunications (the entire digital-communication infrastructure rests on Shannon&#x27;s results), data compression (ZIP, JPEG, MP3, MPEG), cryptography (Shannon&#x27;s 1949 &#x27;Communication Theory of Secrecy Systems&#x27; founded modern cryptography), machine learning (cross-entropy, KL divergence, mutual-information-based feature selection), neuroscience (information-theoretic analysis of neural codes), and statistical physics (the connection between Shannon entropy and thermodynamic entropy). Shannon&#x27;s framework is one of the most generative single-author intellectual achievements of the 20th century.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Claude E. Shannon (foundational); intellectual antecedents in Harry Nyquist, Ralph Hartley; Warren Weaver (substantial coauthor of 1949 book) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1948 (Shannon paper); 1949 (Shannon-Weaver book); ongoing development <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Shannon, C.E. (1948). &#x27;A Mathematical Theory of Communication&#x27;, Bell System Technical Journal, Shannon, C.E. &amp; Weaver, W. (1949). The Mathematical Theory of Communication, Shannon, C.E. (1949). &#x27;Communication Theory of Secrecy Systems&#x27;, Bell System Technical Journal, Cover, T.M. &amp; Thomas, J.A. (2006, 2nd ed.). Elements of Information Theory <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Information measured in bits (log of equally likely possibilities)</li><li>Entropy: H = -Σp log p</li><li>Source coding theorem</li><li>Noisy channel coding theorem</li><li>Channel capacity</li><li>Mutual information</li><li>Kullback-Leibler divergence</li><li>Error-correcting codes (Hamming, Reed-Solomon, LDPC, Turbo)</li><li>Rate-distortion theory</li><li>Algorithmic information theory (Kolmogorov complexity)</li><li>Connection to statistical physics (entropy)</li><li>Shannon&#x27;s separate 1949 paper founding modern cryptography</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundation of digital communication theory (the entire modern telecommunications infrastructure); data compression algorithms and standards; cryptography (Shannon&#x27;s 1949 secrecy paper as founding work); machine learning (cross-entropy loss, KL divergence, information-theoretic regularization); neuroscience and computational biology (information in neural codes, genetic codes); statistical physics (Shannon entropy and thermodynamic entropy); statistical inference (MDL, AIC, mutual-information-based methods); pedagogical reference in electrical engineering, computer science, and mathematics curricula.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Shannon information measures syntactic information (bits), not semantic content — the framework deliberately abstracts from meaning, which is sometimes critiqued as insufficient for understanding &#x27;real&#x27; information in human or biological contexts</li><li>the assumption of stationary stochastic sources is often violated in practical applications</li><li>channel-capacity calculations require knowledge of channel statistics that may be unavailable</li><li>Shannon&#x27;s information measures don&#x27;t directly capture concepts like surprise, relevance, or meaning that some applications need</li><li>algorithmic information theory&#x27;s elegance is offset by uncomputability of Kolmogorov complexity</li><li>quantum information theory has substantially generalized Shannon&#x27;s framework, raising questions about classical-information limits</li><li>in machine learning, mutual information estimation in high dimensions remains technically difficult</li><li>the Shannon-Weaver &#x27;communication model&#x27; (sender-message-receiver) has been critiqued in communication studies as oversimplifying actual human communication</li><li>the framework&#x27;s outsized success has produced &#x27;information&#x27; as buzzword in many applied contexts where Shannon-specific concepts don&#x27;t actually apply.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

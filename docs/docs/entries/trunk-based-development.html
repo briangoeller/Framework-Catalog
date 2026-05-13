@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trunk-Based Development — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Trunk-Based Development</h1>
+  
+  <p class="meta">
+    <span class="meta-type">practice</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Short-lived branches and frequent merges to a single trunk.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Trunk-Based Development is a source-control branching model in which all developers integrate their work to a single shared branch (the trunk, mainline, or master) at high frequency — typically multiple times per day — with branches kept short-lived (under a day or two) or eliminated entirely in favor of direct trunk commits with feature flags hiding incomplete work. The practice has roots going back decades — major engineering shops including Google, Facebook, and Amazon have used variants of TBD since their early days — but was codified as a named practice particularly by Paul Hammant and others in the 2010s, with Hammant&#x27;s site (trunkbaseddevelopment.com) providing the canonical reference. TBD stands in deliberate opposition to GitFlow&#x27;s model of long-lived develop, feature, and release branches, arguing that long-lived branches accumulate merge conflicts, hide work-in-progress from continuous integration, and slow feedback. The DORA research has consistently identified TBD as a practice associated with elite-performing teams, with high deployment frequency, low change failure rate, and short lead times. Feature flags (or feature toggles) are essential to TBD because they allow incomplete features to be merged without being exposed.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Long-standing practice at Google, Facebook, Amazon, and similar shops; Paul Hammant (named codification); Jez Humble and Dave Farley (Continuous Delivery argument for TBD) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Long-standing practice; 2010s codification; trunkbaseddevelopment.com publication ongoing <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Hammant, P. (ongoing). Trunk Based Development (trunkbaseddevelopment.com), Forsgren, N., Humble, J. &amp; Kim, G. (2018). Accelerate, Humble, J. &amp; Farley, D. (2010). Continuous Delivery <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Single shared trunk/mainline branch</li><li>Short-lived branches (under 1-2 days) or direct trunk commits</li><li>High-frequency integration (many times per day)</li><li>Feature flags for hiding incomplete work</li><li>Pre-merge or post-commit code review</li><li>Comprehensive automated test coverage</li><li>Connection to continuous integration and continuous delivery</li><li>Distinction from GitFlow and other long-branch models</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Software development at scale where rapid integration matters (most internet companies); foundation for high-deployment-frequency practices (continuous deployment); basis for elite-team DORA metrics; reference practice for organizations seeking to move from long-branch models; common model in monorepo-based organizations.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Requires comprehensive automated test coverage that not all teams have — TBD without good tests is dangerous</li><li>feature flag infrastructure is itself non-trivial to build and maintain at scale</li><li>works less well in regulated environments where releases require formal sign-off and gating</li><li>some open-source projects have legitimate reasons for long-lived branches (release stabilization, maintenance branches) that TBD&#x27;s purity arguments ignore</li><li>the discipline of small, frequent commits is harder than it appears, particularly for junior engineers or those used to long-branch workflows</li><li>transition from GitFlow to TBD is culturally difficult</li><li>not all TBD claims about productivity and quality benefits are well-validated outside of specific large-tech-company contexts.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/gitflow.html">GitFlow</a>, <a href="../entries/ci-cd.html">CI/CD</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_09.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

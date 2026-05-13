@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Reactive Manifesto — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>The Reactive Manifesto</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Principles for systems that are responsive, resilient, elastic, and message-driven.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The Reactive Manifesto was published in 2013 (with version 2.0 in 2014) by Jonas Bonér, Dave Farley, Roland Kuhn, and Martin Thompson, articulating principles for distributed systems that need to remain responsive under load, partial failures, and varying network conditions. The four characteristic properties: Responsive (the system responds in a timely manner if at all possible — responsiveness is the cornerstone of usability and utility); Resilient (the system stays responsive in the face of failure through replication, containment, isolation, and delegation); Elastic (the system stays responsive under varying workload through reactive scaling); Message Driven (asynchronous message-passing as the foundation for the other three, providing loose coupling, isolation, and location transparency). The manifesto is closely associated with the Akka actor framework (Bonér&#x27;s project), Reactive Streams specification (which became the JDK Flow API and influenced RxJava, Reactor, and similar libraries), and the broader functional-reactive programming movement. The framework&#x27;s influence extends to microservices design, stream-processing architectures, and event-driven systems, with the four characteristic properties widely cited even where the specific Reactive Manifesto label is not invoked.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Jonas Bonér; Dave Farley; Roland Kuhn; Martin Thompson <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2013 (v1); 2014 (v2) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Bonér, J., Farley, D., Kuhn, R. &amp; Thompson, M. (2014). The Reactive Manifesto v2.0 (reactivemanifesto.org), Reactive Streams Specification (reactive-streams.org) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Four characteristic properties: Responsive, Resilient, Elastic, Message Driven</li><li>Asynchronous message-passing as foundation</li><li>Connection to actor model (Akka, Erlang/Elixir)</li><li>Reactive Streams specification (JDK Flow, RxJava, Reactor, Project Reactor)</li><li>Backpressure handling</li><li>Location transparency through messaging</li><li>Replication, containment, isolation, delegation as resilience mechanisms</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Distributed systems requiring high availability and elasticity; foundation for actor-based and stream-processing systems; influence on microservices design particularly around resilience and asynchronous communication; basis for reactive programming libraries across JVM, .NET, JavaScript ecosystems; reference framework in distributed-systems education.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Manifesto-style format produces high-level principles with limited operational specificity</li><li>substantial overlap with established distributed-systems principles raises questions about distinct contribution</li><li>commercial association with Lightbend (Bonér&#x27;s company) and the Akka ecosystem has limited some independent assessment</li><li>reactive programming has become more complex than initial enthusiasm suggested — backpressure, resource management, debugging async code remain hard</li><li>recent Akka licensing changes (2022 BSL move) have prompted re-evaluation of reactive-programming dependencies</li><li>many systems labeled &#x27;reactive&#x27; adopt the vocabulary without genuine architectural commitment</li><li>competing frameworks (CQRS, Event Sourcing, EDA) overlap with reactive principles, creating which-when ambiguity.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/event-driven-architecture.html">Event-Driven Architecture</a>, <a href="../entries/microservices.html">Microservices</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_09.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

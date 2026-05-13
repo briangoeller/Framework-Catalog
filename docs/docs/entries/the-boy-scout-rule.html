@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Boy Scout Rule — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>The Boy Scout Rule</h1>
+  
+  <p class="meta">
+    <span class="meta-type">technique</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Always leave the code cleaner than you found it.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The Boy Scout Rule was articulated by Robert C. Martin (&#x27;Uncle Bob&#x27;) in his contribution to 97 Things Every Programmer Should Know (Henney, ed., 2010), adapting the Boy Scouts of America&#x27;s outdoor ethic (&#x27;always leave the campground cleaner than you found it&#x27;) to software development. The principle prescribes that programmers should make small improvements to the code they touch in the course of normal work — fix a misnamed variable, simplify an awkward conditional, extract a poorly-named method — even when the immediate task doesn&#x27;t require those changes. The rationale is that codebases erode over time when each contributor leaves problems for the next, and that small continuous improvements compound to maintain quality where one-shot cleanup projects fail to. The rule complements Refactoring (Fowler) by lowering the threshold for making improvements: rather than waiting for explicit refactoring time, take the small win when you see it. Critics have noted that boy-scout improvements can produce thrashing in collaborative codebases (constant style and naming changes that produce merge conflicts and diff noise without proportionate benefit), and that the practice works best when bounded by team conventions about what counts as &#x27;cleaner.&#x27;</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Robert C. Martin (codification); broader principle from Scouting tradition <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2010 (97 Things contribution); ongoing reference in Clean Code communities <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Martin, R.C. (2010). &#x27;The Boy Scout Rule&#x27;, in Henney, K. (ed.) 97 Things Every Programmer Should Know, Martin, R.C. (2008). Clean Code (related principles) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Continuous small improvements while in the codebase</li><li>Lower threshold than dedicated refactoring time</li><li>Compounding effect of small wins over time</li><li>Connection to Clean Code values</li><li>Adaptation of Boy Scouts of America outdoor ethic</li><li>Bounded by team conventions about &#x27;cleaner&#x27;</li><li>Distinction from major refactoring efforts</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Cultural practice in software craftsmanship communities; complement to refactoring discipline; teaching tool for sustainable codebase maintenance; reference in code review conversations; framework for thinking about how codebases evolve.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Can produce thrashing in collaborative codebases — constant style and naming changes that produce merge conflicts, diff noise, and code-review burden disproportionate to benefit</li><li>&#x27;cleaner&#x27; is subjective and a small improvement to one person can be a regression to another</li><li>works best when bounded by explicit team conventions, otherwise becomes individual style preferences masquerading as improvement</li><li>tension with separate-changes-from-features discipline that some teams maintain (refactoring should be its own commit, not bundled with feature work)</li><li>can become procrastination disguised as productive work</li><li>the rule&#x27;s apparent simplicity masks judgment about which improvements are worth the change cost.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/refactoring.html">Refactoring</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/refactoring.html">Refactoring</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/refactoring.html">Refactoring</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_09.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

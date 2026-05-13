@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Twelve-Factor App — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Twelve-Factor App</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Heroku&#x27;s methodology for building scalable, declarative SaaS applications.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The Twelve-Factor App is a methodology for building software-as-a-service applications, articulated by Heroku co-founder Adam Wiggins in 2011 and published at 12factor.net as a practical synthesis of patterns Heroku had observed across hundreds of applications running on its platform. The twelve factors: I. Codebase (one codebase tracked in revision control, many deploys); II. Dependencies (explicitly declare and isolate); III. Config (store in the environment); IV. Backing services (treat as attached resources); V. Build, release, run (strictly separate stages); VI. Processes (execute the app as one or more stateless processes); VII. Port binding (export services via port binding); VIII. Concurrency (scale out via the process model); IX. Disposability (maximize robustness with fast startup and graceful shutdown); X. Dev/prod parity (keep development, staging, and production as similar as possible); XI. Logs (treat as event streams); XII. Admin processes (run admin/management tasks as one-off processes). The methodology has been substantially adopted across cloud-native development and substantially influenced Kubernetes design, with Beyond the Twelve-Factor App (Hoffman 2016) extending the framework for modern cloud-native contexts.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Adam Wiggins (Heroku) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2011 (12factor.net publication) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Wiggins, A. (2011). The Twelve-Factor App (12factor.net), Hoffman, K. (2016). Beyond the Twelve-Factor App <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Twelve specific factors: Codebase, Dependencies, Config, Backing services, Build-release-run, Processes, Port binding, Concurrency, Disposability, Dev/prod parity, Logs, Admin processes</li><li>Heroku platform context</li><li>Stateless process emphasis</li><li>Configuration via environment</li><li>Statelessness and disposability</li><li>Connection to cloud-native and container-orchestration practices</li><li>Beyond the Twelve-Factor App (Hoffman) extension</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Cloud-native and platform-as-a-service application development; foundation for modern container-orchestration practice (Kubernetes); checklist for application portability between cloud providers; teaching tool for cloud-native development; integration with continuous deployment and DevOps practices.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Some factors (e.g., port binding) reflect Heroku&#x27;s specific platform design more than universal cloud-native principles</li><li>&#x27;stateless processes&#x27; oversimplifies for stateful workloads (databases, queues, caches) which most systems require</li><li>logs as event streams can produce log-volume explosions in modern microservices contexts</li><li>doesn&#x27;t address security, observability, or contemporary concerns adequately (Beyond Twelve-Factor addresses some)</li><li>methodology is twelve years old and predates Kubernetes, serverless, and edge computing</li><li>can be cargo-culted as compliance checklist without underlying understanding</li><li>some factors (Dependencies, Config) are universal good practice while others (Concurrency model) are platform-specific.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/microservices.html">Microservices</a>, <a href="../entries/devops.html">DevOps</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

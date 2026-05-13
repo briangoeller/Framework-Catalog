@@ -1,0 +1,557 @@
+name,aliases,type,origin_discipline,one_line_summary,rigor_band,band_notes,confidence
+Porter's Five Forces,,framework,management,"Industry profitability shaped by buyers, suppliers, entrants, substitutes, and rivalry.",organizing-schema,,high
+Porter's Generic Strategies,,framework,management,"Cost leadership, differentiation, and focus as the three viable competitive postures.",organizing-schema,,high
+Porter's Value Chain,,framework,management,Decomposes the firm into primary and support activities to locate sources of value.,organizing-schema,,high
+BCG Growth-Share Matrix,Boston Box,framework,management,"Classifies business units as Stars, Cash Cows, Question Marks, or Dogs.",organizing-schema,,high
+GE-McKinsey Nine-Box Matrix,,framework,management,Portfolio prioritization on industry attractiveness vs business unit strength.,organizing-schema,,high
+Ansoff Matrix,Product-Market Grid,framework,management,Maps growth strategies across existing/new products and existing/new markets.,organizing-schema,,high
+McKinsey 7S Framework,,framework,management,"Aligns strategy, structure, systems, shared values, skills, style, and staff.",organizing-schema,,high
+Blue Ocean Strategy,,framework,management,Create uncontested market space rather than compete in saturated 'red oceans.',organizing-schema,,high
+Disruptive Innovation Theory,,framework,management,Low-end and new-market entrants displace incumbents serving overshot customers.,organizing-schema,,high
+Jobs to Be Done,JTBD,framework,management,Customers 'hire' products to make progress on a job in a context.,organizing-schema,,high
+Lean Startup,,framework,management,Build-measure-learn loops with validated learning under extreme uncertainty.,organizing-schema,,high
+Business Model Canvas,BMC,framework,management,Nine-block visual schema for describing and iterating a business model.,organizing-schema,,high
+Value Proposition Canvas,VPC,framework,management,"Aligns customer pains, gains, and jobs to product features and benefits.",organizing-schema,,high
+Lean Canvas,,framework,management,Maurya's adaptation of the BMC for early-stage startups under high uncertainty.,organizing-schema,,high
+OKRs,Objectives and Key Results,framework,management,"Ambitious objectives paired with measurable key results, popularized by Grove and Doerr.",organizing-schema,,high
+Balanced Scorecard,BSC,framework,management,"Performance measurement across financial, customer, internal process, and learning perspectives.",organizing-schema,,high
+Wardley Mapping,,framework,management,Strategy via value-chain components plotted against evolutionary maturity.,organizing-schema,,high
+Theory of Constraints,TOC,framework,management,System throughput is governed by its single binding constraint at any time.,organizing-schema,,high
+Toyota Production System,"TPS, Lean Manufacturing",framework,management,"Eliminate waste through just-in-time, jidoka, and continuous improvement.",organizing-schema,,high
+Six Sigma,,framework,management,Reduce defects to 3.4 per million through statistical process control and DMAIC.,organizing-schema,,high
+Kaizen,,practice,management,Continuous incremental improvement involving everyone in an organization.,organizing-schema,,high
+Hoshin Kanri,Policy Deployment,framework,management,Cascading strategy deployment with catchball alignment between levels.,organizing-schema,,high
+Kotter's 8-Step Change Model,,framework,management,Sequential change leadership steps from urgency through anchoring in culture.,organizing-schema,,high
+Lewin's Change Model,Unfreeze-Change-Refreeze,framework,management,Three-stage model of behavioral change at individual or organizational level.,organizing-schema,,high
+ADKAR,,framework,management,"Awareness, Desire, Knowledge, Ability, Reinforcement — Prosci's individual-change model.",organizing-schema,,high
+Bridges' Transition Model,,framework,management,"Distinguishes external change from internal psychological transition through endings, neutral zone, beginnings.",organizing-schema,,high
+Greiner's Growth Model,,framework,management,Predictable phases of organizational growth punctuated by crises.,organizing-schema,,high
+Tuckman's Stages,Forming-Storming-Norming-Performing,framework,management,Stage model of small-group development including the later-added 'adjourning.',organizing-schema,Widely cited but limited rigorous empirical validation of discrete stages.,high
+Theory X and Theory Y,,framework,management,McGregor's contrasting assumptions about whether workers inherently dislike or seek work.,organizing-schema,Useful framing of managerial assumptions; not empirically validated as a typology.,high
+Herzberg's Two-Factor Theory,Motivation-Hygiene Theory,framework,management,Distinguishes hygiene factors that prevent dissatisfaction from motivators that drive satisfaction.,organizing-schema,Influential but the two-factor structure has not been replicated in subsequent research.,high
+Hofstede's Cultural Dimensions,,framework,management,"Six dimensions for comparing national cultures, originally derived from IBM survey data.",organizing-schema,Influential but methodologically critiqued; original sample (IBM employees) and dimensional structure have been challenged.,high
+Trompenaars' Cultural Dimensions,Seven Dimensions of Culture,framework,management,"Alternative cross-cultural framework emphasizing relationships, time, and environment.",organizing-schema,,high
+Management by Objectives,MBO,framework,management,Drucker's approach: align managers and employees through agreed measurable objectives.,organizing-schema,,high
+Mintzberg's Management Roles,,framework,management,"Ten managerial roles grouped as interpersonal, informational, and decisional.",organizing-schema,,high
+Mintzberg's Configurations,,framework,management,"Five organizational structures from simple to adhocracy, defined by coordination mechanism.",organizing-schema,,high
+SWOT Analysis,,tool,management,"Surfaces strengths, weaknesses, opportunities, and threats for a venture or decision.",organizing-schema,,high
+PESTLE Analysis,"PEST, PESTEL, STEEPLE",tool,management,"Scans Political, Economic, Social, Technological, Legal, and Environmental factors.",organizing-schema,,high
+VRIO Framework,,framework,management,"Tests resources for Value, Rarity, Imitability, and Organization to find sustained advantage.",organizing-schema,,high
+Resource-Based View,RBV,framework,management,"Competitive advantage stems from valuable, rare, inimitable, organized internal resources.",organizing-schema,,high
+Dynamic Capabilities,,framework,management,"Teece's view of advantage from sensing, seizing, and reconfiguring assets in changing environments.",organizing-schema,,high
+Stakeholder Theory,,framework,management,"Freeman's argument that firms must serve all affected parties, not just shareholders.",organizing-schema,,high
+Triple Bottom Line,"TBL, 3BL",framework,management,"Performance measured across people, planet, and profit dimensions.",organizing-schema,,high
+Three Horizons Model,,framework,management,"McKinsey portfolio model balancing core, emerging, and exploratory growth initiatives.",organizing-schema,,high
+Holacracy,,framework,management,Self-management system replacing traditional hierarchy with distributed authority and circles.,organizing-schema,,high
+Sociocracy,Dynamic Governance,framework,management,Consent-based governance through linked circles of decision-making.,organizing-schema,,high
+Pyramid Principle,Minto Pyramid,framework,management,"Top-down communication structure starting with the answer, supported by grouped arguments.",organizing-schema,,high
+Strategy Canvas,,tool,management,Blue Ocean visual contrasting an industry's value-curve to identify reinvention opportunities.,organizing-schema,,high
+RACI Matrix,,tool,management,"Clarifies who is Responsible, Accountable, Consulted, and Informed for each task.",organizing-schema,,high
+DACI,,tool,management,"Driver, Approver, Contributors, Informed — decision-roles variant of RACI.",organizing-schema,,high
+Eisenhower Matrix,Urgent-Important Matrix,tool,management,Sorts tasks into four quadrants by urgency and importance.,organizing-schema,,high
+MoSCoW,,tool,management,"Prioritizes requirements as Must, Should, Could, or Won't have.",organizing-schema,,high
+RICE Scoring,,tool,management,"Prioritizes features by Reach, Impact, Confidence, and Effort.",organizing-schema,,high
+ICE Scoring,,tool,management,"Prioritizes ideas on Impact, Confidence, and Ease — simpler RICE precursor.",organizing-schema,,high
+Kano Model,,framework,management,"Classifies features as basic, performance, or delighters by their effect on customer satisfaction.",organizing-schema,,high
+Pareto Analysis,80/20 Rule,tool,management,Identifies the vital few inputs accounting for the majority of outputs.,organizing-schema,,high
+Pugh Matrix,Decision Matrix,tool,management,Concept selection by scoring alternatives against weighted criteria relative to a baseline.,organizing-schema,,high
+After Action Review,AAR,practice,management,"Structured reflection on what was intended, what happened, why, and what to do next.",organizing-schema,,high
+Premortem,,technique,management,Imagine the project has failed and work backward to prevent the causes.,organizing-schema,,high
+Five Whys,5 Whys,technique,management,"Iteratively ask 'why' to drill from symptom to root cause, originating in Toyota's TPS.",organizing-schema,,high
+Fishbone Diagram,"Ishikawa Diagram, Cause-and-Effect Diagram",tool,management,"Visual root-cause analysis grouping causes under categories like people, process, materials.",organizing-schema,,high
+Six Thinking Hats,,technique,management,De Bono's parallel-thinking method using six distinct perspective 'hats.',organizing-schema,,high
+Lateral Thinking,,framework,management,De Bono's approach to generating ideas by deliberately disrupting linear logic.,organizing-schema,,high
+SCAMPER,,technique,management,"Idea-generation prompts: Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse.",organizing-schema,,high
+TRIZ,Theory of Inventive Problem Solving,framework,engineering,"Altshuller's pattern-based system for technical innovation, drawn from millions of patents.",organizing-schema,,high
+Mind Mapping,,technique,management,Buzan's radial visual technique for non-linear note-taking and brainstorming.,organizing-schema,,high
+Affinity Diagram,KJ Method,technique,management,Group disparate ideas into emergent themes by intuitive sorting.,organizing-schema,,high
+Force Field Analysis,,tool,management,Lewin's mapping of driving and restraining forces around a proposed change.,organizing-schema,,high
+Decision Tree Analysis,,tool,management,"Branching diagram of choices, chance events, and outcomes with associated values.",organizing-schema,,high
+Stage-Gate Process,Phase-Gate,framework,management,Cooper's product-development model with go/kill decisions between defined stages.,organizing-schema,,high
+DMAIC,,framework,management,"Six Sigma improvement cycle: Define, Measure, Analyze, Improve, Control.",organizing-schema,,high
+DMADV,,framework,management,"Six Sigma design cycle: Define, Measure, Analyze, Design, Verify.",organizing-schema,,high
+Total Quality Management,TQM,framework,management,Organization-wide focus on continuous quality improvement with customer at the center.,organizing-schema,,high
+Quality Function Deployment,"QFD, House of Quality",framework,engineering,Translates customer requirements into engineering specifications via matrix analysis.,organizing-schema,,high
+Poka-Yoke,Mistake-Proofing,technique,engineering,Design constraints that make errors impossible or immediately obvious.,organizing-schema,,high
+Hedgehog Concept,,framework,management,"Collins' intersection of passion, economic engine, and what-you-can-be-best-at.",organizing-schema,,high
+Level 5 Leadership,,framework,management,Collins' hierarchy of executive capability culminating in humility plus fierce resolve.,organizing-schema,,high
+Five Dysfunctions of a Team,,framework,management,"Lencioni's pyramid: absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.",organizing-schema,,high
+Situational Leadership,,framework,management,Hersey-Blanchard model matching leadership style to follower readiness.,organizing-schema,,high
+Servant Leadership,,framework,management,Greenleaf's leadership philosophy where the leader's primary role is to serve.,organizing-schema,,high
+Transformational Leadership,,framework,management,"Bass and Burns model emphasizing inspiration, intellectual stimulation, and individualized consideration.",organizing-schema,,high
+4Ps of Marketing,Marketing Mix,framework,marketing,"McCarthy's product, price, place, promotion as the four levers of marketing.",organizing-schema,,high
+7Ps of Marketing,Extended Marketing Mix,framework,marketing,"Booms and Bitner's extension adding people, process, and physical evidence for services.",organizing-schema,,high
+4Cs of Marketing,,framework,marketing,"Lauterborn's customer-centric reframe: consumer, cost, convenience, communication.",organizing-schema,,high
+AIDA,,framework,marketing,"Attention, Interest, Desire, Action — classic linear advertising response model.",organizing-schema,,high
+AIDAS,,framework,marketing,AIDA extended with Satisfaction to capture post-purchase loyalty.,organizing-schema,,high
+STP,Segmentation Targeting Positioning,framework,marketing,"Sequential approach: segment market, target chosen segments, position offering distinctively.",organizing-schema,,high
+Marketing Funnel,Purchase Funnel,framework,marketing,Awareness through purchase as a narrowing pipeline of prospects.,organizing-schema,,high
+Pirate Metrics,AARRR,framework,marketing,"McClure's Acquisition, Activation, Retention, Referral, Revenue lifecycle for startups.",organizing-schema,,high
+Crossing the Chasm,Technology Adoption Lifecycle,framework,marketing,Moore's adaptation showing the gap between early adopters and early majority.,organizing-schema,,high
+Diffusion of Innovations,,framework,sociology,"Rogers' S-curve model of how innovations spread through innovators, adopters, and laggards.",structured-empirical,,high
+StoryBrand,SB7,framework,marketing,"Donald Miller's seven-part brand-narrative framework casting customer as hero, brand as guide.",organizing-schema,,high
+Net Promoter Score,NPS,tool,marketing,Single-question loyalty measure based on likelihood to recommend.,organizing-schema,,high
+Customer Lifetime Value,"CLV, LTV",tool,marketing,Projected revenue from a customer relationship over its entire duration.,organizing-schema,,high
+RFM Analysis,Recency Frequency Monetary,tool,marketing,"Customer segmentation by how recently, how often, and how much they purchased.",organizing-schema,,high
+Means-End Theory,Means-End Chain,framework,marketing,Links product attributes to consumer values through a chain of consequences.,organizing-schema,,high
+Ehrenberg-Bass Laws,How Brands Grow,framework,marketing,"Empirical regularities in buying behavior, including double jeopardy and brand penetration.",organizing-schema,,high
+Customer Journey Mapping,,tool,marketing,"Visualizes a customer's stages, touchpoints, emotions, and pain points across an experience.",organizing-schema,,high
+Empathy Map,,tool,marketing,"Visual organizing what a user says, thinks, does, and feels.",organizing-schema,,high
+Personas,"User Personas, Buyer Personas",tool,marketing,Composite fictional representatives of target user segments used to ground design and marketing.,organizing-schema,,high
+Hooked Model,Hook Canvas,framework,marketing,Eyal's trigger-action-reward-investment loop for habit-forming products.,organizing-schema,,high
+Fogg Behavior Model,B=MAT,framework,psychology,"Behavior occurs when motivation, ability, and prompt converge simultaneously.",structured-empirical,,high
+Big Five,"OCEAN, CANOE, Five-Factor Model",framework,psychology,"Five dimensions of personality: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism.",structured-empirical,,high
+HEXACO,,framework,psychology,Six-factor personality model adding Honesty-Humility to the Big Five.,structured-empirical,,high
+Myers-Briggs Type Indicator,MBTI,framework,psychology,Sixteen personality types from Jungian dichotomies; widely used despite weak psychometric support.,organizing-schema,Weak psychometric reliability and validity; rejected by mainstream personality psychology despite cultural penetration. Bimodal forced-choice on continuously distributed traits.,high
+Enneagram,Enneagram of Personality,framework,psychology,"Nine interconnected personality types with wings, instincts, and integration arrows.",contemplative-tradition,Origins in Gurdjieff/Ichazo esoteric traditions; no peer-reviewed empirical validation. Often presented as if psychometrically validated when it is not.,high
+DISC Assessment,,framework,psychology,"Behavioral typology along Dominance, Influence, Steadiness, and Conscientiousness.",organizing-schema,Modest psychometric support; substantially weaker than Five-Factor instruments.,high
+CliftonStrengths,StrengthsFinder,framework,psychology,Gallup's 34 talent themes used for strengths-based development.,organizing-schema,Validation primarily from Gallup (proprietor); limited independent replication.,high
+Hogan Personality Inventory,HPI,framework,psychology,Workplace personality assessment grounded in the Five-Factor Model.,structured-empirical,,high
+Maslow's Hierarchy of Needs,,framework,psychology,"Pyramid from physiological needs through self-actualization, with self-transcendence later added.",organizing-schema,Core needs categories are useful but the strict hierarchy structure is not empirically supported.,high
+Self-Determination Theory,SDT,framework,psychology,"Deci and Ryan's framework of autonomy, competence, and relatedness as basic psychological needs.",structured-empirical,,high
+Attachment Theory,,framework,psychology,Bowlby and Ainsworth's framework of early bonds shaping internal working models of relationships.,structured-empirical,,high
+Bowen Family Systems Theory,,framework,psychology,"Family as an emotional unit shaped by differentiation, triangles, and multigenerational transmission.",organizing-schema,Clinically influential; limited rigorous empirical validation.,high
+Internal Family Systems,IFS,framework,psychology,"Schwartz's parts-based therapy model with managers, exiles, firefighters, and the Self.",organizing-schema,Emerging clinical support but evidence base remains thinner than CBT or DBT.,high
+Polyvagal Theory,,framework,psychology,"Porges' theory of three vagal pathways governing safety, mobilization, and shutdown.",organizing-schema,Therapeutic adoption is broad but underlying neurophysiology has been seriously challenged in mainstream physiology (Grossman and others).,high
+Transactional Analysis,TA,framework,psychology,"Berne's framework of Parent, Adult, and Child ego states transacting in relationships.",organizing-schema,Some clinical use; limited contemporary empirical validation.,high
+Cognitive Behavioral Therapy,CBT,framework,psychology,"Beck's framework linking thoughts, feelings, and behaviors as targets for change.",structured-empirical,,high
+Dialectical Behavior Therapy,DBT,framework,psychology,"Linehan's CBT extension adding mindfulness, distress tolerance, and emotion regulation.",structured-empirical,,high
+Acceptance and Commitment Therapy,ACT,framework,psychology,Hayes' framework using acceptance and values clarification rather than symptom reduction.,structured-empirical,,high
+Rational Emotive Behavior Therapy,REBT,framework,psychology,Ellis' precursor to CBT focused on disputing irrational beliefs.,structured-empirical,,high
+Schema Therapy,,framework,psychology,Young's integrative therapy targeting early maladaptive schemas formed in childhood.,structured-empirical,,high
+Jungian Analytical Psychology,,framework,psychology,"Jung's framework of personal and collective unconscious, archetypes, and individuation.",organizing-schema,Influential in depth psychology and culture; not validated within empirical psychology.,high
+Jungian Archetypes,,framework,psychology,"Universal symbolic patterns including Self, Shadow, Anima/Animus, Hero, Mother.",organizing-schema,Not empirically grounded; useful as cultural and narrative scaffolding rather than psychological taxonomy.,high
+King Warrior Magician Lover,KWML,framework,psychology,Moore and Gillette's masculine archetypes drawn from depth psychology.,organizing-schema,Derived from Jungian depth psychology; valuable for self-development work but not empirically validated.,high
+Erikson's Stages,,framework,psychology,Eight psychosocial stages from trust vs mistrust through integrity vs despair.,structured-empirical,,high
+Piaget's Stages,,framework,psychology,Four stages of cognitive development from sensorimotor through formal operations.,structured-empirical,,high
+Kohlberg's Stages of Moral Development,,framework,psychology,"Six stages across pre-conventional, conventional, and post-conventional moral reasoning.",structured-empirical,,high
+Zone of Proximal Development,ZPD,framework,psychology,Vygotsky's gap between what a learner can do alone and with guidance.,structured-empirical,,high
+Social Learning Theory,,framework,psychology,"Bandura's account of learning through observation, modeling, and imitation.",structured-empirical,,high
+Self-Efficacy Theory,,framework,psychology,Bandura's construct: belief in one's ability to execute behaviors needed for outcomes.,structured-empirical,,high
+Locus of Control,,framework,psychology,Rotter's dimension contrasting internal vs external attribution of control over events.,structured-empirical,,high
+Learned Helplessness,,framework,psychology,Seligman's account of passivity arising from repeated uncontrollable aversive events.,structured-empirical,,high
+Positive Psychology,PERMA,framework,psychology,"Seligman's flourishing framework: Positive emotion, Engagement, Relationships, Meaning, Accomplishment.",structured-empirical,,high
+Flow Theory,,framework,psychology,Csikszentmihalyi's optimal experience at the balance of challenge and skill.,structured-empirical,,high
+Dual-Process Theory,System 1 / System 2,framework,psychology,"Two modes of cognition: fast intuitive and slow deliberative, popularized by Kahneman.",structured-empirical,,high
+Cognitive Dissonance Theory,,framework,psychology,Festinger's account of discomfort from holding contradictory beliefs and motivated rationalization.,structured-empirical,,high
+Theory of Planned Behavior,TPB,framework,psychology,"Ajzen's model: intention shaped by attitudes, norms, and perceived control.",structured-empirical,,high
+Health Belief Model,HBM,framework,medicine,"Health behavior driven by perceived susceptibility, severity, benefits, and barriers.",structured-empirical,,high
+Transtheoretical Model,Stages of Change,framework,psychology,"Prochaska and DiClemente's stages: precontemplation, contemplation, preparation, action, maintenance.",structured-empirical,,high
+Motivational Interviewing,MI,framework,psychology,Miller and Rollnick's collaborative method for evoking change talk and resolving ambivalence.,structured-empirical,,high
+Trauma-Informed Care,,framework,psychology,"Approach assuming widespread trauma and prioritizing safety, choice, collaboration, empowerment.",structured-empirical,,high
+Job Demands-Resources Model,JD-R,framework,psychology,Demerouti and Bakker's framework explaining burnout and engagement at work.,structured-empirical,,high
+Conservation of Resources Theory,COR,framework,psychology,Hobfoll's stress theory: people seek to acquire and protect valued resources.,structured-empirical,,high
+Broaden-and-Build Theory,,framework,psychology,Fredrickson's theory that positive emotions broaden thought-action repertoires.,structured-empirical,,high
+Karpman Drama Triangle,,framework,psychology,"Three relational roles in conflict: Persecutor, Victim, Rescuer.",organizing-schema,Clinically useful schema; not empirically tested as a falsifiable theory.,high
+Choice Theory,Reality Therapy,framework,psychology,Glasser's framework of human behavior driven by five basic needs.,organizing-schema,Glasser's framework has practitioner adoption but limited rigorous empirical research.,high
+Gottman Sound Relationship House,,framework,psychology,Empirically derived model of healthy couple relationships across nine levels.,structured-empirical,,high
+Adlerian Individual Psychology,,framework,psychology,"Adler's framework emphasizing inferiority, social interest, and lifestyle.",organizing-schema,Influential in counseling traditions; limited contemporary empirical research.,high
+Object Relations Theory,,framework,psychology,Psychoanalytic school focusing on internalized representations of self and others.,organizing-schema,Influential in clinical psychoanalysis; not amenable to standard empirical validation.,high
+Self Psychology,,framework,psychology,Kohut's psychoanalytic framework centered on selfobject experiences and narcissistic development.,organizing-schema,Influential in clinical psychoanalysis; not amenable to standard empirical validation.,high
+Heuristics and Biases Program,,framework,psychology,Kahneman and Tversky's research program cataloguing systematic deviations from rational judgment.,structured-empirical,,high
+Prospect Theory,,framework,economics,Kahneman and Tversky's account of decision under risk featuring loss aversion and reference dependence.,structured-empirical,,high
+Cognitive Reframing,,technique,psychology,Deliberately reinterpreting an event to alter its emotional charge.,structured-empirical,,high
+Thought Records,,tool,psychology,CBT worksheet for identifying and challenging automatic thoughts.,structured-empirical,,high
+Behavioral Activation,,technique,psychology,Increasing engagement with rewarding activities to interrupt depressive cycles.,structured-empirical,,high
+Mindfulness Practice,,practice,psychology,Sustained non-judgmental attention to present experience.,structured-empirical,"Originally Buddhist contemplative practice; now substantial empirical base in clinical contexts (MBSR, MBCT).",high
+Box Breathing,Four-Square Breathing,technique,psychology,"Inhale, hold, exhale, hold for equal counts to regulate the nervous system.",organizing-schema,,high
+Loving-Kindness Meditation,Metta,practice,theology,"Buddhist practice cultivating benevolence toward self, loved ones, neutral parties, and difficult people.",contemplative-tradition,,high
+Journaling,,practice,psychology,Regular expressive writing for self-reflection and emotional processing.,organizing-schema,,high
+Morning Pages,,practice,psychology,Cameron's daily three pages of stream-of-consciousness longhand writing.,organizing-schema,,high
+Gratitude Journaling,,practice,psychology,"Regular practice of recording things one is grateful for, linked to wellbeing outcomes.",organizing-schema,,high
+EMDR,Eye Movement Desensitization and Reprocessing,technique,psychology,Shapiro's bilateral-stimulation protocol for trauma processing.,structured-empirical,Empirical support for trauma processing; the specific role of bilateral stimulation as the active mechanism remains debated.,high
+Structural Functionalism,,framework,sociology,Society as an integrated system of parts each serving stability-maintaining functions.,organizing-schema,,high
+Conflict Theory,,framework,sociology,"Society as an arena of struggle between groups over scarce resources and power, rooted in Marx.",organizing-schema,,high
+Symbolic Interactionism,,framework,sociology,Mead and Blumer's view of society as constituted through meaning-laden interaction.,organizing-schema,,high
+Goffman's Dramaturgy,Presentation of Self,framework,sociology,Social life analyzed as theatrical performance with frontstage and backstage regions.,organizing-schema,,high
+Bourdieu's Habitus,"Field, Capital",framework,sociology,"Practice as the product of habitus, field, and forms of capital — economic, cultural, social.",organizing-schema,,high
+Foucault's Power-Knowledge,,framework,sociology,"Power and knowledge as inseparable, jointly producing subjects through discourse and discipline.",organizing-schema,,high
+Weber's Bureaucracy,Rationalization,framework,sociology,"Ideal-type bureaucracy characterized by hierarchy, rules, impersonality, and technical expertise.",organizing-schema,,high
+Structuration Theory,,framework,sociology,Giddens' account of structure and agency as recursively constituted.,organizing-schema,,high
+Actor-Network Theory,ANT,framework,sociology,Latour and Callon's framework treating humans and non-humans as symmetric actants in networks.,organizing-schema,,high
+Critical Theory,Frankfurt School,framework,sociology,"Marxist-derived tradition critiquing culture, ideology, and instrumental rationality.",organizing-schema,,high
+Social Construction of Reality,,framework,sociology,Berger and Luckmann's account of how shared meanings come to feel objectively given.,organizing-schema,,high
+Strength of Weak Ties,,framework,sociology,Granovetter's finding that loose acquaintances bridge networks more effectively than close ties.,structured-empirical,,high
+Social Capital Theory,,framework,sociology,"Putnam's framework of bonding, bridging, and linking ties as productive resources.",structured-empirical,,high
+Looking-Glass Self,,framework,sociology,Cooley's account of self formed through perception of how others see us.,organizing-schema,,high
+Strain Theory,,framework,sociology,Merton's framework of deviance arising from gap between cultural goals and legitimate means.,organizing-schema,,high
+Labeling Theory,,framework,sociology,Deviance as a social product of labeling rather than an inherent property of acts.,organizing-schema,,high
+Risk Society,,framework,sociology,Beck's account of late modernity as organized around manufactured risks rather than scarcity.,organizing-schema,,high
+Liquid Modernity,,framework,sociology,"Bauman's framework characterizing the present as fluid, individualized, and unsettled.",organizing-schema,,high
+World-Systems Theory,,framework,sociology,"Wallerstein's framework of core, periphery, and semi-periphery in the global capitalist system.",organizing-schema,,high
+Theory of Communicative Action,,framework,sociology,Habermas' framework distinguishing instrumental from communicative rationality.,organizing-schema,,high
+Virtue Ethics,Aretaic Ethics,framework,philosophy,Ethics centered on character traits and human flourishing rather than rules or consequences.,philosophical-tradition,,high
+Deontology,Kantian Ethics,framework,philosophy,"Ethics grounded in duty and universalizable maxims, independent of consequences.",philosophical-tradition,,high
+Consequentialism,,framework,philosophy,Moral worth of action determined by its outcomes; utilitarianism is its most influential variant.,philosophical-tradition,,high
+Utilitarianism,,framework,philosophy,"Maximize aggregate well-being; classical (Bentham, Mill) and contemporary variants.",philosophical-tradition,,high
+Contractualism,,framework,philosophy,Scanlon's view that moral principles are those no one could reasonably reject.,philosophical-tradition,,high
+Veil of Ignorance,Rawlsian Justice,framework,philosophy,Choose principles of justice without knowing your own position in society.,philosophical-tradition,,high
+Capability Approach,,framework,economics,Sen and Nussbaum's framework evaluating well-being by what people can do and be.,philosophical-tradition,,high
+Care Ethics,Ethics of Care,framework,philosophy,Gilligan and Noddings' framework grounding ethics in relationships and responsiveness rather than abstract principle.,philosophical-tradition,,high
+Pragmatism,,framework,philosophy,"Peirce, James, Dewey: meaning and truth grounded in practical consequences and inquiry.",philosophical-tradition,,high
+Existentialism,,framework,philosophy,"Existence precedes essence; meaning is created through choice, freedom, and responsibility.",philosophical-tradition,,high
+Phenomenology,,framework,philosophy,Husserl's method of describing structures of conscious experience as they appear.,philosophical-tradition,,high
+Hermeneutics,,framework,philosophy,"Theory and practice of interpretation, especially of texts and historical understanding.",philosophical-tradition,,high
+Stoicism,,framework,philosophy,"Hellenistic philosophy emphasizing virtue, reason, and acceptance of what one cannot control.",philosophical-tradition,,high
+Epicureanism,,framework,philosophy,Hellenistic philosophy seeking tranquility through prudent pleasure and absence of pain.,philosophical-tradition,,high
+Falsificationism,,framework,philosophy,Popper's criterion that scientific claims must be capable of being proven wrong.,philosophical-tradition,,high
+Paradigm Shift,Kuhnian Revolution,framework,philosophy,Kuhn's account of science as alternating periods of normal science and revolutionary change.,philosophical-tradition,,high
+Lakatosian Research Programmes,,framework,philosophy,Lakatos' refinement of Popper: programmes have hard cores and protective belts of auxiliary hypotheses.,philosophical-tradition,,high
+Bayesian Epistemology,,framework,philosophy,Belief modeled as probability and updated by Bayes' rule on new evidence.,philosophical-tradition,Distinct from Bayesian Inference (formal-scientific); this is the philosophical position that belief should be modeled probabilistically.,high
+Reflective Equilibrium,,framework,philosophy,Iterative adjustment between principles and considered judgments until coherence is reached.,philosophical-tradition,,high
+Foundationalism,,framework,philosophy,Knowledge structure resting on basic non-inferentially justified beliefs.,philosophical-tradition,,high
+Coherentism,,framework,philosophy,"Knowledge justified by mutual support among beliefs, with no privileged foundation.",philosophical-tradition,,high
+Reliabilism,,framework,philosophy,Knowledge as belief produced by reliable cognitive processes.,philosophical-tradition,,high
+Occam's Razor,Principle of Parsimony,technique,philosophy,"Among competing hypotheses, prefer the one with fewest assumptions.",philosophical-tradition,,high
+Hanlon's Razor,,technique,philosophy,Never attribute to malice that which is adequately explained by stupidity.,philosophical-tradition,,high
+Sturgeon's Law,,technique,philosophy,Ninety percent of everything is crud — used to push past surface dismissal.,philosophical-tradition,,high
+Steelmanning,,technique,philosophy,Construct the strongest possible version of an opposing argument before engaging it.,philosophical-tradition,,high
+First Principles Thinking,,technique,philosophy,Decomposing a problem to its foundational truths and reasoning upward.,philosophical-tradition,,high
+Principle of Charity,Charitable Interpretation,technique,philosophy,Interpret others' arguments in their strongest plausible form.,philosophical-tradition,,high
+Trolley Problem,,technique,philosophy,Foot and Thomson's thought experiment probing intuitions about killing vs letting die.,philosophical-tradition,,high
+Ship of Theseus,,technique,philosophy,Thought experiment about identity through gradual replacement of parts.,philosophical-tradition,,high
+Veil of Ignorance Method,,technique,philosophy,Reasoning device for fairness by stripping knowledge of one's own position.,philosophical-tradition,,high
+Separation of Powers,,framework,political science,"Montesquieu's division of state authority among legislative, executive, and judicial branches.",organizing-schema,,high
+Federalism,,framework,political science,Sovereignty divided constitutionally between national and subnational governments.,organizing-schema,,high
+Public Choice Theory,,framework,political science,Buchanan and Tullock applying economic methods to political behavior.,organizing-schema,,high
+Median Voter Theorem,,framework,political science,"Under single-peaked preferences and majority rule, the median voter's preference wins.",formal-scientific,,high
+Arrow's Impossibility Theorem,,framework,political science,No rank-order voting system can satisfy a small set of fairness criteria simultaneously.,formal-scientific,,high
+Realism (IR),Political Realism,framework,political science,International relations driven by states pursuing power in an anarchic system.,organizing-schema,,high
+Liberalism (IR),,framework,political science,"International relations shaped by institutions, interdependence, and democratic norms.",organizing-schema,,high
+Constructivism (IR),,framework,political science,International behavior shaped by socially constructed identities and norms.,organizing-schema,,high
+Democratic Peace Theory,,framework,political science,Empirical regularity that mature democracies rarely fight one another.,organizing-schema,,high
+Soft Power,,framework,political science,Nye's concept of influence through attraction and persuasion rather than coercion.,organizing-schema,,high
+Smart Power,,framework,political science,Combining hard and soft power instruments contextually.,organizing-schema,,high
+Overton Window,,framework,political science,The range of policy ideas considered politically acceptable at a given time.,organizing-schema,,high
+Spiral of Silence,,framework,political science,Noelle-Neumann's account of opinion suppression when people perceive themselves in a minority.,organizing-schema,,high
+Agenda-Setting Theory,,framework,political science,Media doesn't tell us what to think but powerfully shapes what to think about.,organizing-schema,,high
+Iron Triangle,,framework,political science,"Stable policy alliances among legislators, agencies, and interest groups.",organizing-schema,,high
+Hegemonic Stability Theory,,framework,political science,International economic openness depends on a dominant state willing to provide public goods.,organizing-schema,,high
+Just War Theory,,framework,philosophy,"Conditions under which war is morally justified, divided into jus ad bellum and jus in bello.",philosophical-tradition,Theological roots in Augustine and Aquinas; contemporary scholarship is largely secular philosophical.,high
+Two-Level Games,,framework,political science,Putnam's model of international negotiation as simultaneous play at domestic and international tables.,organizing-schema,,high
+REST,Representational State Transfer,framework,computer science,Fielding's architectural style for distributed hypermedia systems.,organizing-schema,,high
+ACID Properties,,framework,computer science,"Atomicity, Consistency, Isolation, Durability — guarantees for reliable transactions.",formal-scientific,,high
+BASE Properties,,framework,computer science,"Basically Available, Soft state, Eventual consistency — pragmatic alternative to ACID.",organizing-schema,,high
+CAP Theorem,Brewer's Theorem,framework,computer science,"Distributed system can guarantee at most two of consistency, availability, partition tolerance.",formal-scientific,,high
+PACELC Theorem,,framework,computer science,"Extension of CAP: even without partitions, systems trade latency against consistency.",formal-scientific,,high
+Domain-Driven Design,DDD,framework,computer science,Evans' approach aligning software model with domain language and bounded contexts.,organizing-schema,,high
+Event-Driven Architecture,EDA,framework,computer science,"System organized around production, detection, and reaction to events.",organizing-schema,,high
+CQRS,Command Query Responsibility Segregation,framework,computer science,Separates read and write models for scalability and clarity.,organizing-schema,,high
+Event Sourcing,,framework,computer science,Persist state as an immutable sequence of events rather than current snapshots.,organizing-schema,,high
+Hexagonal Architecture,Ports and Adapters,framework,computer science,Cockburn's design isolating business logic from delivery and infrastructure concerns.,organizing-schema,,high
+Onion Architecture,,framework,computer science,Concentric layers with dependencies pointing inward toward the domain core.,organizing-schema,,high
+Clean Architecture,,framework,computer science,Martin's synthesis of hexagonal and onion patterns with strict dependency rule.,organizing-schema,,high
+Microservices,,framework,computer science,"Architectural style decomposing applications into small, independently deployable services.",organizing-schema,,high
+Service-Oriented Architecture,SOA,framework,computer science,Earlier service composition style with heavier orchestration than microservices.,organizing-schema,,high
+Twelve-Factor App,,framework,computer science,"Heroku's methodology for building scalable, declarative SaaS applications.",organizing-schema,,high
+SOLID Principles,,framework,computer science,"Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion.",organizing-schema,,high
+DRY,Don't Repeat Yourself,technique,computer science,Hunt and Thomas' principle: every piece of knowledge should have one authoritative representation.,organizing-schema,,high
+KISS,"Keep It Simple, Stupid",technique,computer science,Design principle favoring simplicity over unnecessary complexity.,organizing-schema,,high
+YAGNI,You Aren't Gonna Need It,technique,computer science,XP principle: don't build functionality until it's actually required.,organizing-schema,,high
+The Agile Manifesto,,framework,computer science,2001 declaration of values and principles for adaptive software development.,organizing-schema,,high
+Scrum,,framework,computer science,"Iterative agile framework with sprints, roles, and ceremonies.",organizing-schema,,high
+Kanban,,framework,management,"Pull-based workflow visualization with WIP limits, originating from Toyota.",organizing-schema,,high
+Scrumban,,framework,computer science,Hybrid combining Scrum's structure with Kanban's flow.,organizing-schema,,high
+SAFe,Scaled Agile Framework,framework,computer science,Leffingwell's enterprise-scale agile coordination framework.,organizing-schema,,high
+LeSS,Large Scale Scrum,framework,computer science,Larman and Vodde's approach to scaling Scrum with minimal added structure.,organizing-schema,,high
+Spotify Model,"Squads, Tribes, Chapters, Guilds",framework,computer science,"Organizational pattern from Spotify circa 2012, widely emulated and often misapplied.",organizing-schema,Frequently cited and frequently misapplied; Spotify itself has acknowledged the model wasn't representative even at the time.,high
+Extreme Programming,XP,framework,computer science,"Beck's rigorous agile practices including TDD, pair programming, and continuous integration.",organizing-schema,,high
+Test-Driven Development,TDD,practice,computer science,"Red-green-refactor cycle: write failing test, make it pass, then improve design.",organizing-schema,,high
+Behavior-Driven Development,BDD,practice,computer science,TDD variant using natural-language scenarios to specify behavior.,organizing-schema,,high
+DevOps,,framework,computer science,Cultural and technical practices unifying development and operations.,organizing-schema,,high
+Site Reliability Engineering,SRE,framework,computer science,Google's approach treating operations as a software problem with SLOs and error budgets.,organizing-schema,,high
+CI/CD,Continuous Integration / Continuous Delivery,practice,computer science,Frequent automated integration and deployment of small changes.,organizing-schema,,high
+Trunk-Based Development,,practice,computer science,Short-lived branches and frequent merges to a single trunk.,organizing-schema,,high
+GitFlow,,framework,computer science,"Driessen's branching model with develop, feature, release, and hotfix branches.",organizing-schema,,high
+C4 Model,,framework,computer science,"Brown's hierarchical software architecture diagrams: Context, Container, Component, Code.",organizing-schema,,high
+4+1 Architectural Views,,framework,computer science,"Kruchten's logical, process, development, physical, and scenario views of architecture.",organizing-schema,,high
+Conway's Law,,framework,computer science,Organizations design systems mirroring their communication structures.,structured-empirical,,high
+Brooks' Law,,framework,computer science,Adding manpower to a late software project makes it later.,structured-empirical,,high
+No Silver Bullet,,framework,computer science,Brooks' argument that no single innovation will yield order-of-magnitude productivity gains.,organizing-schema,,high
+Postel's Law,Robustness Principle,framework,computer science,"Be conservative in what you send, liberal in what you accept.",structured-empirical,,high
+Hyrum's Law,Law of Implicit Interfaces,framework,computer science,"With enough users, every observable behavior of an interface becomes someone's dependency.",structured-empirical,,high
+The Reactive Manifesto,,framework,computer science,"Principles for systems that are responsive, resilient, elastic, and message-driven.",organizing-schema,,high
+Code Review,,practice,computer science,"Peer review of source changes before merge, both for quality and shared understanding.",organizing-schema,,high
+Pair Programming,,practice,computer science,"Two programmers work at one workstation, alternating driver and navigator roles.",organizing-schema,,high
+Mob Programming,Ensemble Programming,practice,computer science,"Whole team works on the same thing at the same time, in the same space.",organizing-schema,,high
+Rubber Duck Debugging,,technique,computer science,Explaining a problem aloud to an inanimate object to surface its solution.,organizing-schema,,high
+Refactoring,,practice,computer science,"Disciplined restructuring of code without changing observable behavior, per Fowler.",organizing-schema,,high
+The Boy Scout Rule,,technique,computer science,Always leave the code cleaner than you found it.,organizing-schema,,high
+Bayesian Inference,,framework,mathematics,"Belief updating via Bayes' rule, applied across statistics, ML, and epistemology.",formal-scientific,,high
+Frequentist Statistics,,framework,mathematics,"Inference based on long-run frequencies, including hypothesis testing and confidence intervals.",formal-scientific,,high
+Game Theory,,framework,mathematics,Mathematical study of strategic interaction among rational agents.,formal-scientific,,high
+Decision Theory,,framework,mathematics,Normative analysis of choice under uncertainty using utility and probability.,formal-scientific,,high
+Information Theory,Shannon Theory,framework,mathematics,"Shannon's framework quantifying information, entropy, and communication channels.",formal-scientific,,high
+Network Theory,Graph Theory,framework,mathematics,"Study of networks as nodes and edges, applied across many domains.",formal-scientific,,high
+Dynamical Systems Theory,,framework,mathematics,Study of systems evolving over time according to deterministic rules.,formal-scientific,,high
+Chaos Theory,,framework,mathematics,Sensitive dependence on initial conditions in deterministic nonlinear systems.,formal-scientific,,high
+Complexity Theory,Computational Complexity,framework,computer science,"Study of resource requirements (time, space) for solving problems.",formal-scientific,,high
+Markov Decision Processes,MDP,framework,mathematics,"Sequential decision framework with states, actions, transition probabilities, and rewards.",formal-scientific,,high
+Optimization Theory,,framework,mathematics,Mathematical study of finding extrema of functions subject to constraints.,formal-scientific,,high
+Monte Carlo Methods,,technique,mathematics,Estimating quantities through repeated random sampling.,formal-scientific,,high
+Linear Programming,LP,framework,mathematics,Optimization of a linear objective subject to linear constraints.,formal-scientific,,high
+Bayesian Networks,,framework,mathematics,Directed acyclic graphs encoding probabilistic dependencies among variables.,formal-scientific,,high
+Causal Inference,,framework,mathematics,Pearl and Rubin's frameworks for distinguishing correlation from causation.,formal-scientific,,high
+Regression Analysis,,framework,mathematics,Statistical modeling of relationships between dependent and independent variables.,formal-scientific,,high
+Power Laws,,framework,mathematics,"Distribution form characterized by scale invariance, common in complex systems.",formal-scientific,,high
+Scale-Free Networks,,framework,mathematics,Barabási and Albert's network class with power-law degree distributions.,formal-scientific,,high
+Small-World Networks,,framework,mathematics,Watts and Strogatz's networks combining high clustering with short path lengths.,formal-scientific,,high
+Keynesian Economics,,framework,economics,Macroeconomic framework emphasizing aggregate demand and active fiscal management.,organizing-schema,,high
+Monetarism,,framework,economics,Friedman's framework: inflation is everywhere a monetary phenomenon.,organizing-schema,,high
+Austrian School,,framework,economics,"Tradition emphasizing methodological individualism, subjective value, and spontaneous order.",organizing-schema,,high
+Behavioral Economics,,framework,economics,Integrates psychological insights about human decision-making into economic models.,structured-empirical,,high
+Comparative Advantage,,framework,economics,Ricardo's principle: gains from trade arise from relative not absolute productivity differences.,organizing-schema,,high
+Mechanism Design,,framework,economics,Reverse game theory: designing rules so self-interested play yields desired outcomes.,organizing-schema,,high
+Principal-Agent Problem,,framework,economics,Conflicts of interest and information asymmetry between delegator and delegate.,organizing-schema,,high
+Information Asymmetry,Lemons Problem,framework,economics,Akerlof's account of market failures from unequal information distribution.,structured-empirical,,high
+Signaling Theory,,framework,economics,Spence's framework: how informed parties credibly communicate quality to uninformed ones.,structured-empirical,,high
+Transaction Cost Economics,TCE,framework,economics,Coase and Williamson on why firms exist: transaction costs explain organizational boundaries.,structured-empirical,,high
+New Institutional Economics,NIE,framework,economics,"North and others extending economic analysis to institutions, property rights, and history.",structured-empirical,,high
+Modern Portfolio Theory,MPT,framework,economics,Markowitz's framework for constructing portfolios optimizing risk-return through diversification.,formal-scientific,,high
+Capital Asset Pricing Model,CAPM,framework,economics,Sharpe and Lintner's model relating expected return to systematic risk.,formal-scientific,Mathematically rigorous in form; empirical predictions have been substantially challenged.,high
+Efficient Market Hypothesis,EMH,framework,economics,Fama's hypothesis that asset prices fully reflect available information.,organizing-schema,Mathematically rigorous in form; strong forms have been substantially challenged empirically.,high
+Solow Growth Model,,framework,economics,"Neoclassical model of long-run growth from capital, labor, and exogenous technical change.",formal-scientific,,high
+Endogenous Growth Theory,,framework,economics,"Romer and Lucas: technological progress as outcome of economic activity, not exogenous.",organizing-schema,,high
+Path Dependence,,framework,economics,David and Arthur's concept that history matters: small early events shape long-run outcomes.,structured-empirical,,high
+Network Effects,,framework,economics,Value of a product or service increasing with the number of users.,structured-empirical,,high
+Tragedy of the Commons,,framework,economics,Hardin's account of overexploitation when individuals share access to a common resource.,organizing-schema,,high
+Coase Theorem,,framework,economics,"Under low transaction costs, externalities can be efficiently resolved by private bargaining.",formal-scientific,,high
+Pigouvian Taxation,,framework,economics,Taxing activities to internalize the social cost of externalities.,organizing-schema,,high
+Loss Aversion,,framework,economics,People weight losses roughly twice as heavily as equivalent gains.,structured-empirical,,high
+Hyperbolic Discounting,,framework,economics,"Preference for smaller-sooner over larger-later rewards, with declining discount rate over time.",structured-empirical,,high
+Mental Accounting,,framework,economics,Thaler's framework: people treat money differently based on its perceived source or category.,structured-empirical,,high
+Phillips Curve,,framework,economics,Empirical regularity (and theoretical debate) around inverse relation of unemployment and inflation.,structured-empirical,,high
+Economic Complexity Index,ECI,framework,economics,Hausmann and Hidalgo's measure of national productive capability from export structure.,structured-empirical,,high
+Two-Sided Markets,Platform Economics,framework,economics,Rochet and Tirole's framework for markets where two distinct user groups create value for each other.,structured-empirical,,high
+Theory of Evolution by Natural Selection,Darwinian Evolution,framework,biology,Darwin and Wallace: heritable variation plus differential reproduction yields adaptation over time.,formal-scientific,,high
+Modern Synthesis,Neo-Darwinism,framework,biology,Mid-20th-century unification of Mendelian genetics with Darwinian selection.,formal-scientific,,high
+Punctuated Equilibrium,,framework,biology,Eldredge and Gould's view of evolution as long stasis interrupted by rapid speciation.,formal-scientific,Specific model within evolutionary theory regarding tempo of change; contrasted with phyletic gradualism.,high
+Selfish Gene Theory,,framework,biology,Dawkins' gene-centered view of evolution; organisms as vehicles for replicators.,formal-scientific,,high
+Inclusive Fitness,Kin Selection,framework,biology,Hamilton's framework explaining altruism through reproductive success of relatives.,formal-scientific,,high
+Evolutionarily Stable Strategies,ESS,framework,biology,Maynard Smith's game-theoretic concept for evolutionary equilibria.,formal-scientific,,high
+Central Dogma,,framework,biology,Crick's framework of information flow from DNA to RNA to protein.,formal-scientific,,high
+Endosymbiotic Theory,,framework,biology,Margulis' account of mitochondria and chloroplasts as descendants of engulfed bacteria.,formal-scientific,,high
+Cell Theory,,framework,biology,"All living organisms composed of cells, which arise only from existing cells.",formal-scientific,,high
+Germ Theory,,framework,medicine,"Microorganisms as the cause of many diseases, established by Pasteur and Koch.",formal-scientific,,high
+Allostasis,,framework,biology,"Sterling and Eyer's framework of stability through change, refining homeostasis.",organizing-schema,,high
+General Adaptation Syndrome,GAS,framework,biology,"Selye's three-stage stress response: alarm, resistance, exhaustion.",organizing-schema,,high
+Predator-Prey Dynamics,Lotka-Volterra,framework,biology,Coupled oscillating populations modeled by paired differential equations.,formal-scientific,,high
+Island Biogeography,,framework,biology,MacArthur and Wilson's model of species richness as function of area and isolation.,formal-scientific,,high
+Niche Construction,,framework,biology,"Organisms actively modify their environments, altering selection pressures on themselves and others.",organizing-schema,,high
+Levels of Organization,Biological Hierarchy,framework,biology,"Nested scales from molecules to biosphere, each with distinct emergent properties.",organizing-schema,,high
+Systems Biology,,framework,biology,Holistic study of biological systems through computational and mathematical modeling.,organizing-schema,,high
+Evidence-Based Medicine,EBM,framework,medicine,"Sackett's integration of best research evidence, clinical expertise, and patient values.",structured-empirical,,high
+Biopsychosocial Model,,framework,medicine,"Engel's framework integrating biological, psychological, and social dimensions of health.",structured-empirical,,high
+Determinants of Health,Social Determinants of Health,framework,medicine,"Conditions in which people live, work, and age that shape health outcomes.",structured-empirical,,high
+Four Pillars of Medical Ethics,Beauchamp and Childress,framework,medicine,"Autonomy, beneficence, non-maleficence, justice as core principles.",doctrinal-institutional,,high
+Patient-Centered Care,,framework,medicine,"Care organized around patient preferences, needs, and values.",doctrinal-institutional,,high
+SOAP Note,,tool,medicine,"Subjective, Objective, Assessment, Plan — structured clinical documentation.",doctrinal-institutional,,high
+Differential Diagnosis,,technique,medicine,Systematic process of distinguishing among possible conditions explaining symptoms.,doctrinal-institutional,,high
+Triage,,technique,medicine,"Sorting patients by urgency to allocate scarce care resources, originating in military medicine.",doctrinal-institutional,,high
+Epidemiologic Triad,Host-Agent-Environment,framework,medicine,Classical model of infectious disease causation.,doctrinal-institutional,,high
+Clinical Reasoning,Hypothetico-Deductive Reasoning,framework,medicine,Generation and testing of diagnostic hypotheses.,doctrinal-institutional,,high
+Systems Engineering,,framework,engineering,Interdisciplinary approach to designing and managing complex systems over their lifecycle.,organizing-schema,,high
+Design of Experiments,DoE,framework,engineering,Fisher's framework for systematically planning experiments to isolate causal effects.,formal-scientific,,high
+Failure Mode and Effects Analysis,FMEA,tool,engineering,Bottom-up identification of potential failure modes and their consequences.,organizing-schema,,high
+Fault Tree Analysis,FTA,tool,engineering,Top-down deductive analysis of paths to a specified failure event.,organizing-schema,,high
+Reliability Engineering,,framework,engineering,Discipline ensuring system performs intended function over time and conditions.,structured-empirical,,high
+V-Model,Verification and Validation Model,framework,engineering,Software development model pairing each design phase with a corresponding test phase.,organizing-schema,,high
+Spiral Model,,framework,computer science,Boehm's iterative risk-driven software development model.,organizing-schema,,high
+Waterfall Model,,framework,computer science,Sequential development phases with each completed before the next begins.,organizing-schema,,high
+Robust Design,Taguchi Methods,framework,engineering,Designing products and processes to be insensitive to variation in inputs.,organizing-schema,,high
+Bowtie Analysis,,tool,engineering,Risk visualization linking causes through a top event to consequences with barriers between.,organizing-schema,,high
+OODA Loop,Boyd Cycle,framework,military science,"Boyd's decision cycle: Observe, Orient, Decide, Act — faster cycling beats opponent.",doctrinal-institutional,,high
+Maneuver Warfare,,framework,military science,"Defeating opponent through tempo, deception, and disruption rather than attrition.",doctrinal-institutional,,high
+Mission Command,Auftragstaktik,framework,military science,"Decentralized execution under commander's intent, originating in 19th-century Prussia.",doctrinal-institutional,,high
+Strategy of the Indirect Approach,,framework,military science,Liddell Hart: dislocate opponent psychologically before engaging directly.,doctrinal-institutional,,high
+Centers of Gravity Analysis,,framework,military science,Clausewitzian identification of the source of an opponent's strength.,doctrinal-institutional,,high
+Trinity of War,,framework,military science,"Clausewitz's interaction of passion, chance, and reason in war.",doctrinal-institutional,,high
+Three Levels of War,,framework,military science,"Strategic, operational, and tactical levels with distinct logics and time horizons.",doctrinal-institutional,,high
+DIME,DIMEFIL,framework,military science,"Diplomatic, Information, Military, Economic instruments of national power.",doctrinal-institutional,,high
+PMESII-PT,,framework,military science,"Operational variables: Political, Military, Economic, Social, Information, Infrastructure, Physical, Time.",doctrinal-institutional,,high
+Counterinsurgency Doctrine,COIN,framework,military science,Population-centric approach to defeating insurgencies through legitimacy and protection.,doctrinal-institutional,,high
+AirLand Battle,,framework,military science,1980s US Army doctrine integrating deep strikes with maneuver warfare.,doctrinal-institutional,,high
+Network-Centric Warfare,,framework,military science,Military doctrine emphasizing information networking for shared awareness and self-synchronization.,doctrinal-institutional,,high
+Effects-Based Operations,EBO,framework,military science,Targeting based on desired effects rather than physical destruction alone.,doctrinal-institutional,,high
+Asymmetric Warfare,,framework,military science,"Conflict between belligerents whose military power, strategy, or tactics differ significantly.",doctrinal-institutional,,high
+Eightfold Path,,framework,theology,"Buddhist path: right view, intention, speech, action, livelihood, effort, mindfulness, concentration.",contemplative-tradition,,high
+Four Noble Truths,,framework,theology,"Buddhist diagnostic: suffering exists, has cause, can cease, and the path to cessation.",contemplative-tradition,,high
+Three Marks of Existence,,framework,theology,"Buddhist characterization of phenomena: impermanence, suffering, non-self.",contemplative-tradition,,high
+Five Pillars of Islam,,framework,theology,"Shahada, salat, zakat, sawm, hajj — core practices of Sunni Islam.",contemplative-tradition,,high
+Eight Limbs of Yoga,Ashtanga,framework,theology,"Patanjali's yamas, niyamas, asana, pranayama, pratyahara, dharana, dhyana, samadhi.",contemplative-tradition,,high
+Yamas and Niyamas,,framework,theology,Yogic ethical restraints (yamas) and observances (niyamas) from Patanjali.,contemplative-tradition,,high
+Sefirot,Tree of Life,framework,theology,Kabbalistic ten emanations through which the infinite manifests.,contemplative-tradition,,high
+Four Worlds,Olamot,framework,theology,"Kabbalistic levels of reality: Atziluth, Beriah, Yetzirah, Assiah.",contemplative-tradition,,high
+Seven Deadly Sins,Capital Vices,framework,theology,"Pride, greed, lust, envy, gluttony, wrath, sloth — Christian schema of root sins.",contemplative-tradition,,high
+Cardinal Virtues,,framework,philosophy,"Prudence, justice, fortitude, temperance — classical Greek and Christian schema.",philosophical-tradition,,high
+Theological Virtues,,framework,theology,"Faith, hope, and love as graces directing the soul to God in Christian tradition.",contemplative-tradition,,high
+Ignatian Discernment,Spiritual Exercises,framework,theology,Loyola's framework for discernment of spirits and consolation/desolation.,contemplative-tradition,,high
+Examen,Daily Examen,practice,theology,"Ignatian end-of-day prayerful review of consolations, faults, and gratitude.",contemplative-tradition,,high
+Lectio Divina,,practice,theology,"Christian contemplative reading: lectio, meditatio, oratio, contemplatio.",contemplative-tradition,,high
+Stoic Dichotomy of Control,,framework,philosophy,Epictetus' division of the world into what is and isn't up to us.,philosophical-tradition,,high
+Memento Mori,,technique,philosophy,Stoic and Christian practice of contemplating one's mortality.,philosophical-tradition,,high
+Negative Visualization,Premeditatio Malorum,technique,philosophy,Stoic practice of imagining loss to cultivate gratitude and resilience.,philosophical-tradition,,high
+Wu Wei,,framework,theology,Taoist principle of effortless action in accord with the flow of things.,contemplative-tradition,,high
+Tao Te Ching Framework,,framework,theology,"Lao Tzu's framework of Tao, te, naturalness, and non-contention.",contemplative-tradition,,high
+Four Aims of Life,Purusharthas,framework,theology,"Hindu life goals: dharma, artha, kama, moksha.",contemplative-tradition,,high
+Four Stages of Life,Ashramas,framework,theology,"Hindu life-stage framework: student, householder, retiree, renunciate.",contemplative-tradition,,high
+Karma Framework,,framework,theology,"Action and consequence across Hindu, Buddhist, and Jain traditions.",contemplative-tradition,,high
+Tikkun Olam,,framework,theology,Jewish concept of repairing the world through human action.,contemplative-tradition,,high
+Beatitudes,,framework,theology,Christ's teachings in the Sermon on the Mount inverting conventional value hierarchies.,contemplative-tradition,,high
+Generative Grammar,,framework,linguistics,Chomsky's framework of formal rules generating all grammatical sentences of a language.,formal-scientific,Foundational in modern linguistics; specific universal-grammar claims have been increasingly contested.,high
+Universal Grammar,UG,framework,linguistics,Chomsky's hypothesis of innate linguistic structure shared across all human languages.,formal-scientific,Influential but specific innateness claims contested by usage-based and constructionist linguists.,high
+Saussurean Structuralism,,framework,linguistics,Saussure's framework of language as system of differences with signified and signifier.,organizing-schema,,high
+Semiotics,Semiology,framework,linguistics,"General theory of signs, with Peircean and Saussurean traditions.",organizing-schema,,high
+Speech Act Theory,,framework,linguistics,"Austin and Searle's framework: utterances perform actions (locutionary, illocutionary, perlocutionary).",structured-empirical,,high
+Cooperative Principle,Gricean Maxims,framework,linguistics,"Grice's maxims of quantity, quality, relation, and manner governing conversational implicature.",structured-empirical,,high
+Sapir-Whorf Hypothesis,Linguistic Relativity,framework,linguistics,Language shapes or constrains thought; strong and weak versions debated.,organizing-schema,Strong version is largely rejected; weak version (linguistic influence on thought) has empirical support.,high
+Conceptual Metaphor Theory,CMT,framework,linguistics,Lakoff and Johnson: abstract thought structured by metaphorical mappings from embodied experience.,structured-empirical,,high
+Frame Semantics,,framework,linguistics,Fillmore's framework: word meaning understood relative to a structured background frame.,structured-empirical,,high
+Relevance Theory,,framework,linguistics,Sperber and Wilson's pragmatic framework: communication guided by relevance maximization.,organizing-schema,,high
+Construction Grammar,,framework,linguistics,"Approach treating constructions as basic form-meaning pairings, not derived from rules.",organizing-schema,,high
+Functional Grammar,Systemic Functional Linguistics,framework,linguistics,Halliday's framework treating grammar as resource for making meaning.,organizing-schema,,high
+Optimality Theory,OT,framework,linguistics,Phonological framework where surface forms emerge from ranked violable constraints.,structured-empirical,,high
+Cultural Relativism,,framework,anthropology,"Boasian principle: cultures must be understood on their own terms, not judged by external standards.",organizing-schema,,high
+Structural Anthropology,,framework,anthropology,Lévi-Strauss' framework analyzing culture through binary oppositions and underlying structures.,organizing-schema,,high
+Interpretive Anthropology,Thick Description,framework,anthropology,Geertz's framework treating culture as text to be interpreted through layered description.,organizing-schema,,high
+Practice Theory,,framework,anthropology,"Bourdieu, Ortner, and Sahlins on how practices reproduce and transform social structure.",organizing-schema,,high
+Liminality,,framework,anthropology,Van Gennep and Turner on threshold states between social positions or identities.,organizing-schema,,high
+Rites of Passage,,framework,anthropology,"Van Gennep's three-phase structure: separation, liminal phase, reincorporation.",organizing-schema,,high
+Hero's Journey,Monomyth,framework,narrative studies,"Campbell's universal narrative pattern of departure, initiation, and return.",organizing-schema,,high
+Cultural Materialism,,framework,anthropology,Harris' framework prioritizing infrastructure (material conditions) in cultural explanation.,organizing-schema,,high
+Ethnography,,framework,anthropology,Immersive long-term fieldwork yielding detailed accounts of cultural practices.,structured-empirical,,high
+Participant Observation,,technique,anthropology,Researcher takes part in a community while systematically observing and recording.,organizing-schema,,high
+Design Thinking,,framework,design,Empathize-define-ideate-prototype-test cycle popularized by Stanford d.school and IDEO.,organizing-schema,,high
+Double Diamond,,framework,design,UK Design Council's discover-define-develop-deliver model with diverging and converging phases.,organizing-schema,,high
+Human-Centered Design,HCD,framework,design,"Design grounded in deep understanding of user needs, behaviors, and contexts.",organizing-schema,,high
+Service Design,,framework,design,"Holistic design of services across touchpoints, channels, and stakeholders.",organizing-schema,,high
+Inclusive Design,,framework,design,Designing for the full range of human diversity rather than the average user.,organizing-schema,,high
+Universal Design,,framework,design,Mace's framework: design usable by all people without need for adaptation.,organizing-schema,,high
+Speculative Design,Critical Design,framework,design,Design used to provoke debate about possible futures rather than to solve problems.,organizing-schema,,high
+Cradle to Cradle,C2C,framework,design,McDonough and Braungart's framework for circular materials flow eliminating waste.,organizing-schema,,high
+Biomimicry,,framework,design,Benyus' framework drawing design principles from nature's strategies.,organizing-schema,,high
+Gestalt Principles,,framework,design,"Perceptual organization principles: proximity, similarity, closure, continuity, figure-ground.",organizing-schema,,high
+Nielsen's Ten Heuristics,,framework,design,Nielsen's usability heuristics including visibility of system status and error prevention.,organizing-schema,,high
+Atomic Design,,framework,design,"Frost's component hierarchy: atoms, molecules, organisms, templates, pages.",organizing-schema,,high
+Don Norman's Design Principles,,framework,design,"Visibility, feedback, constraints, mapping, consistency, affordance.",organizing-schema,,high
+Storyboarding,,tool,design,Sequential visual depiction of a user's experience or narrative.,organizing-schema,,high
+Wireframing,,tool,design,Low-fidelity visual layout of an interface focusing on structure and content priority.,organizing-schema,,high
+Form Follows Function,,framework,design,Sullivan's modernist principle that a building's form should follow its purpose.,organizing-schema,,high
+Bloom's Taxonomy,,framework,education,Hierarchy of cognitive learning objectives from remembering through evaluating and creating.,structured-empirical,,high
+Revised Bloom's Taxonomy,Anderson and Krathwohl,framework,education,Updated Bloom adding the knowledge dimension and reordering create as the top.,organizing-schema,,high
+SOLO Taxonomy,,framework,education,Biggs' Structure of the Observed Learning Outcome from prestructural to extended abstract.,organizing-schema,,high
+Webb's Depth of Knowledge,DoK,framework,education,"Four levels of cognitive complexity: recall, skill/concept, strategic thinking, extended thinking.",organizing-schema,,high
+ADDIE Model,,framework,education,"Instructional design: Analyze, Design, Develop, Implement, Evaluate.",organizing-schema,,high
+Backward Design,Understanding by Design,framework,education,"Wiggins and McTighe: start with desired outcomes, then plan assessment, then instruction.",organizing-schema,,high
+Universal Design for Learning,UDL,framework,education,"Multiple means of engagement, representation, and action/expression.",organizing-schema,,high
+Differentiated Instruction,,framework,education,"Tomlinson's approach tailoring content, process, product to learner readiness, interest, profile.",organizing-schema,,high
+Constructivism (Education),,framework,education,Learning as active construction of meaning rather than passive reception.,organizing-schema,,high
+Connectivism,,framework,education,Siemens' learning theory for the digital age emphasizing networks of nodes.,organizing-schema,,high
+Andragogy,,framework,education,Knowles' framework distinguishing adult learning from pedagogy of children.,organizing-schema,,high
+Experiential Learning,Kolb's Cycle,framework,education,"Learning cycle: concrete experience, reflective observation, abstract conceptualization, active experimentation.",organizing-schema,"Kolb's experiential cycle has more support than the associated learning-styles taxonomy, which has been largely disconfirmed.",high
+Multiple Intelligences,MI,framework,education,"Gardner's framework of distinct intelligences: linguistic, logical, spatial, musical, kinesthetic, interpersonal, intrapersonal, naturalistic.",organizing-schema,Gardner's specific dimensional structure has not been supported by mainstream cognitive psychology research.,high
+Mastery Learning,,framework,education,Bloom's approach: students must demonstrate mastery before progressing.,structured-empirical,,high
+Flipped Classroom,,framework,education,Direct instruction at home; class time used for application and practice.,organizing-schema,,high
+Project-Based Learning,PBL,framework,education,Extended student inquiry organized around authentic projects.,organizing-schema,,high
+Problem-Based Learning,PBL,framework,education,Learning organized around investigation of complex real-world problems.,organizing-schema,,high
+Inquiry-Based Learning,,framework,education,Student-driven exploration with teacher as facilitator rather than transmitter.,organizing-schema,,high
+TPACK,Technological Pedagogical Content Knowledge,framework,education,Mishra and Koehler's intersecting domains of teacher expertise.,organizing-schema,,high
+SAMR Model,,framework,education,"Puentedura's four levels of technology integration: substitution, augmentation, modification, redefinition.",organizing-schema,,high
+Spaced Repetition,,technique,education,Reviewing material at expanding intervals to optimize long-term retention.,structured-empirical,,high
+Active Recall,Retrieval Practice,technique,education,Self-testing rather than re-reading to strengthen memory consolidation.,structured-empirical,,high
+Feynman Technique,,technique,education,Test understanding by explaining a concept simply enough for a child.,organizing-schema,,high
+Cornell Note-Taking,,tool,education,"Note format dividing the page into cues, notes, and summary sections.",organizing-schema,,high
+Concept Mapping,,tool,education,Novak's visual representation of relationships among concepts.,organizing-schema,,high
+Strict Scrutiny,,framework,law,US constitutional standard requiring narrow tailoring to a compelling government interest.,doctrinal-institutional,,high
+Intermediate Scrutiny,,framework,law,Constitutional review requiring substantial relation to important governmental interest.,doctrinal-institutional,,high
+Rational Basis Review,,framework,law,Lowest US constitutional standard: law must be rationally related to a legitimate interest.,doctrinal-institutional,,high
+Proportionality Test,,framework,law,Multi-stage review used in many jurisdictions to assess rights infringements.,doctrinal-institutional,,high
+Reasonable Person Standard,,framework,law,Hypothetical ordinarily prudent person used as a benchmark for negligence.,doctrinal-institutional,,high
+Hand Formula,Learned Hand Test,framework,law,Negligence test: liable if burden of precaution is less than probability times loss.,doctrinal-institutional,,high
+Reasonable Doubt Standard,,framework,law,"Highest evidentiary standard, required for criminal conviction in common law systems.",doctrinal-institutional,,high
+Preponderance of Evidence,,framework,law,Civil standard: more likely than not.,doctrinal-institutional,,high
+IRAC,,framework,law,"Issue, Rule, Application, Conclusion — structured legal analysis method.",doctrinal-institutional,,high
+Stare Decisis,,framework,law,Doctrine binding courts to follow precedents from prior decisions.,doctrinal-institutional,,high
+Originalism,,framework,law,Constitutional interpretation according to original public meaning at ratification.,doctrinal-institutional,,high
+Living Constitutionalism,,framework,law,Constitutional interpretation accounting for evolving social conditions and values.,doctrinal-institutional,,high
+Law and Economics,,framework,law,Posner's framework applying economic analysis to legal rules and institutions.,doctrinal-institutional,,high
+Restorative Justice,,framework,law,"Approach centered on repair of harm through dialogue among offender, victim, community.",doctrinal-institutional,,high
+Therapeutic Jurisprudence,,framework,law,Wexler and Winick's framework studying law's effects on psychological wellbeing.,doctrinal-institutional,,high
+Cynefin Framework,,framework,knowledge management,"Snowden's sense-making framework: clear, complicated, complex, chaotic, confused/aporetic.",organizing-schema,,high
+SECI Model,Knowledge Spiral,framework,knowledge management,"Nonaka and Takeuchi: socialization, externalization, combination, internalization.",organizing-schema,,high
+Communities of Practice,CoP,framework,knowledge management,Wenger's framework: groups sharing concern and deepening expertise through interaction.,organizing-schema,,high
+Tacit and Explicit Knowledge,,framework,knowledge management,Polanyi's distinction between articulable knowledge and the embodied 'we know more than we can tell.',organizing-schema,,high
+Five Disciplines,Learning Organization,framework,knowledge management,"Senge's personal mastery, mental models, shared vision, team learning, systems thinking.",organizing-schema,,high
+Single-Loop and Double-Loop Learning,,framework,knowledge management,Argyris and Schön: correcting actions vs questioning underlying assumptions.,organizing-schema,,high
+Triple-Loop Learning,,framework,knowledge management,Extension questioning the framework of inquiry itself.,organizing-schema,,high
+Knowledge Café,,practice,knowledge management,Facilitated small-group conversations rotating to surface collective insights.,organizing-schema,,high
+Lessons Learned,,practice,knowledge management,Structured capture of insights from completed work for future application.,organizing-schema,,high
+Three-Act Structure,,framework,narrative studies,"Setup, confrontation, resolution — dominant Western dramatic structure.",organizing-schema,,high
+Five-Act Structure,Freytag's Pyramid,framework,narrative studies,"Exposition, rising action, climax, falling action, denouement.",organizing-schema,,high
+Save the Cat Beat Sheet,,framework,narrative studies,Snyder's fifteen-beat screenplay structure widely used in Hollywood.,organizing-schema,,high
+Story Circle,,framework,narrative studies,Harmon's eight-step distillation of Campbell's monomyth for episodic storytelling.,organizing-schema,,high
+Pixar Story Spine,,framework,narrative studies,Once upon a time / every day / one day / because of that / until finally / and ever since then.,organizing-schema,,high
+Dramatica Theory,,framework,narrative studies,Phillips and Huntley's framework treating story as an analogy for a single mind solving a problem.,organizing-schema,,high
+Polti's 36 Dramatic Situations,,framework,narrative studies,Catalog of underlying dramatic conflicts found across all stories.,organizing-schema,,high
+Vogeler's Writer's Journey,,framework,narrative studies,Writer's adaptation of Campbell's monomyth for screenwriters.,organizing-schema,,high
+Aristotle's Poetics,,framework,narrative studies,"Foundational analysis of tragedy with concepts of mimesis, catharsis, hamartia, peripeteia.",organizing-schema,,high
+Show Don't Tell,,technique,narrative studies,Craft principle preferring scene and sensory detail over exposition.,organizing-schema,,high
+In Medias Res,,technique,narrative studies,Beginning a narrative in the middle of action rather than at the chronological start.,organizing-schema,,high
+Neuro-Linguistic Programming,NLP,framework,psychology,"Bandler and Grinder's framework linking neurology, language, and patterned behavior; widely used in coaching despite weak empirical support.",organizing-schema,Cultural penetration is high; specific claims about modeling excellence and neural correlates have been disconfirmed in mainstream cognitive science.,high
+Spiral Dynamics,,framework,psychology,"Beck and Cowan's value-systems hierarchy adapted from Graves' research, used in organizational and developmental contexts.",organizing-schema,Adapted from Clare Graves' work but Graves himself never published comprehensive empirical validation; no peer-reviewed validation of the value-meme hierarchy.,high
+Integral Theory,AQAL,framework,psychology,"Wilber's metasystematic synthesis integrating quadrants, levels, lines, states, and types of human development.",organizing-schema,Influential in transpersonal psychology and integral studies; not empirically validated and explicitly questions empirical validation as sole criterion of truth.,high
+Pomodoro Technique,,technique,psychology,Cirillo's time-management technique using 25-minute focus intervals separated by short breaks.,organizing-schema,,high
+Basel III,,framework,governance and compliance,"Bank capital, leverage, and liquidity standards from the Basel Committee on Banking Supervision, post-2008.",regulatory-standard,Implemented through national regulators with local variation; Basel IV finalization is in progress.,high
+CAMELS Rating,,framework,governance and compliance,"US bank examination rating: Capital, Assets, Management, Earnings, Liquidity, Sensitivity to market risk.",regulatory-standard,,high
+Dodd-Frank Act,,framework,governance and compliance,"US 2010 financial reform legislation establishing CFPB, FSOC, Volcker Rule, and resolution authority.",regulatory-standard,,high
+BSA/AML,Bank Secrecy Act; Anti-Money Laundering,framework,governance and compliance,US framework requiring financial institutions to detect and report suspicious activity.,regulatory-standard,,high
+KYC,Know Your Customer,framework,governance and compliance,Customer due diligence requirements identifying who is doing business with a financial institution.,regulatory-standard,,high
+Community Reinvestment Act,CRA,framework,governance and compliance,"US 1977 law requiring banks to meet credit needs of all communities they serve, including low-income areas.",regulatory-standard,,high
+FFIEC IT Examination Handbook,,framework,governance and compliance,Federal Financial Institutions Examination Council guidance for examining IT operations at supervised institutions.,regulatory-standard,,high
+CCAR,Comprehensive Capital Analysis and Review,framework,governance and compliance,Federal Reserve's annual capital adequacy assessment of large bank holding companies.,regulatory-standard,,high
+DFAST,Dodd-Frank Act Stress Test,framework,governance and compliance,Annual stress testing required for banks above asset thresholds under Dodd-Frank.,regulatory-standard,,high
+CECL,Current Expected Credit Loss,framework,governance and compliance,US GAAP standard requiring forward-looking estimation of expected credit losses over instrument lifetime.,regulatory-standard,,high
+IFRS 9,,framework,governance and compliance,"International accounting standard for financial instruments, including expected credit loss model.",regulatory-standard,,high
+ALCO Framework,Asset-Liability Committee,framework,governance and compliance,"Bank governance framework for managing interest rate risk, liquidity, and balance sheet structure.",organizing-schema,Conceptual governance framework rather than a codified standard; specific structure varies considerably across institutions.,high
+Sarbanes-Oxley,SOX,framework,governance and compliance,US 2002 law mandating financial reporting controls and executive certifications for public companies.,regulatory-standard,,high
+COSO Internal Control-Integrated Framework,COSO IC,framework,governance and compliance,"Five-component framework for designing internal controls: control environment, risk assessment, control activities, information and communication, monitoring.",regulatory-standard,,high
+COSO ERM,Enterprise Risk Management,framework,governance and compliance,Enterprise-level extension of COSO internal control framework integrating strategy and performance with risk.,regulatory-standard,,high
+ISO 31000,,framework,governance and compliance,International standard providing principles and generic guidelines on risk management.,regulatory-standard,,high
+Three Lines Model,Three Lines of Defense,framework,governance and compliance,"IIA framework distinguishing operational management, risk and compliance functions, and internal audit assurance.",organizing-schema,2020 IIA update renamed and refined the older 'Three Lines of Defense' framing; conceptual framework rather than a codified standard.,high
+FAIR,Factor Analysis of Information Risk,framework,cybersecurity,Quantitative risk framework decomposing risk into loss event frequency and loss magnitude with probabilistic factors.,regulatory-standard,Quantitative methodology now standardized as Open FAIR through The Open Group; distinct from qualitative risk-rating approaches.,high
+ORSA,Own Risk and Solvency Assessment,framework,governance and compliance,Insurance-sector self-assessment of all material risks against capital and solvency.,regulatory-standard,,high
+NIST Cybersecurity Framework,NIST CSF,framework,cybersecurity,"Six core functions (Govern, Identify, Protect, Detect, Respond, Recover) plus implementation tiers and profiles.",regulatory-standard,,high
+NIST 800-53,,framework,cybersecurity,Catalog of security and privacy controls for federal information systems and organizations.,regulatory-standard,,high
+NIST Risk Management Framework,NIST RMF; NIST 800-37,framework,cybersecurity,"Seven-step process for integrating security, privacy, and risk management into the system development lifecycle.",regulatory-standard,,high
+ISO/IEC 27001,ISO 27001,framework,cybersecurity,International standard specifying requirements for an information security management system (ISMS).,regulatory-standard,,high
+ISO/IEC 27002,ISO 27002,framework,cybersecurity,International standard providing guidance on information security controls.,regulatory-standard,,high
+CIS Controls,CIS Critical Security Controls,framework,cybersecurity,Center for Internet Security's prioritized set of cybersecurity actions for organizations.,regulatory-standard,,high
+MITRE ATT&CK,,framework,cybersecurity,"Globally accessible knowledge base of adversary tactics, techniques, and procedures based on real-world observations.",organizing-schema,Knowledge base structure rather than a prescriptive control framework; widely used as reference and threat-modeling input.,high
+Cyber Kill Chain,Lockheed Martin Kill Chain,framework,cybersecurity,"Seven-phase model of intrusion: reconnaissance, weaponization, delivery, exploitation, installation, command-and-control, actions on objectives.",organizing-schema,Lockheed Martin's framework biases toward perimeter-centric thinking; less aligned with cloud and zero-trust architectures.,high
+Diamond Model of Intrusion Analysis,,framework,cybersecurity,"Four-feature framework for intrusion events: adversary, capability, infrastructure, victim.",organizing-schema,,high
+STRIDE,,framework,cybersecurity,"Microsoft threat modeling categorization: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege.",organizing-schema,,high
+PASTA,Process for Attack Simulation and Threat Analysis,framework,cybersecurity,Seven-stage risk-centric threat modeling methodology.,organizing-schema,,high
+Zero Trust Architecture,Zero Trust,framework,cybersecurity,Security model assuming no implicit trust based on network location; every access decision is verified.,organizing-schema,Coined by Forrester's John Kindervag; codified into NIST 800-207 for operational guidance.,high
+Defense in Depth,Layered Security,framework,cybersecurity,Strategy using multiple overlapping security controls so failure of any single layer does not compromise the system.,organizing-schema,,high
+CMMC,Cybersecurity Maturity Model Certification,framework,cybersecurity,DoD certification framework for protecting federal contract information and controlled unclassified information.,regulatory-standard,,high
+HITRUST CSF,HITRUST Common Security Framework,framework,cybersecurity,"Certifiable framework integrating HIPAA, NIST, ISO, PCI, and other authoritative sources.",regulatory-standard,,high
+FedRAMP,Federal Risk and Authorization Management Program,framework,cybersecurity,US government program standardizing security assessment and authorization for cloud services.,regulatory-standard,,high
+PCI DSS,Payment Card Industry Data Security Standard,framework,cybersecurity,Industry standard for organizations handling branded credit cards from major card networks.,regulatory-standard,,high
+GDPR,General Data Protection Regulation,framework,governance and compliance,EU regulation on data protection and privacy applicable to processing of EU residents' personal data.,regulatory-standard,Has substantial extraterritorial reach; non-EU organizations processing EU residents' data must comply.,high
+CCPA,California Consumer Privacy Act,framework,governance and compliance,California state law granting consumers rights over personal information collected by businesses.,regulatory-standard,,high
+HIPAA,Health Insurance Portability and Accountability Act,framework,governance and compliance,US law establishing privacy and security standards for protected health information.,regulatory-standard,,high
+Privacy by Design,PbD,framework,cybersecurity,Cavoukian's seven foundational principles for embedding privacy into the design of systems and processes.,organizing-schema,,high
+FIPPs,Fair Information Practice Principles,framework,governance and compliance,"Foundational set of principles (notice, choice, access, security, accountability) underlying most privacy regimes.",organizing-schema,,high
+Differential Privacy,,framework,mathematics,Formal definition guaranteeing that the inclusion or exclusion of any single record does not significantly affect query outputs.,formal-scientific,,high
+ISO 9001,,framework,governance and compliance,International standard for quality management systems with seven principles including process approach and continuous improvement.,regulatory-standard,,high
+ITIL,Information Technology Infrastructure Library,framework,governance and compliance,"Framework for IT service management including service strategy, design, transition, operation, and continual improvement.",regulatory-standard,,high
+COBIT,Control Objectives for Information and Related Technologies,framework,governance and compliance,ISACA framework for governance and management of enterprise IT.,regulatory-standard,,high
+TOGAF,The Open Group Architecture Framework,framework,governance and compliance,Enterprise architecture framework with Architecture Development Method (ADM) and content metamodel.,regulatory-standard,,high
+Zachman Framework,,framework,governance and compliance,"Enterprise architecture taxonomy intersecting six perspectives with six abstractions (what, how, where, who, when, why).",organizing-schema,,high
+CMMI,Capability Maturity Model Integration,framework,governance and compliance,"Five-level process maturity model: Initial, Managed, Defined, Quantitatively Managed, Optimizing.",regulatory-standard,,high
+SOC 2,Service Organization Controls 2,framework,governance and compliance,"AICPA framework for reporting on controls relevant to security, availability, processing integrity, confidentiality, and privacy.",regulatory-standard,,high
+SSAE 18,,framework,governance and compliance,Statement on Standards for Attestation Engagements 18 — current AICPA standard governing service organization audits.,regulatory-standard,,high
+TCFD,Task Force on Climate-related Financial Disclosures,framework,governance and compliance,"Voluntary framework for climate-related financial risk disclosures across governance, strategy, risk, and metrics.",regulatory-standard,,high
+SASB,Sustainability Accounting Standards Board,framework,governance and compliance,"Industry-specific sustainability disclosure standards, now under the IFRS Foundation's ISSB.",regulatory-standard,,high
+GRI,Global Reporting Initiative,framework,governance and compliance,"Most widely used sustainability reporting framework with universal, sector, and topic standards.",regulatory-standard,,high
+LEED,Leadership in Energy and Environmental Design,framework,governance and compliance,"USGBC certification system for green buildings across categories like energy, water, materials, and indoor environment.",regulatory-standard,,high

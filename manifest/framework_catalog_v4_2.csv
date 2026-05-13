@@ -1,0 +1,748 @@
+name,aliases,type,origin_discipline,one_line_summary,rigor_band,band_notes,confidence,enrichment_status,manifest_version_added
+Porter's Five Forces,,framework,management,"Industry profitability shaped by buyers, suppliers, entrants, substitutes, and rivalry.",organizing-schema,,high,enriched,v4
+Porter's Generic Strategies,,framework,management,"Cost leadership, differentiation, and focus as the three viable competitive postures.",organizing-schema,,high,enriched,v4
+Porter's Value Chain,,framework,management,Decomposes the firm into primary and support activities to locate sources of value.,organizing-schema,,high,enriched,v4
+BCG Growth-Share Matrix,Boston Box,framework,management,"Classifies business units as Stars, Cash Cows, Question Marks, or Dogs.",organizing-schema,,high,enriched,v4
+GE-McKinsey Nine-Box Matrix,,framework,management,Portfolio prioritization on industry attractiveness vs business unit strength.,organizing-schema,,high,enriched,v4
+Ansoff Matrix,Product-Market Grid,framework,management,Maps growth strategies across existing/new products and existing/new markets.,organizing-schema,,high,enriched,v4
+McKinsey 7S Framework,,framework,management,"Aligns strategy, structure, systems, shared values, skills, style, and staff.",organizing-schema,,high,enriched,v4
+Blue Ocean Strategy,,framework,management,Create uncontested market space rather than compete in saturated 'red oceans.',organizing-schema,,high,enriched,v4
+Disruptive Innovation Theory,,framework,management,Low-end and new-market entrants displace incumbents serving overshot customers.,organizing-schema,,high,enriched,v4
+Jobs to Be Done,JTBD,framework,management,Customers 'hire' products to make progress on a job in a context.,organizing-schema,,high,enriched,v4
+Lean Startup,,framework,management,Build-measure-learn loops with validated learning under extreme uncertainty.,organizing-schema,,high,enriched,v4
+Business Model Canvas,BMC,framework,management,Nine-block visual schema for describing and iterating a business model.,organizing-schema,,high,enriched,v4
+Value Proposition Canvas,VPC,framework,management,"Aligns customer pains, gains, and jobs to product features and benefits.",organizing-schema,,high,enriched,v4
+Lean Canvas,,framework,management,Maurya's adaptation of the BMC for early-stage startups under high uncertainty.,organizing-schema,,high,enriched,v4
+OKRs,Objectives and Key Results,framework,management,"Ambitious objectives paired with measurable key results, popularized by Grove and Doerr.",organizing-schema,,high,enriched,v4
+Balanced Scorecard,BSC,framework,management,"Performance measurement across financial, customer, internal process, and learning perspectives.",organizing-schema,,high,enriched,v4
+Wardley Mapping,,framework,management,Strategy via value-chain components plotted against evolutionary maturity.,organizing-schema,,high,enriched,v4
+Theory of Constraints,TOC,framework,management,System throughput is governed by its single binding constraint at any time.,organizing-schema,,high,enriched,v4
+Toyota Production System,"TPS, Lean Manufacturing",framework,management,"Eliminate waste through just-in-time, jidoka, and continuous improvement.",organizing-schema,,high,enriched,v4
+Six Sigma,,framework,management,Reduce defects to 3.4 per million through statistical process control and DMAIC.,organizing-schema,,high,enriched,v4
+Kaizen,,practice,management,Continuous incremental improvement involving everyone in an organization.,organizing-schema,,high,enriched,v4
+Hoshin Kanri,Policy Deployment,framework,management,Cascading strategy deployment with catchball alignment between levels.,organizing-schema,,high,enriched,v4
+Kotter's 8-Step Change Model,,framework,management,Sequential change leadership steps from urgency through anchoring in culture.,organizing-schema,,high,enriched,v4
+Lewin's Change Model,Unfreeze-Change-Refreeze,framework,management,Three-stage model of behavioral change at individual or organizational level.,organizing-schema,,high,enriched,v4
+ADKAR,,framework,management,"Awareness, Desire, Knowledge, Ability, Reinforcement — Prosci's individual-change model.",organizing-schema,,high,enriched,v4
+Bridges' Transition Model,,framework,management,"Distinguishes external change from internal psychological transition through endings, neutral zone, beginnings.",organizing-schema,,high,enriched,v4
+Greiner's Growth Model,,framework,management,Predictable phases of organizational growth punctuated by crises.,organizing-schema,,high,enriched,v4
+Tuckman's Stages,Forming-Storming-Norming-Performing,framework,management,Stage model of small-group development including the later-added 'adjourning.',organizing-schema,Widely cited but limited rigorous empirical validation of discrete stages.,high,enriched,v4
+Theory X and Theory Y,,framework,management,McGregor's contrasting assumptions about whether workers inherently dislike or seek work.,organizing-schema,Useful framing of managerial assumptions; not empirically validated as a typology.,high,enriched,v4
+Herzberg's Two-Factor Theory,Motivation-Hygiene Theory,framework,management,Distinguishes hygiene factors that prevent dissatisfaction from motivators that drive satisfaction.,organizing-schema,Influential but the two-factor structure has not been replicated in subsequent research.,high,enriched,v4
+Hofstede's Cultural Dimensions,,framework,management,"Six dimensions for comparing national cultures, originally derived from IBM survey data.",organizing-schema,Influential but methodologically critiqued; original sample (IBM employees) and dimensional structure have been challenged.,high,enriched,v4
+Trompenaars' Cultural Dimensions,Seven Dimensions of Culture,framework,management,"Alternative cross-cultural framework emphasizing relationships, time, and environment.",organizing-schema,,high,enriched,v4
+Management by Objectives,MBO,framework,management,Drucker's approach: align managers and employees through agreed measurable objectives.,organizing-schema,,high,enriched,v4
+Mintzberg's Management Roles,,framework,management,"Ten managerial roles grouped as interpersonal, informational, and decisional.",organizing-schema,,high,enriched,v4
+Mintzberg's Configurations,,framework,management,"Five organizational structures from simple to adhocracy, defined by coordination mechanism.",organizing-schema,,high,enriched,v4
+SWOT Analysis,,tool,management,"Surfaces strengths, weaknesses, opportunities, and threats for a venture or decision.",organizing-schema,,high,enriched,v4
+PESTLE Analysis,"PEST, PESTEL, STEEPLE",tool,management,"Scans Political, Economic, Social, Technological, Legal, and Environmental factors.",organizing-schema,,high,enriched,v4
+VRIO Framework,,framework,management,"Tests resources for Value, Rarity, Imitability, and Organization to find sustained advantage.",organizing-schema,,high,enriched,v4
+Resource-Based View,RBV,framework,management,"Competitive advantage stems from valuable, rare, inimitable, organized internal resources.",organizing-schema,,high,enriched,v4
+Dynamic Capabilities,,framework,management,"Teece's view of advantage from sensing, seizing, and reconfiguring assets in changing environments.",organizing-schema,,high,enriched,v4
+Stakeholder Theory,,framework,management,"Freeman's argument that firms must serve all affected parties, not just shareholders.",organizing-schema,,high,enriched,v4
+Triple Bottom Line,"TBL, 3BL",framework,management,"Performance measured across people, planet, and profit dimensions.",organizing-schema,,high,enriched,v4
+Three Horizons Model,,framework,management,"McKinsey portfolio model balancing core, emerging, and exploratory growth initiatives.",organizing-schema,,high,enriched,v4
+Holacracy,,framework,management,Self-management system replacing traditional hierarchy with distributed authority and circles.,organizing-schema,,high,enriched,v4
+Sociocracy,Dynamic Governance,framework,management,Consent-based governance through linked circles of decision-making.,organizing-schema,,high,enriched,v4
+Pyramid Principle,Minto Pyramid,framework,management,"Top-down communication structure starting with the answer, supported by grouped arguments.",organizing-schema,,high,enriched,v4
+Strategy Canvas,,tool,management,Blue Ocean visual contrasting an industry's value-curve to identify reinvention opportunities.,organizing-schema,,high,enriched,v4
+RACI Matrix,,tool,management,"Clarifies who is Responsible, Accountable, Consulted, and Informed for each task.",organizing-schema,,high,enriched,v4
+DACI,,tool,management,"Driver, Approver, Contributors, Informed — decision-roles variant of RACI.",organizing-schema,,high,enriched,v4
+Eisenhower Matrix,Urgent-Important Matrix,tool,management,Sorts tasks into four quadrants by urgency and importance.,organizing-schema,,high,enriched,v4
+MoSCoW,,tool,management,"Prioritizes requirements as Must, Should, Could, or Won't have.",organizing-schema,,high,enriched,v4
+RICE Scoring,,tool,management,"Prioritizes features by Reach, Impact, Confidence, and Effort.",organizing-schema,,high,enriched,v4
+ICE Scoring,,tool,management,"Prioritizes ideas on Impact, Confidence, and Ease — simpler RICE precursor.",organizing-schema,,high,enriched,v4
+Kano Model,,framework,management,"Classifies features as basic, performance, or delighters by their effect on customer satisfaction.",organizing-schema,,high,enriched,v4
+Pareto Analysis,80/20 Rule,tool,management,Identifies the vital few inputs accounting for the majority of outputs.,organizing-schema,,high,enriched,v4
+Pugh Matrix,Decision Matrix,tool,management,Concept selection by scoring alternatives against weighted criteria relative to a baseline.,organizing-schema,,high,enriched,v4
+After Action Review,AAR,practice,management,"Structured reflection on what was intended, what happened, why, and what to do next.",organizing-schema,,high,enriched,v4
+Premortem,,technique,management,Imagine the project has failed and work backward to prevent the causes.,organizing-schema,,high,enriched,v4
+Five Whys,5 Whys,technique,management,"Iteratively ask 'why' to drill from symptom to root cause, originating in Toyota's TPS.",organizing-schema,,high,enriched,v4
+Fishbone Diagram,"Ishikawa Diagram, Cause-and-Effect Diagram",tool,management,"Visual root-cause analysis grouping causes under categories like people, process, materials.",organizing-schema,,high,enriched,v4
+Six Thinking Hats,,technique,management,De Bono's parallel-thinking method using six distinct perspective 'hats.',organizing-schema,,high,enriched,v4
+Lateral Thinking,,framework,management,De Bono's approach to generating ideas by deliberately disrupting linear logic.,organizing-schema,,high,enriched,v4
+SCAMPER,,technique,management,"Idea-generation prompts: Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse.",organizing-schema,,high,enriched,v4
+TRIZ,Theory of Inventive Problem Solving,framework,engineering,"Altshuller's pattern-based system for technical innovation, drawn from millions of patents.",organizing-schema,,high,enriched,v4
+Mind Mapping,,technique,management,Buzan's radial visual technique for non-linear note-taking and brainstorming.,organizing-schema,,high,enriched,v4
+Affinity Diagram,KJ Method,technique,management,Group disparate ideas into emergent themes by intuitive sorting.,organizing-schema,,high,enriched,v4
+Force Field Analysis,,tool,management,Lewin's mapping of driving and restraining forces around a proposed change.,organizing-schema,,high,enriched,v4
+Decision Tree Analysis,,tool,management,"Branching diagram of choices, chance events, and outcomes with associated values.",organizing-schema,,high,enriched,v4
+Stage-Gate Process,Phase-Gate,framework,management,Cooper's product-development model with go/kill decisions between defined stages.,organizing-schema,,high,enriched,v4
+DMAIC,,framework,management,"Six Sigma improvement cycle: Define, Measure, Analyze, Improve, Control.",organizing-schema,,high,enriched,v4
+DMADV,,framework,management,"Six Sigma design cycle: Define, Measure, Analyze, Design, Verify.",organizing-schema,,high,enriched,v4
+Total Quality Management,TQM,framework,management,Organization-wide focus on continuous quality improvement with customer at the center.,organizing-schema,,high,enriched,v4
+Quality Function Deployment,"QFD, House of Quality",framework,engineering,Translates customer requirements into engineering specifications via matrix analysis.,organizing-schema,,high,enriched,v4
+Poka-Yoke,Mistake-Proofing,technique,engineering,Design constraints that make errors impossible or immediately obvious.,organizing-schema,,high,enriched,v4
+Hedgehog Concept,,framework,management,"Collins' intersection of passion, economic engine, and what-you-can-be-best-at.",organizing-schema,,high,enriched,v4
+Level 5 Leadership,,framework,management,Collins' hierarchy of executive capability culminating in humility plus fierce resolve.,organizing-schema,,high,enriched,v4
+Five Dysfunctions of a Team,,framework,management,"Lencioni's pyramid: absence of trust, fear of conflict, lack of commitment, avoidance of accountability, inattention to results.",organizing-schema,,high,enriched,v4
+Situational Leadership,,framework,management,Hersey-Blanchard model matching leadership style to follower readiness.,organizing-schema,,high,enriched,v4
+Servant Leadership,,framework,management,Greenleaf's leadership philosophy where the leader's primary role is to serve.,organizing-schema,,high,enriched,v4
+Transformational Leadership,,framework,management,"Bass and Burns model emphasizing inspiration, intellectual stimulation, and individualized consideration.",organizing-schema,,high,enriched,v4
+4Ps of Marketing,Marketing Mix,framework,marketing,"McCarthy's product, price, place, promotion as the four levers of marketing.",organizing-schema,,high,enriched,v4
+7Ps of Marketing,Extended Marketing Mix,framework,marketing,"Booms and Bitner's extension adding people, process, and physical evidence for services.",organizing-schema,,high,enriched,v4
+4Cs of Marketing,,framework,marketing,"Lauterborn's customer-centric reframe: consumer, cost, convenience, communication.",organizing-schema,,high,enriched,v4
+AIDA,,framework,marketing,"Attention, Interest, Desire, Action — classic linear advertising response model.",organizing-schema,,high,enriched,v4
+AIDAS,,framework,marketing,AIDA extended with Satisfaction to capture post-purchase loyalty.,organizing-schema,,high,enriched,v4
+STP,Segmentation Targeting Positioning,framework,marketing,"Sequential approach: segment market, target chosen segments, position offering distinctively.",organizing-schema,,high,enriched,v4
+Marketing Funnel,Purchase Funnel,framework,marketing,Awareness through purchase as a narrowing pipeline of prospects.,organizing-schema,,high,enriched,v4
+Pirate Metrics,AARRR,framework,marketing,"McClure's Acquisition, Activation, Retention, Referral, Revenue lifecycle for startups.",organizing-schema,,high,enriched,v4
+Crossing the Chasm,Technology Adoption Lifecycle,framework,marketing,Moore's adaptation showing the gap between early adopters and early majority.,organizing-schema,,high,enriched,v4
+Diffusion of Innovations,,framework,sociology,"Rogers' S-curve model of how innovations spread through innovators, adopters, and laggards.",structured-empirical,,high,enriched,v4
+StoryBrand,SB7,framework,marketing,"Donald Miller's seven-part brand-narrative framework casting customer as hero, brand as guide.",organizing-schema,,high,enriched,v4
+Net Promoter Score,NPS,tool,marketing,Single-question loyalty measure based on likelihood to recommend.,organizing-schema,,high,enriched,v4
+Customer Lifetime Value,"CLV, LTV",tool,marketing,Projected revenue from a customer relationship over its entire duration.,organizing-schema,,high,enriched,v4
+RFM Analysis,Recency Frequency Monetary,tool,marketing,"Customer segmentation by how recently, how often, and how much they purchased.",organizing-schema,,high,enriched,v4
+Means-End Theory,Means-End Chain,framework,marketing,Links product attributes to consumer values through a chain of consequences.,organizing-schema,,high,enriched,v4
+Ehrenberg-Bass Laws,How Brands Grow,framework,marketing,"Empirical regularities in buying behavior, including double jeopardy and brand penetration.",organizing-schema,,high,enriched,v4
+Customer Journey Mapping,,tool,marketing,"Visualizes a customer's stages, touchpoints, emotions, and pain points across an experience.",organizing-schema,,high,enriched,v4
+Empathy Map,,tool,marketing,"Visual organizing what a user says, thinks, does, and feels.",organizing-schema,,high,enriched,v4
+Personas,"User Personas, Buyer Personas",tool,marketing,Composite fictional representatives of target user segments used to ground design and marketing.,organizing-schema,,high,enriched,v4
+Hooked Model,Hook Canvas,framework,marketing,Eyal's trigger-action-reward-investment loop for habit-forming products.,organizing-schema,,high,enriched,v4
+Fogg Behavior Model,B=MAT,framework,psychology,"Behavior occurs when motivation, ability, and prompt converge simultaneously.",structured-empirical,,high,enriched,v4
+Big Five,"OCEAN, CANOE, Five-Factor Model",framework,psychology,"Five dimensions of personality: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism.",structured-empirical,,high,enriched,v4
+HEXACO,,framework,psychology,Six-factor personality model adding Honesty-Humility to the Big Five.,structured-empirical,,high,enriched,v4
+Myers-Briggs Type Indicator,MBTI,framework,psychology,Sixteen personality types from Jungian dichotomies; widely used despite weak psychometric support.,organizing-schema,Weak psychometric reliability and validity; rejected by mainstream personality psychology despite cultural penetration. Bimodal forced-choice on continuously distributed traits.,high,enriched,v4
+Enneagram,Enneagram of Personality,framework,psychology,"Nine interconnected personality types with wings, instincts, and integration arrows.",contemplative-tradition,Origins in Gurdjieff/Ichazo esoteric traditions; no peer-reviewed empirical validation. Often presented as if psychometrically validated when it is not.,high,enriched,v4
+DISC Assessment,,framework,psychology,"Behavioral typology along Dominance, Influence, Steadiness, and Conscientiousness.",organizing-schema,Modest psychometric support; substantially weaker than Five-Factor instruments.,high,enriched,v4
+CliftonStrengths,StrengthsFinder,framework,psychology,Gallup's 34 talent themes used for strengths-based development.,organizing-schema,Validation primarily from Gallup (proprietor); limited independent replication.,high,enriched,v4
+Hogan Personality Inventory,HPI,framework,psychology,Workplace personality assessment grounded in the Five-Factor Model.,structured-empirical,,high,enriched,v4
+Maslow's Hierarchy of Needs,,framework,psychology,"Pyramid from physiological needs through self-actualization, with self-transcendence later added.",organizing-schema,Core needs categories are useful but the strict hierarchy structure is not empirically supported.,high,enriched,v4
+Self-Determination Theory,SDT,framework,psychology,"Deci and Ryan's framework of autonomy, competence, and relatedness as basic psychological needs.",structured-empirical,,high,enriched,v4
+Attachment Theory,,framework,psychology,Bowlby and Ainsworth's framework of early bonds shaping internal working models of relationships.,structured-empirical,,high,enriched,v4
+Bowen Family Systems Theory,,framework,psychology,"Family as an emotional unit shaped by differentiation, triangles, and multigenerational transmission.",organizing-schema,Clinically influential; limited rigorous empirical validation.,high,enriched,v4
+Internal Family Systems,IFS,framework,psychology,"Schwartz's parts-based therapy model with managers, exiles, firefighters, and the Self.",organizing-schema,Emerging clinical support but evidence base remains thinner than CBT or DBT.,high,enriched,v4
+Polyvagal Theory,,framework,psychology,"Porges' theory of three vagal pathways governing safety, mobilization, and shutdown.",organizing-schema,Therapeutic adoption is broad but underlying neurophysiology has been seriously challenged in mainstream physiology (Grossman and others).,high,enriched,v4
+Transactional Analysis,TA,framework,psychology,"Berne's framework of Parent, Adult, and Child ego states transacting in relationships.",organizing-schema,Some clinical use; limited contemporary empirical validation.,high,enriched,v4
+Cognitive Behavioral Therapy,CBT,framework,psychology,"Beck's framework linking thoughts, feelings, and behaviors as targets for change.",structured-empirical,,high,enriched,v4
+Dialectical Behavior Therapy,DBT,framework,psychology,"Linehan's CBT extension adding mindfulness, distress tolerance, and emotion regulation.",structured-empirical,,high,enriched,v4
+Acceptance and Commitment Therapy,ACT,framework,psychology,Hayes' framework using acceptance and values clarification rather than symptom reduction.,structured-empirical,,high,enriched,v4
+Rational Emotive Behavior Therapy,REBT,framework,psychology,Ellis' precursor to CBT focused on disputing irrational beliefs.,structured-empirical,,high,enriched,v4
+Schema Therapy,,framework,psychology,Young's integrative therapy targeting early maladaptive schemas formed in childhood.,structured-empirical,,high,enriched,v4
+Jungian Analytical Psychology,,framework,psychology,"Jung's framework of personal and collective unconscious, archetypes, and individuation.",organizing-schema,Influential in depth psychology and culture; not validated within empirical psychology.,high,enriched,v4
+Jungian Archetypes,,framework,psychology,"Universal symbolic patterns including Self, Shadow, Anima/Animus, Hero, Mother.",organizing-schema,Not empirically grounded; useful as cultural and narrative scaffolding rather than psychological taxonomy.,high,enriched,v4
+King Warrior Magician Lover,KWML,framework,psychology,Moore and Gillette's masculine archetypes drawn from depth psychology.,organizing-schema,Derived from Jungian depth psychology; valuable for self-development work but not empirically validated.,high,enriched,v4
+Erikson's Stages,,framework,psychology,Eight psychosocial stages from trust vs mistrust through integrity vs despair.,structured-empirical,,high,enriched,v4
+Piaget's Stages,,framework,psychology,Four stages of cognitive development from sensorimotor through formal operations.,structured-empirical,,high,enriched,v4
+Kohlberg's Stages of Moral Development,,framework,psychology,"Six stages across pre-conventional, conventional, and post-conventional moral reasoning.",structured-empirical,,high,enriched,v4
+Zone of Proximal Development,ZPD,framework,psychology,Vygotsky's gap between what a learner can do alone and with guidance.,structured-empirical,,high,enriched,v4
+Social Learning Theory,,framework,psychology,"Bandura's account of learning through observation, modeling, and imitation.",structured-empirical,,high,enriched,v4
+Self-Efficacy Theory,,framework,psychology,Bandura's construct: belief in one's ability to execute behaviors needed for outcomes.,structured-empirical,,high,enriched,v4
+Locus of Control,,framework,psychology,Rotter's dimension contrasting internal vs external attribution of control over events.,structured-empirical,,high,enriched,v4
+Learned Helplessness,,framework,psychology,Seligman's account of passivity arising from repeated uncontrollable aversive events.,structured-empirical,,high,enriched,v4
+Positive Psychology,PERMA,framework,psychology,"Seligman's flourishing framework: Positive emotion, Engagement, Relationships, Meaning, Accomplishment.",structured-empirical,,high,enriched,v4
+Flow Theory,,framework,psychology,Csikszentmihalyi's optimal experience at the balance of challenge and skill.,structured-empirical,,high,enriched,v4
+Dual-Process Theory,System 1 / System 2,framework,psychology,"Two modes of cognition: fast intuitive and slow deliberative, popularized by Kahneman.",structured-empirical,,high,enriched,v4
+Cognitive Dissonance Theory,,framework,psychology,Festinger's account of discomfort from holding contradictory beliefs and motivated rationalization.,structured-empirical,,high,enriched,v4
+Theory of Planned Behavior,TPB,framework,psychology,"Ajzen's model: intention shaped by attitudes, norms, and perceived control.",structured-empirical,,high,enriched,v4
+Health Belief Model,HBM,framework,medicine,"Health behavior driven by perceived susceptibility, severity, benefits, and barriers.",structured-empirical,,high,enriched,v4
+Transtheoretical Model,Stages of Change,framework,psychology,"Prochaska and DiClemente's stages: precontemplation, contemplation, preparation, action, maintenance.",structured-empirical,,high,enriched,v4
+Motivational Interviewing,MI,framework,psychology,Miller and Rollnick's collaborative method for evoking change talk and resolving ambivalence.,structured-empirical,,high,enriched,v4
+Trauma-Informed Care,,framework,psychology,"Approach assuming widespread trauma and prioritizing safety, choice, collaboration, empowerment.",structured-empirical,,high,enriched,v4
+Job Demands-Resources Model,JD-R,framework,psychology,Demerouti and Bakker's framework explaining burnout and engagement at work.,structured-empirical,,high,enriched,v4
+Conservation of Resources Theory,COR,framework,psychology,Hobfoll's stress theory: people seek to acquire and protect valued resources.,structured-empirical,,high,enriched,v4
+Broaden-and-Build Theory,,framework,psychology,Fredrickson's theory that positive emotions broaden thought-action repertoires.,structured-empirical,,high,enriched,v4
+Karpman Drama Triangle,,framework,psychology,"Three relational roles in conflict: Persecutor, Victim, Rescuer.",organizing-schema,Clinically useful schema; not empirically tested as a falsifiable theory.,high,enriched,v4
+Choice Theory,Reality Therapy,framework,psychology,Glasser's framework of human behavior driven by five basic needs.,organizing-schema,Glasser's framework has practitioner adoption but limited rigorous empirical research.,high,enriched,v4
+Gottman Sound Relationship House,,framework,psychology,Empirically derived model of healthy couple relationships across nine levels.,structured-empirical,,high,enriched,v4
+Adlerian Individual Psychology,,framework,psychology,"Adler's framework emphasizing inferiority, social interest, and lifestyle.",organizing-schema,Influential in counseling traditions; limited contemporary empirical research.,high,enriched,v4
+Object Relations Theory,,framework,psychology,Psychoanalytic school focusing on internalized representations of self and others.,organizing-schema,Influential in clinical psychoanalysis; not amenable to standard empirical validation.,high,enriched,v4
+Self Psychology,,framework,psychology,Kohut's psychoanalytic framework centered on selfobject experiences and narcissistic development.,organizing-schema,Influential in clinical psychoanalysis; not amenable to standard empirical validation.,high,enriched,v4
+Heuristics and Biases Program,,framework,psychology,Kahneman and Tversky's research program cataloguing systematic deviations from rational judgment.,structured-empirical,,high,enriched,v4
+Prospect Theory,,framework,economics,Kahneman and Tversky's account of decision under risk featuring loss aversion and reference dependence.,structured-empirical,,high,enriched,v4
+Cognitive Reframing,,technique,psychology,Deliberately reinterpreting an event to alter its emotional charge.,structured-empirical,,high,enriched,v4
+Thought Records,,tool,psychology,CBT worksheet for identifying and challenging automatic thoughts.,structured-empirical,,high,enriched,v4
+Behavioral Activation,,technique,psychology,Increasing engagement with rewarding activities to interrupt depressive cycles.,structured-empirical,,high,enriched,v4
+Mindfulness Practice,,practice,psychology,Sustained non-judgmental attention to present experience.,structured-empirical,"Originally Buddhist contemplative practice; now substantial empirical base in clinical contexts (MBSR, MBCT).",high,enriched,v4
+Box Breathing,Four-Square Breathing,technique,psychology,"Inhale, hold, exhale, hold for equal counts to regulate the nervous system.",organizing-schema,,high,enriched,v4
+Loving-Kindness Meditation,Metta,practice,theology,"Buddhist practice cultivating benevolence toward self, loved ones, neutral parties, and difficult people.",contemplative-tradition,,high,enriched,v4
+Journaling,,practice,psychology,Regular expressive writing for self-reflection and emotional processing.,organizing-schema,,high,enriched,v4
+Morning Pages,,practice,psychology,Cameron's daily three pages of stream-of-consciousness longhand writing.,organizing-schema,,high,enriched,v4
+Gratitude Journaling,,practice,psychology,"Regular practice of recording things one is grateful for, linked to wellbeing outcomes.",organizing-schema,,high,enriched,v4
+EMDR,Eye Movement Desensitization and Reprocessing,technique,psychology,Shapiro's bilateral-stimulation protocol for trauma processing.,structured-empirical,Empirical support for trauma processing; the specific role of bilateral stimulation as the active mechanism remains debated.,high,enriched,v4
+Structural Functionalism,,framework,sociology,Society as an integrated system of parts each serving stability-maintaining functions.,organizing-schema,,high,enriched,v4
+Conflict Theory,,framework,sociology,"Society as an arena of struggle between groups over scarce resources and power, rooted in Marx.",organizing-schema,,high,enriched,v4
+Symbolic Interactionism,,framework,sociology,Mead and Blumer's view of society as constituted through meaning-laden interaction.,organizing-schema,,high,enriched,v4
+Goffman's Dramaturgy,Presentation of Self,framework,sociology,Social life analyzed as theatrical performance with frontstage and backstage regions.,organizing-schema,,high,enriched,v4
+Bourdieu's Habitus,"Field, Capital",framework,sociology,"Practice as the product of habitus, field, and forms of capital — economic, cultural, social.",organizing-schema,,high,enriched,v4
+Foucault's Power-Knowledge,,framework,sociology,"Power and knowledge as inseparable, jointly producing subjects through discourse and discipline.",organizing-schema,,high,enriched,v4
+Weber's Bureaucracy,Rationalization,framework,sociology,"Ideal-type bureaucracy characterized by hierarchy, rules, impersonality, and technical expertise.",organizing-schema,,high,enriched,v4
+Structuration Theory,,framework,sociology,Giddens' account of structure and agency as recursively constituted.,organizing-schema,,high,enriched,v4
+Actor-Network Theory,ANT,framework,sociology,Latour and Callon's framework treating humans and non-humans as symmetric actants in networks.,organizing-schema,,high,enriched,v4
+Critical Theory,Frankfurt School,framework,sociology,"Marxist-derived tradition critiquing culture, ideology, and instrumental rationality.",organizing-schema,,high,enriched,v4
+Social Construction of Reality,,framework,sociology,Berger and Luckmann's account of how shared meanings come to feel objectively given.,organizing-schema,,high,enriched,v4
+Strength of Weak Ties,,framework,sociology,Granovetter's finding that loose acquaintances bridge networks more effectively than close ties.,structured-empirical,,high,enriched,v4
+Social Capital Theory,,framework,sociology,"Putnam's framework of bonding, bridging, and linking ties as productive resources.",structured-empirical,,high,enriched,v4
+Looking-Glass Self,,framework,sociology,Cooley's account of self formed through perception of how others see us.,organizing-schema,,high,enriched,v4
+Strain Theory,,framework,sociology,Merton's framework of deviance arising from gap between cultural goals and legitimate means.,organizing-schema,,high,enriched,v4
+Labeling Theory,,framework,sociology,Deviance as a social product of labeling rather than an inherent property of acts.,organizing-schema,,high,enriched,v4
+Risk Society,,framework,sociology,Beck's account of late modernity as organized around manufactured risks rather than scarcity.,organizing-schema,,high,enriched,v4
+Liquid Modernity,,framework,sociology,"Bauman's framework characterizing the present as fluid, individualized, and unsettled.",organizing-schema,,high,enriched,v4
+World-Systems Theory,,framework,sociology,"Wallerstein's framework of core, periphery, and semi-periphery in the global capitalist system.",organizing-schema,,high,enriched,v4
+Theory of Communicative Action,,framework,sociology,Habermas' framework distinguishing instrumental from communicative rationality.,organizing-schema,,high,enriched,v4
+Virtue Ethics,Aretaic Ethics,framework,philosophy,Ethics centered on character traits and human flourishing rather than rules or consequences.,philosophical-tradition,,high,enriched,v4
+Deontology,Kantian Ethics,framework,philosophy,"Ethics grounded in duty and universalizable maxims, independent of consequences.",philosophical-tradition,,high,enriched,v4
+Consequentialism,,framework,philosophy,Moral worth of action determined by its outcomes; utilitarianism is its most influential variant.,philosophical-tradition,,high,enriched,v4
+Utilitarianism,,framework,philosophy,"Maximize aggregate well-being; classical (Bentham, Mill) and contemporary variants.",philosophical-tradition,,high,enriched,v4
+Contractualism,,framework,philosophy,Scanlon's view that moral principles are those no one could reasonably reject.,philosophical-tradition,,high,enriched,v4
+Veil of Ignorance,Rawlsian Justice,framework,philosophy,Choose principles of justice without knowing your own position in society.,philosophical-tradition,,high,enriched,v4
+Capability Approach,,framework,economics,Sen and Nussbaum's framework evaluating well-being by what people can do and be.,philosophical-tradition,,high,enriched,v4
+Care Ethics,Ethics of Care,framework,philosophy,Gilligan and Noddings' framework grounding ethics in relationships and responsiveness rather than abstract principle.,philosophical-tradition,,high,enriched,v4
+Pragmatism,,framework,philosophy,"Peirce, James, Dewey: meaning and truth grounded in practical consequences and inquiry.",philosophical-tradition,,high,enriched,v4
+Existentialism,,framework,philosophy,"Existence precedes essence; meaning is created through choice, freedom, and responsibility.",philosophical-tradition,,high,enriched,v4
+Phenomenology,,framework,philosophy,Husserl's method of describing structures of conscious experience as they appear.,philosophical-tradition,,high,enriched,v4
+Hermeneutics,,framework,philosophy,"Theory and practice of interpretation, especially of texts and historical understanding.",philosophical-tradition,,high,enriched,v4
+Stoicism,,framework,philosophy,"Hellenistic philosophy emphasizing virtue, reason, and acceptance of what one cannot control.",philosophical-tradition,,high,enriched,v4
+Epicureanism,,framework,philosophy,Hellenistic philosophy seeking tranquility through prudent pleasure and absence of pain.,philosophical-tradition,,high,enriched,v4
+Falsificationism,,framework,philosophy,Popper's criterion that scientific claims must be capable of being proven wrong.,philosophical-tradition,,high,enriched,v4
+Paradigm Shift,Kuhnian Revolution,framework,philosophy,Kuhn's account of science as alternating periods of normal science and revolutionary change.,philosophical-tradition,,high,enriched,v4
+Lakatosian Research Programmes,,framework,philosophy,Lakatos' refinement of Popper: programmes have hard cores and protective belts of auxiliary hypotheses.,philosophical-tradition,,high,enriched,v4
+Bayesian Epistemology,,framework,philosophy,Belief modeled as probability and updated by Bayes' rule on new evidence.,philosophical-tradition,Distinct from Bayesian Inference (formal-scientific); this is the philosophical position that belief should be modeled probabilistically.,high,enriched,v4
+Reflective Equilibrium,,framework,philosophy,Iterative adjustment between principles and considered judgments until coherence is reached.,philosophical-tradition,,high,enriched,v4
+Foundationalism,,framework,philosophy,Knowledge structure resting on basic non-inferentially justified beliefs.,philosophical-tradition,,high,enriched,v4
+Coherentism,,framework,philosophy,"Knowledge justified by mutual support among beliefs, with no privileged foundation.",philosophical-tradition,,high,enriched,v4
+Reliabilism,,framework,philosophy,Knowledge as belief produced by reliable cognitive processes.,philosophical-tradition,,high,enriched,v4
+Occam's Razor,Principle of Parsimony,technique,philosophy,"Among competing hypotheses, prefer the one with fewest assumptions.",philosophical-tradition,,high,enriched,v4
+Hanlon's Razor,,technique,philosophy,Never attribute to malice that which is adequately explained by stupidity.,philosophical-tradition,,high,enriched,v4
+Sturgeon's Law,,technique,philosophy,Ninety percent of everything is crud — used to push past surface dismissal.,philosophical-tradition,,high,enriched,v4
+Steelmanning,,technique,philosophy,Construct the strongest possible version of an opposing argument before engaging it.,philosophical-tradition,,high,enriched,v4
+First Principles Thinking,,technique,philosophy,Decomposing a problem to its foundational truths and reasoning upward.,philosophical-tradition,,high,enriched,v4
+Principle of Charity,Charitable Interpretation,technique,philosophy,Interpret others' arguments in their strongest plausible form.,philosophical-tradition,,high,enriched,v4
+Trolley Problem,,technique,philosophy,Foot and Thomson's thought experiment probing intuitions about killing vs letting die.,philosophical-tradition,,high,enriched,v4
+Ship of Theseus,,technique,philosophy,Thought experiment about identity through gradual replacement of parts.,philosophical-tradition,,high,enriched,v4
+Veil of Ignorance Method,,technique,philosophy,Reasoning device for fairness by stripping knowledge of one's own position.,philosophical-tradition,,high,enriched,v4
+Separation of Powers,,framework,political science,"Montesquieu's division of state authority among legislative, executive, and judicial branches.",organizing-schema,,high,enriched,v4
+Federalism,,framework,political science,Sovereignty divided constitutionally between national and subnational governments.,organizing-schema,,high,enriched,v4
+Public Choice Theory,,framework,political science,Buchanan and Tullock applying economic methods to political behavior.,organizing-schema,,high,enriched,v4
+Median Voter Theorem,,framework,political science,"Under single-peaked preferences and majority rule, the median voter's preference wins.",formal-scientific,,high,enriched,v4
+Arrow's Impossibility Theorem,,framework,political science,No rank-order voting system can satisfy a small set of fairness criteria simultaneously.,formal-scientific,,high,enriched,v4
+Realism (IR),Political Realism,framework,political science,International relations driven by states pursuing power in an anarchic system.,organizing-schema,,high,enriched,v4
+Liberalism (IR),,framework,political science,"International relations shaped by institutions, interdependence, and democratic norms.",organizing-schema,,high,enriched,v4
+Constructivism (IR),,framework,political science,International behavior shaped by socially constructed identities and norms.,organizing-schema,,high,enriched,v4
+Democratic Peace Theory,,framework,political science,Empirical regularity that mature democracies rarely fight one another.,organizing-schema,,high,enriched,v4
+Soft Power,,framework,political science,Nye's concept of influence through attraction and persuasion rather than coercion.,organizing-schema,,high,enriched,v4
+Smart Power,,framework,political science,Combining hard and soft power instruments contextually.,organizing-schema,,high,enriched,v4
+Overton Window,,framework,political science,The range of policy ideas considered politically acceptable at a given time.,organizing-schema,,high,enriched,v4
+Spiral of Silence,,framework,political science,Noelle-Neumann's account of opinion suppression when people perceive themselves in a minority.,organizing-schema,,high,enriched,v4
+Agenda-Setting Theory,,framework,political science,Media doesn't tell us what to think but powerfully shapes what to think about.,organizing-schema,,high,enriched,v4
+Iron Triangle,,framework,political science,"Stable policy alliances among legislators, agencies, and interest groups.",organizing-schema,,high,enriched,v4
+Hegemonic Stability Theory,,framework,political science,International economic openness depends on a dominant state willing to provide public goods.,organizing-schema,,high,enriched,v4
+Just War Theory,,framework,philosophy,"Conditions under which war is morally justified, divided into jus ad bellum and jus in bello.",philosophical-tradition,Theological roots in Augustine and Aquinas; contemporary scholarship is largely secular philosophical.,high,enriched,v4
+Two-Level Games,,framework,political science,Putnam's model of international negotiation as simultaneous play at domestic and international tables.,organizing-schema,,high,enriched,v4
+REST,Representational State Transfer,framework,computer science,Fielding's architectural style for distributed hypermedia systems.,organizing-schema,,high,enriched,v4
+ACID Properties,,framework,computer science,"Atomicity, Consistency, Isolation, Durability — guarantees for reliable transactions.",formal-scientific,,high,enriched,v4
+BASE Properties,,framework,computer science,"Basically Available, Soft state, Eventual consistency — pragmatic alternative to ACID.",organizing-schema,,high,enriched,v4
+CAP Theorem,Brewer's Theorem,framework,computer science,"Distributed system can guarantee at most two of consistency, availability, partition tolerance.",formal-scientific,,high,enriched,v4
+PACELC Theorem,,framework,computer science,"Extension of CAP: even without partitions, systems trade latency against consistency.",formal-scientific,,high,enriched,v4
+Domain-Driven Design,DDD,framework,computer science,Evans' approach aligning software model with domain language and bounded contexts.,organizing-schema,,high,enriched,v4
+Event-Driven Architecture,EDA,framework,computer science,"System organized around production, detection, and reaction to events.",organizing-schema,,high,enriched,v4
+CQRS,Command Query Responsibility Segregation,framework,computer science,Separates read and write models for scalability and clarity.,organizing-schema,,high,enriched,v4
+Event Sourcing,,framework,computer science,Persist state as an immutable sequence of events rather than current snapshots.,organizing-schema,,high,enriched,v4
+Hexagonal Architecture,Ports and Adapters,framework,computer science,Cockburn's design isolating business logic from delivery and infrastructure concerns.,organizing-schema,,high,enriched,v4
+Onion Architecture,,framework,computer science,Concentric layers with dependencies pointing inward toward the domain core.,organizing-schema,,high,enriched,v4
+Clean Architecture,,framework,computer science,Martin's synthesis of hexagonal and onion patterns with strict dependency rule.,organizing-schema,,high,enriched,v4
+Microservices,,framework,computer science,"Architectural style decomposing applications into small, independently deployable services.",organizing-schema,,high,enriched,v4
+Service-Oriented Architecture,SOA,framework,computer science,Earlier service composition style with heavier orchestration than microservices.,organizing-schema,,high,enriched,v4
+Twelve-Factor App,,framework,computer science,"Heroku's methodology for building scalable, declarative SaaS applications.",organizing-schema,,high,enriched,v4
+SOLID Principles,,framework,computer science,"Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion.",organizing-schema,,high,enriched,v4
+DRY,Don't Repeat Yourself,technique,computer science,Hunt and Thomas' principle: every piece of knowledge should have one authoritative representation.,organizing-schema,,high,enriched,v4
+KISS,"Keep It Simple, Stupid",technique,computer science,Design principle favoring simplicity over unnecessary complexity.,organizing-schema,,high,enriched,v4
+YAGNI,You Aren't Gonna Need It,technique,computer science,XP principle: don't build functionality until it's actually required.,organizing-schema,,high,enriched,v4
+The Agile Manifesto,,framework,computer science,2001 declaration of values and principles for adaptive software development.,organizing-schema,,high,enriched,v4
+Scrum,,framework,computer science,"Iterative agile framework with sprints, roles, and ceremonies.",organizing-schema,,high,enriched,v4
+Kanban,,framework,management,"Pull-based workflow visualization with WIP limits, originating from Toyota.",organizing-schema,,high,enriched,v4
+Scrumban,,framework,computer science,Hybrid combining Scrum's structure with Kanban's flow.,organizing-schema,,high,enriched,v4
+SAFe,Scaled Agile Framework,framework,computer science,Leffingwell's enterprise-scale agile coordination framework.,organizing-schema,,high,enriched,v4
+LeSS,Large Scale Scrum,framework,computer science,Larman and Vodde's approach to scaling Scrum with minimal added structure.,organizing-schema,,high,enriched,v4
+Spotify Model,"Squads, Tribes, Chapters, Guilds",framework,computer science,"Organizational pattern from Spotify circa 2012, widely emulated and often misapplied.",organizing-schema,Frequently cited and frequently misapplied; Spotify itself has acknowledged the model wasn't representative even at the time.,high,enriched,v4
+Extreme Programming,XP,framework,computer science,"Beck's rigorous agile practices including TDD, pair programming, and continuous integration.",organizing-schema,,high,enriched,v4
+Test-Driven Development,TDD,practice,computer science,"Red-green-refactor cycle: write failing test, make it pass, then improve design.",organizing-schema,,high,enriched,v4
+Behavior-Driven Development,BDD,practice,computer science,TDD variant using natural-language scenarios to specify behavior.,organizing-schema,,high,enriched,v4
+DevOps,,framework,computer science,Cultural and technical practices unifying development and operations.,organizing-schema,,high,enriched,v4
+Site Reliability Engineering,SRE,framework,computer science,Google's approach treating operations as a software problem with SLOs and error budgets.,organizing-schema,,high,enriched,v4
+CI/CD,Continuous Integration / Continuous Delivery,practice,computer science,Frequent automated integration and deployment of small changes.,organizing-schema,,high,enriched,v4
+Trunk-Based Development,,practice,computer science,Short-lived branches and frequent merges to a single trunk.,organizing-schema,,high,enriched,v4
+GitFlow,,framework,computer science,"Driessen's branching model with develop, feature, release, and hotfix branches.",organizing-schema,,high,enriched,v4
+C4 Model,,framework,computer science,"Brown's hierarchical software architecture diagrams: Context, Container, Component, Code.",organizing-schema,,high,enriched,v4
+4+1 Architectural Views,,framework,computer science,"Kruchten's logical, process, development, physical, and scenario views of architecture.",organizing-schema,,high,enriched,v4
+Conway's Law,,framework,computer science,Organizations design systems mirroring their communication structures.,structured-empirical,,high,enriched,v4
+Brooks' Law,,framework,computer science,Adding manpower to a late software project makes it later.,structured-empirical,,high,enriched,v4
+No Silver Bullet,,framework,computer science,Brooks' argument that no single innovation will yield order-of-magnitude productivity gains.,organizing-schema,,high,enriched,v4
+Postel's Law,Robustness Principle,framework,computer science,"Be conservative in what you send, liberal in what you accept.",structured-empirical,,high,enriched,v4
+Hyrum's Law,Law of Implicit Interfaces,framework,computer science,"With enough users, every observable behavior of an interface becomes someone's dependency.",structured-empirical,,high,enriched,v4
+The Reactive Manifesto,,framework,computer science,"Principles for systems that are responsive, resilient, elastic, and message-driven.",organizing-schema,,high,enriched,v4
+Code Review,,practice,computer science,"Peer review of source changes before merge, both for quality and shared understanding.",organizing-schema,,high,enriched,v4
+Pair Programming,,practice,computer science,"Two programmers work at one workstation, alternating driver and navigator roles.",organizing-schema,,high,enriched,v4
+Mob Programming,Ensemble Programming,practice,computer science,"Whole team works on the same thing at the same time, in the same space.",organizing-schema,,high,enriched,v4
+Rubber Duck Debugging,,technique,computer science,Explaining a problem aloud to an inanimate object to surface its solution.,organizing-schema,,high,enriched,v4
+Refactoring,,practice,computer science,"Disciplined restructuring of code without changing observable behavior, per Fowler.",organizing-schema,,high,enriched,v4
+The Boy Scout Rule,,technique,computer science,Always leave the code cleaner than you found it.,organizing-schema,,high,enriched,v4
+Bayesian Inference,,framework,mathematics,"Belief updating via Bayes' rule, applied across statistics, ML, and epistemology.",formal-scientific,,high,enriched,v4
+Frequentist Statistics,,framework,mathematics,"Inference based on long-run frequencies, including hypothesis testing and confidence intervals.",formal-scientific,,high,enriched,v4
+Game Theory,,framework,mathematics,Mathematical study of strategic interaction among rational agents.,formal-scientific,,high,enriched,v4
+Decision Theory,,framework,mathematics,Normative analysis of choice under uncertainty using utility and probability.,formal-scientific,,high,enriched,v4
+Information Theory,Shannon Theory,framework,mathematics,"Shannon's framework quantifying information, entropy, and communication channels.",formal-scientific,,high,enriched,v4
+Network Theory,Graph Theory,framework,mathematics,"Study of networks as nodes and edges, applied across many domains.",formal-scientific,,high,enriched,v4
+Dynamical Systems Theory,,framework,mathematics,Study of systems evolving over time according to deterministic rules.,formal-scientific,,high,enriched,v4
+Chaos Theory,,framework,mathematics,Sensitive dependence on initial conditions in deterministic nonlinear systems.,formal-scientific,,high,enriched,v4
+Complexity Theory,Computational Complexity,framework,computer science,"Study of resource requirements (time, space) for solving problems.",formal-scientific,,high,enriched,v4
+Markov Decision Processes,MDP,framework,mathematics,"Sequential decision framework with states, actions, transition probabilities, and rewards.",formal-scientific,,high,enriched,v4
+Optimization Theory,,framework,mathematics,Mathematical study of finding extrema of functions subject to constraints.,formal-scientific,,high,enriched,v4
+Monte Carlo Methods,,technique,mathematics,Estimating quantities through repeated random sampling.,formal-scientific,,high,enriched,v4
+Linear Programming,LP,framework,mathematics,Optimization of a linear objective subject to linear constraints.,formal-scientific,,high,enriched,v4
+Bayesian Networks,,framework,mathematics,Directed acyclic graphs encoding probabilistic dependencies among variables.,formal-scientific,,high,enriched,v4
+Causal Inference,,framework,mathematics,Pearl and Rubin's frameworks for distinguishing correlation from causation.,formal-scientific,,high,enriched,v4
+Regression Analysis,,framework,mathematics,Statistical modeling of relationships between dependent and independent variables.,formal-scientific,,high,enriched,v4
+Power Laws,,framework,mathematics,"Distribution form characterized by scale invariance, common in complex systems.",formal-scientific,,high,enriched,v4
+Scale-Free Networks,,framework,mathematics,Barabási and Albert's network class with power-law degree distributions.,formal-scientific,,high,enriched,v4
+Small-World Networks,,framework,mathematics,Watts and Strogatz's networks combining high clustering with short path lengths.,formal-scientific,,high,enriched,v4
+Keynesian Economics,,framework,economics,Macroeconomic framework emphasizing aggregate demand and active fiscal management.,organizing-schema,,high,enriched,v4
+Monetarism,,framework,economics,Friedman's framework: inflation is everywhere a monetary phenomenon.,organizing-schema,,high,enriched,v4
+Austrian School,,framework,economics,"Tradition emphasizing methodological individualism, subjective value, and spontaneous order.",organizing-schema,,high,enriched,v4
+Behavioral Economics,,framework,economics,Integrates psychological insights about human decision-making into economic models.,structured-empirical,,high,enriched,v4
+Comparative Advantage,,framework,economics,Ricardo's principle: gains from trade arise from relative not absolute productivity differences.,organizing-schema,,high,enriched,v4
+Mechanism Design,,framework,economics,Reverse game theory: designing rules so self-interested play yields desired outcomes.,organizing-schema,,high,enriched,v4
+Principal-Agent Problem,,framework,economics,Conflicts of interest and information asymmetry between delegator and delegate.,organizing-schema,,high,enriched,v4
+Information Asymmetry,Lemons Problem,framework,economics,Akerlof's account of market failures from unequal information distribution.,structured-empirical,,high,enriched,v4
+Signaling Theory,,framework,economics,Spence's framework: how informed parties credibly communicate quality to uninformed ones.,structured-empirical,,high,enriched,v4
+Transaction Cost Economics,TCE,framework,economics,Coase and Williamson on why firms exist: transaction costs explain organizational boundaries.,structured-empirical,,high,enriched,v4
+New Institutional Economics,NIE,framework,economics,"North and others extending economic analysis to institutions, property rights, and history.",structured-empirical,,high,enriched,v4
+Modern Portfolio Theory,MPT,framework,economics,Markowitz's framework for constructing portfolios optimizing risk-return through diversification.,formal-scientific,,high,enriched,v4
+Capital Asset Pricing Model,CAPM,framework,economics,Sharpe and Lintner's model relating expected return to systematic risk.,formal-scientific,Mathematically rigorous in form; empirical predictions have been substantially challenged.,high,enriched,v4
+Efficient Market Hypothesis,EMH,framework,economics,Fama's hypothesis that asset prices fully reflect available information.,organizing-schema,Mathematically rigorous in form; strong forms have been substantially challenged empirically.,high,enriched,v4
+Solow Growth Model,,framework,economics,"Neoclassical model of long-run growth from capital, labor, and exogenous technical change.",formal-scientific,,high,enriched,v4
+Endogenous Growth Theory,,framework,economics,"Romer and Lucas: technological progress as outcome of economic activity, not exogenous.",organizing-schema,,high,enriched,v4
+Path Dependence,,framework,economics,David and Arthur's concept that history matters: small early events shape long-run outcomes.,structured-empirical,,high,enriched,v4
+Network Effects,,framework,economics,Value of a product or service increasing with the number of users.,structured-empirical,,high,enriched,v4
+Tragedy of the Commons,,framework,economics,Hardin's account of overexploitation when individuals share access to a common resource.,organizing-schema,,high,enriched,v4
+Coase Theorem,,framework,economics,"Under low transaction costs, externalities can be efficiently resolved by private bargaining.",formal-scientific,,high,enriched,v4
+Pigouvian Taxation,,framework,economics,Taxing activities to internalize the social cost of externalities.,organizing-schema,,high,enriched,v4
+Loss Aversion,,framework,economics,People weight losses roughly twice as heavily as equivalent gains.,structured-empirical,,high,enriched,v4
+Hyperbolic Discounting,,framework,economics,"Preference for smaller-sooner over larger-later rewards, with declining discount rate over time.",structured-empirical,,high,enriched,v4
+Mental Accounting,,framework,economics,Thaler's framework: people treat money differently based on its perceived source or category.,structured-empirical,,high,enriched,v4
+Phillips Curve,,framework,economics,Empirical regularity (and theoretical debate) around inverse relation of unemployment and inflation.,structured-empirical,,high,enriched,v4
+Economic Complexity Index,ECI,framework,economics,Hausmann and Hidalgo's measure of national productive capability from export structure.,structured-empirical,,high,enriched,v4
+Two-Sided Markets,Platform Economics,framework,economics,Rochet and Tirole's framework for markets where two distinct user groups create value for each other.,structured-empirical,,high,enriched,v4
+Theory of Evolution by Natural Selection,Darwinian Evolution,framework,biology,Darwin and Wallace: heritable variation plus differential reproduction yields adaptation over time.,formal-scientific,,high,enriched,v4
+Modern Synthesis,Neo-Darwinism,framework,biology,Mid-20th-century unification of Mendelian genetics with Darwinian selection.,formal-scientific,,high,enriched,v4
+Punctuated Equilibrium,,framework,biology,Eldredge and Gould's view of evolution as long stasis interrupted by rapid speciation.,formal-scientific,Specific model within evolutionary theory regarding tempo of change; contrasted with phyletic gradualism.,high,enriched,v4
+Selfish Gene Theory,,framework,biology,Dawkins' gene-centered view of evolution; organisms as vehicles for replicators.,formal-scientific,,high,enriched,v4
+Inclusive Fitness,Kin Selection,framework,biology,Hamilton's framework explaining altruism through reproductive success of relatives.,formal-scientific,,high,enriched,v4
+Evolutionarily Stable Strategies,ESS,framework,biology,Maynard Smith's game-theoretic concept for evolutionary equilibria.,formal-scientific,,high,enriched,v4
+Central Dogma,,framework,biology,Crick's framework of information flow from DNA to RNA to protein.,formal-scientific,,high,enriched,v4
+Endosymbiotic Theory,,framework,biology,Margulis' account of mitochondria and chloroplasts as descendants of engulfed bacteria.,formal-scientific,,high,enriched,v4
+Cell Theory,,framework,biology,"All living organisms composed of cells, which arise only from existing cells.",formal-scientific,,high,enriched,v4
+Germ Theory,,framework,medicine,"Microorganisms as the cause of many diseases, established by Pasteur and Koch.",formal-scientific,,high,enriched,v4
+Allostasis,,framework,biology,"Sterling and Eyer's framework of stability through change, refining homeostasis.",organizing-schema,,high,enriched,v4
+General Adaptation Syndrome,GAS,framework,biology,"Selye's three-stage stress response: alarm, resistance, exhaustion.",organizing-schema,,high,enriched,v4
+Predator-Prey Dynamics,Lotka-Volterra,framework,biology,Coupled oscillating populations modeled by paired differential equations.,formal-scientific,,high,enriched,v4
+Island Biogeography,,framework,biology,MacArthur and Wilson's model of species richness as function of area and isolation.,formal-scientific,,high,enriched,v4
+Niche Construction,,framework,biology,"Organisms actively modify their environments, altering selection pressures on themselves and others.",organizing-schema,,high,enriched,v4
+Levels of Organization,Biological Hierarchy,framework,biology,"Nested scales from molecules to biosphere, each with distinct emergent properties.",organizing-schema,,high,enriched,v4
+Systems Biology,,framework,biology,Holistic study of biological systems through computational and mathematical modeling.,organizing-schema,,high,enriched,v4
+Evidence-Based Medicine,EBM,framework,medicine,"Sackett's integration of best research evidence, clinical expertise, and patient values.",structured-empirical,,high,enriched,v4
+Biopsychosocial Model,,framework,medicine,"Engel's framework integrating biological, psychological, and social dimensions of health.",structured-empirical,,high,enriched,v4
+Determinants of Health,Social Determinants of Health,framework,medicine,"Conditions in which people live, work, and age that shape health outcomes.",structured-empirical,,high,enriched,v4
+Four Pillars of Medical Ethics,Beauchamp and Childress,framework,medicine,"Autonomy, beneficence, non-maleficence, justice as core principles.",doctrinal-institutional,,high,enriched,v4
+Patient-Centered Care,,framework,medicine,"Care organized around patient preferences, needs, and values.",doctrinal-institutional,,high,enriched,v4
+SOAP Note,,tool,medicine,"Subjective, Objective, Assessment, Plan — structured clinical documentation.",doctrinal-institutional,,high,enriched,v4
+Differential Diagnosis,,technique,medicine,Systematic process of distinguishing among possible conditions explaining symptoms.,doctrinal-institutional,,high,enriched,v4
+Triage,,technique,medicine,"Sorting patients by urgency to allocate scarce care resources, originating in military medicine.",doctrinal-institutional,,high,enriched,v4
+Epidemiologic Triad,Host-Agent-Environment,framework,medicine,Classical model of infectious disease causation.,doctrinal-institutional,,high,enriched,v4
+Clinical Reasoning,Hypothetico-Deductive Reasoning,framework,medicine,Generation and testing of diagnostic hypotheses.,doctrinal-institutional,,high,enriched,v4
+Systems Engineering,,framework,engineering,Interdisciplinary approach to designing and managing complex systems over their lifecycle.,organizing-schema,,high,enriched,v4
+Design of Experiments,DoE,framework,engineering,Fisher's framework for systematically planning experiments to isolate causal effects.,formal-scientific,,high,enriched,v4
+Failure Mode and Effects Analysis,FMEA,tool,engineering,Bottom-up identification of potential failure modes and their consequences.,organizing-schema,,high,enriched,v4
+Fault Tree Analysis,FTA,tool,engineering,Top-down deductive analysis of paths to a specified failure event.,organizing-schema,,high,enriched,v4
+Reliability Engineering,,framework,engineering,Discipline ensuring system performs intended function over time and conditions.,structured-empirical,,high,enriched,v4
+V-Model,Verification and Validation Model,framework,engineering,Software development model pairing each design phase with a corresponding test phase.,organizing-schema,,high,enriched,v4
+Spiral Model,,framework,computer science,Boehm's iterative risk-driven software development model.,organizing-schema,,high,enriched,v4
+Waterfall Model,,framework,computer science,Sequential development phases with each completed before the next begins.,organizing-schema,,high,enriched,v4
+Robust Design,Taguchi Methods,framework,engineering,Designing products and processes to be insensitive to variation in inputs.,organizing-schema,,high,enriched,v4
+Bowtie Analysis,,tool,engineering,Risk visualization linking causes through a top event to consequences with barriers between.,organizing-schema,,high,enriched,v4
+OODA Loop,Boyd Cycle,framework,military science,"Boyd's decision cycle: Observe, Orient, Decide, Act — faster cycling beats opponent.",doctrinal-institutional,,high,enriched,v4
+Maneuver Warfare,,framework,military science,"Defeating opponent through tempo, deception, and disruption rather than attrition.",doctrinal-institutional,,high,enriched,v4
+Mission Command,Auftragstaktik,framework,military science,"Decentralized execution under commander's intent, originating in 19th-century Prussia.",doctrinal-institutional,,high,enriched,v4
+Strategy of the Indirect Approach,,framework,military science,Liddell Hart: dislocate opponent psychologically before engaging directly.,doctrinal-institutional,,high,enriched,v4
+Centers of Gravity Analysis,,framework,military science,Clausewitzian identification of the source of an opponent's strength.,doctrinal-institutional,,high,enriched,v4
+Trinity of War,,framework,military science,"Clausewitz's interaction of passion, chance, and reason in war.",doctrinal-institutional,,high,enriched,v4
+Three Levels of War,,framework,military science,"Strategic, operational, and tactical levels with distinct logics and time horizons.",doctrinal-institutional,,high,enriched,v4
+DIME,DIMEFIL,framework,military science,"Diplomatic, Information, Military, Economic instruments of national power.",doctrinal-institutional,,high,enriched,v4
+PMESII-PT,,framework,military science,"Operational variables: Political, Military, Economic, Social, Information, Infrastructure, Physical, Time.",doctrinal-institutional,,high,enriched,v4
+Counterinsurgency Doctrine,COIN,framework,military science,Population-centric approach to defeating insurgencies through legitimacy and protection.,doctrinal-institutional,,high,enriched,v4
+AirLand Battle,,framework,military science,1980s US Army doctrine integrating deep strikes with maneuver warfare.,doctrinal-institutional,,high,enriched,v4
+Network-Centric Warfare,,framework,military science,Military doctrine emphasizing information networking for shared awareness and self-synchronization.,doctrinal-institutional,,high,enriched,v4
+Effects-Based Operations,EBO,framework,military science,Targeting based on desired effects rather than physical destruction alone.,doctrinal-institutional,,high,enriched,v4
+Asymmetric Warfare,,framework,military science,"Conflict between belligerents whose military power, strategy, or tactics differ significantly.",doctrinal-institutional,,high,enriched,v4
+Eightfold Path,,framework,theology,"Buddhist path: right view, intention, speech, action, livelihood, effort, mindfulness, concentration.",contemplative-tradition,,high,enriched,v4
+Four Noble Truths,,framework,theology,"Buddhist diagnostic: suffering exists, has cause, can cease, and the path to cessation.",contemplative-tradition,,high,enriched,v4
+Three Marks of Existence,,framework,theology,"Buddhist characterization of phenomena: impermanence, suffering, non-self.",contemplative-tradition,,high,enriched,v4
+Five Pillars of Islam,,framework,theology,"Shahada, salat, zakat, sawm, hajj — core practices of Sunni Islam.",contemplative-tradition,,high,enriched,v4
+Eight Limbs of Yoga,Ashtanga,framework,theology,"Patanjali's yamas, niyamas, asana, pranayama, pratyahara, dharana, dhyana, samadhi.",contemplative-tradition,,high,enriched,v4
+Yamas and Niyamas,,framework,theology,Yogic ethical restraints (yamas) and observances (niyamas) from Patanjali.,contemplative-tradition,,high,enriched,v4
+Sefirot,Tree of Life,framework,theology,Kabbalistic ten emanations through which the infinite manifests.,contemplative-tradition,,high,enriched,v4
+Four Worlds,Olamot,framework,theology,"Kabbalistic levels of reality: Atziluth, Beriah, Yetzirah, Assiah.",contemplative-tradition,,high,enriched,v4
+Seven Deadly Sins,Capital Vices,framework,theology,"Pride, greed, lust, envy, gluttony, wrath, sloth — Christian schema of root sins.",contemplative-tradition,,high,enriched,v4
+Cardinal Virtues,,framework,philosophy,"Prudence, justice, fortitude, temperance — classical Greek and Christian schema.",philosophical-tradition,,high,enriched,v4
+Theological Virtues,,framework,theology,"Faith, hope, and love as graces directing the soul to God in Christian tradition.",contemplative-tradition,,high,enriched,v4
+Ignatian Discernment,Spiritual Exercises,framework,theology,Loyola's framework for discernment of spirits and consolation/desolation.,contemplative-tradition,,high,enriched,v4
+Examen,Daily Examen,practice,theology,"Ignatian end-of-day prayerful review of consolations, faults, and gratitude.",contemplative-tradition,,high,enriched,v4
+Lectio Divina,,practice,theology,"Christian contemplative reading: lectio, meditatio, oratio, contemplatio.",contemplative-tradition,,high,enriched,v4
+Stoic Dichotomy of Control,,framework,philosophy,Epictetus' division of the world into what is and isn't up to us.,philosophical-tradition,,high,enriched,v4
+Memento Mori,,technique,philosophy,Stoic and Christian practice of contemplating one's mortality.,philosophical-tradition,,high,enriched,v4
+Negative Visualization,Premeditatio Malorum,technique,philosophy,Stoic practice of imagining loss to cultivate gratitude and resilience.,philosophical-tradition,,high,enriched,v4
+Wu Wei,,framework,theology,Taoist principle of effortless action in accord with the flow of things.,contemplative-tradition,,high,enriched,v4
+Tao Te Ching Framework,,framework,theology,"Lao Tzu's framework of Tao, te, naturalness, and non-contention.",contemplative-tradition,,high,enriched,v4
+Four Aims of Life,Purusharthas,framework,theology,"Hindu life goals: dharma, artha, kama, moksha.",contemplative-tradition,,high,enriched,v4
+Four Stages of Life,Ashramas,framework,theology,"Hindu life-stage framework: student, householder, retiree, renunciate.",contemplative-tradition,,high,enriched,v4
+Karma Framework,,framework,theology,"Action and consequence across Hindu, Buddhist, and Jain traditions.",contemplative-tradition,,high,enriched,v4
+Tikkun Olam,,framework,theology,Jewish concept of repairing the world through human action.,contemplative-tradition,,high,enriched,v4
+Beatitudes,,framework,theology,Christ's teachings in the Sermon on the Mount inverting conventional value hierarchies.,contemplative-tradition,,high,enriched,v4
+Generative Grammar,,framework,linguistics,Chomsky's framework of formal rules generating all grammatical sentences of a language.,formal-scientific,Foundational in modern linguistics; specific universal-grammar claims have been increasingly contested.,high,enriched,v4
+Universal Grammar,UG,framework,linguistics,Chomsky's hypothesis of innate linguistic structure shared across all human languages.,formal-scientific,Influential but specific innateness claims contested by usage-based and constructionist linguists.,high,enriched,v4
+Saussurean Structuralism,,framework,linguistics,Saussure's framework of language as system of differences with signified and signifier.,organizing-schema,,high,enriched,v4
+Semiotics,Semiology,framework,linguistics,"General theory of signs, with Peircean and Saussurean traditions.",organizing-schema,,high,enriched,v4
+Speech Act Theory,,framework,linguistics,"Austin and Searle's framework: utterances perform actions (locutionary, illocutionary, perlocutionary).",structured-empirical,,high,enriched,v4
+Cooperative Principle,Gricean Maxims,framework,linguistics,"Grice's maxims of quantity, quality, relation, and manner governing conversational implicature.",structured-empirical,,high,enriched,v4
+Sapir-Whorf Hypothesis,Linguistic Relativity,framework,linguistics,Language shapes or constrains thought; strong and weak versions debated.,organizing-schema,Strong version is largely rejected; weak version (linguistic influence on thought) has empirical support.,high,enriched,v4
+Conceptual Metaphor Theory,CMT,framework,linguistics,Lakoff and Johnson: abstract thought structured by metaphorical mappings from embodied experience.,structured-empirical,,high,enriched,v4
+Frame Semantics,,framework,linguistics,Fillmore's framework: word meaning understood relative to a structured background frame.,structured-empirical,,high,enriched,v4
+Relevance Theory,,framework,linguistics,Sperber and Wilson's pragmatic framework: communication guided by relevance maximization.,organizing-schema,,high,enriched,v4
+Construction Grammar,,framework,linguistics,"Approach treating constructions as basic form-meaning pairings, not derived from rules.",organizing-schema,,high,enriched,v4
+Functional Grammar,Systemic Functional Linguistics,framework,linguistics,Halliday's framework treating grammar as resource for making meaning.,organizing-schema,,high,enriched,v4
+Optimality Theory,OT,framework,linguistics,Phonological framework where surface forms emerge from ranked violable constraints.,structured-empirical,,high,enriched,v4
+Cultural Relativism,,framework,anthropology,"Boasian principle: cultures must be understood on their own terms, not judged by external standards.",organizing-schema,,high,enriched,v4
+Structural Anthropology,,framework,anthropology,Lévi-Strauss' framework analyzing culture through binary oppositions and underlying structures.,organizing-schema,,high,enriched,v4
+Interpretive Anthropology,Thick Description,framework,anthropology,Geertz's framework treating culture as text to be interpreted through layered description.,organizing-schema,,high,enriched,v4
+Practice Theory,,framework,anthropology,"Bourdieu, Ortner, and Sahlins on how practices reproduce and transform social structure.",organizing-schema,,high,enriched,v4
+Liminality,,framework,anthropology,Van Gennep and Turner on threshold states between social positions or identities.,organizing-schema,,high,enriched,v4
+Rites of Passage,,framework,anthropology,"Van Gennep's three-phase structure: separation, liminal phase, reincorporation.",organizing-schema,,high,enriched,v4
+Hero's Journey,Monomyth,framework,narrative studies,"Campbell's universal narrative pattern of departure, initiation, and return.",organizing-schema,,high,enriched,v4
+Cultural Materialism,,framework,anthropology,Harris' framework prioritizing infrastructure (material conditions) in cultural explanation.,organizing-schema,,high,enriched,v4
+Ethnography,,framework,anthropology,Immersive long-term fieldwork yielding detailed accounts of cultural practices.,structured-empirical,,high,enriched,v4
+Participant Observation,,technique,anthropology,Researcher takes part in a community while systematically observing and recording.,organizing-schema,,high,enriched,v4
+Design Thinking,,framework,design,Empathize-define-ideate-prototype-test cycle popularized by Stanford d.school and IDEO.,organizing-schema,,high,enriched,v4
+Double Diamond,,framework,design,UK Design Council's discover-define-develop-deliver model with diverging and converging phases.,organizing-schema,,high,enriched,v4
+Human-Centered Design,HCD,framework,design,"Design grounded in deep understanding of user needs, behaviors, and contexts.",organizing-schema,,high,enriched,v4
+Service Design,,framework,design,"Holistic design of services across touchpoints, channels, and stakeholders.",organizing-schema,,high,enriched,v4
+Inclusive Design,,framework,design,Designing for the full range of human diversity rather than the average user.,organizing-schema,,high,enriched,v4
+Universal Design,,framework,design,Mace's framework: design usable by all people without need for adaptation.,organizing-schema,,high,enriched,v4
+Speculative Design,Critical Design,framework,design,Design used to provoke debate about possible futures rather than to solve problems.,organizing-schema,,high,enriched,v4
+Cradle to Cradle,C2C,framework,design,McDonough and Braungart's framework for circular materials flow eliminating waste.,organizing-schema,,high,enriched,v4
+Biomimicry,,framework,design,Benyus' framework drawing design principles from nature's strategies.,organizing-schema,,high,enriched,v4
+Gestalt Principles,,framework,design,"Perceptual organization principles: proximity, similarity, closure, continuity, figure-ground.",organizing-schema,,high,enriched,v4
+Nielsen's Ten Heuristics,,framework,design,Nielsen's usability heuristics including visibility of system status and error prevention.,organizing-schema,,high,enriched,v4
+Atomic Design,,framework,design,"Frost's component hierarchy: atoms, molecules, organisms, templates, pages.",organizing-schema,,high,enriched,v4
+Don Norman's Design Principles,,framework,design,"Visibility, feedback, constraints, mapping, consistency, affordance.",organizing-schema,,high,enriched,v4
+Storyboarding,,tool,design,Sequential visual depiction of a user's experience or narrative.,organizing-schema,,high,enriched,v4
+Wireframing,,tool,design,Low-fidelity visual layout of an interface focusing on structure and content priority.,organizing-schema,,high,enriched,v4
+Form Follows Function,,framework,design,Sullivan's modernist principle that a building's form should follow its purpose.,organizing-schema,,high,enriched,v4
+Bloom's Taxonomy,,framework,education,Hierarchy of cognitive learning objectives from remembering through evaluating and creating.,structured-empirical,,high,enriched,v4
+Revised Bloom's Taxonomy,Anderson and Krathwohl,framework,education,Updated Bloom adding the knowledge dimension and reordering create as the top.,organizing-schema,,high,enriched,v4
+SOLO Taxonomy,,framework,education,Biggs' Structure of the Observed Learning Outcome from prestructural to extended abstract.,organizing-schema,,high,enriched,v4
+Webb's Depth of Knowledge,DoK,framework,education,"Four levels of cognitive complexity: recall, skill/concept, strategic thinking, extended thinking.",organizing-schema,,high,enriched,v4
+ADDIE Model,,framework,education,"Instructional design: Analyze, Design, Develop, Implement, Evaluate.",organizing-schema,,high,enriched,v4
+Backward Design,Understanding by Design,framework,education,"Wiggins and McTighe: start with desired outcomes, then plan assessment, then instruction.",organizing-schema,,high,enriched,v4
+Universal Design for Learning,UDL,framework,education,"Multiple means of engagement, representation, and action/expression.",organizing-schema,,high,enriched,v4
+Differentiated Instruction,,framework,education,"Tomlinson's approach tailoring content, process, product to learner readiness, interest, profile.",organizing-schema,,high,enriched,v4
+Constructivism (Education),,framework,education,Learning as active construction of meaning rather than passive reception.,organizing-schema,,high,enriched,v4
+Connectivism,,framework,education,Siemens' learning theory for the digital age emphasizing networks of nodes.,organizing-schema,,high,enriched,v4
+Andragogy,,framework,education,Knowles' framework distinguishing adult learning from pedagogy of children.,organizing-schema,,high,enriched,v4
+Experiential Learning,Kolb's Cycle,framework,education,"Learning cycle: concrete experience, reflective observation, abstract conceptualization, active experimentation.",organizing-schema,"Kolb's experiential cycle has more support than the associated learning-styles taxonomy, which has been largely disconfirmed.",high,enriched,v4
+Multiple Intelligences,MI,framework,education,"Gardner's framework of distinct intelligences: linguistic, logical, spatial, musical, kinesthetic, interpersonal, intrapersonal, naturalistic.",organizing-schema,Gardner's specific dimensional structure has not been supported by mainstream cognitive psychology research.,high,enriched,v4
+Mastery Learning,,framework,education,Bloom's approach: students must demonstrate mastery before progressing.,structured-empirical,,high,enriched,v4
+Flipped Classroom,,framework,education,Direct instruction at home; class time used for application and practice.,organizing-schema,,high,enriched,v4
+Project-Based Learning,PBL,framework,education,Extended student inquiry organized around authentic projects.,organizing-schema,,high,enriched,v4
+Problem-Based Learning,PBL,framework,education,Learning organized around investigation of complex real-world problems.,organizing-schema,,high,enriched,v4
+Inquiry-Based Learning,,framework,education,Student-driven exploration with teacher as facilitator rather than transmitter.,organizing-schema,,high,enriched,v4
+TPACK,Technological Pedagogical Content Knowledge,framework,education,Mishra and Koehler's intersecting domains of teacher expertise.,organizing-schema,,high,enriched,v4
+SAMR Model,,framework,education,"Puentedura's four levels of technology integration: substitution, augmentation, modification, redefinition.",organizing-schema,,high,enriched,v4
+Spaced Repetition,,technique,education,Reviewing material at expanding intervals to optimize long-term retention.,structured-empirical,,high,enriched,v4
+Active Recall,Retrieval Practice,technique,education,Self-testing rather than re-reading to strengthen memory consolidation.,structured-empirical,,high,enriched,v4
+Feynman Technique,,technique,education,Test understanding by explaining a concept simply enough for a child.,organizing-schema,,high,enriched,v4
+Cornell Note-Taking,,tool,education,"Note format dividing the page into cues, notes, and summary sections.",organizing-schema,,high,enriched,v4
+Concept Mapping,,tool,education,Novak's visual representation of relationships among concepts.,organizing-schema,,high,enriched,v4
+Strict Scrutiny,,framework,law,US constitutional standard requiring narrow tailoring to a compelling government interest.,doctrinal-institutional,,high,enriched,v4
+Intermediate Scrutiny,,framework,law,Constitutional review requiring substantial relation to important governmental interest.,doctrinal-institutional,,high,enriched,v4
+Rational Basis Review,,framework,law,Lowest US constitutional standard: law must be rationally related to a legitimate interest.,doctrinal-institutional,,high,enriched,v4
+Proportionality Test,,framework,law,Multi-stage review used in many jurisdictions to assess rights infringements.,doctrinal-institutional,,high,enriched,v4
+Reasonable Person Standard,,framework,law,Hypothetical ordinarily prudent person used as a benchmark for negligence.,doctrinal-institutional,,high,enriched,v4
+Hand Formula,Learned Hand Test,framework,law,Negligence test: liable if burden of precaution is less than probability times loss.,doctrinal-institutional,,high,enriched,v4
+Reasonable Doubt Standard,,framework,law,"Highest evidentiary standard, required for criminal conviction in common law systems.",doctrinal-institutional,,high,enriched,v4
+Preponderance of Evidence,,framework,law,Civil standard: more likely than not.,doctrinal-institutional,,high,enriched,v4
+IRAC,,framework,law,"Issue, Rule, Application, Conclusion — structured legal analysis method.",doctrinal-institutional,,high,enriched,v4
+Stare Decisis,,framework,law,Doctrine binding courts to follow precedents from prior decisions.,doctrinal-institutional,,high,enriched,v4
+Originalism,,framework,law,Constitutional interpretation according to original public meaning at ratification.,doctrinal-institutional,,high,enriched,v4
+Living Constitutionalism,,framework,law,Constitutional interpretation accounting for evolving social conditions and values.,doctrinal-institutional,,high,enriched,v4
+Law and Economics,,framework,law,Posner's framework applying economic analysis to legal rules and institutions.,doctrinal-institutional,,high,enriched,v4
+Restorative Justice,,framework,law,"Approach centered on repair of harm through dialogue among offender, victim, community.",doctrinal-institutional,,high,enriched,v4
+Therapeutic Jurisprudence,,framework,law,Wexler and Winick's framework studying law's effects on psychological wellbeing.,doctrinal-institutional,,high,enriched,v4
+Cynefin Framework,,framework,knowledge management,"Snowden's sense-making framework: clear, complicated, complex, chaotic, confused/aporetic.",organizing-schema,,high,enriched,v4
+SECI Model,Knowledge Spiral,framework,knowledge management,"Nonaka and Takeuchi: socialization, externalization, combination, internalization.",organizing-schema,,high,enriched,v4
+Communities of Practice,CoP,framework,knowledge management,Wenger's framework: groups sharing concern and deepening expertise through interaction.,organizing-schema,,high,enriched,v4
+Tacit and Explicit Knowledge,,framework,knowledge management,Polanyi's distinction between articulable knowledge and the embodied 'we know more than we can tell.',organizing-schema,,high,enriched,v4
+Five Disciplines,Learning Organization,framework,knowledge management,"Senge's personal mastery, mental models, shared vision, team learning, systems thinking.",organizing-schema,,high,enriched,v4
+Single-Loop and Double-Loop Learning,,framework,knowledge management,Argyris and Schön: correcting actions vs questioning underlying assumptions.,organizing-schema,,high,enriched,v4
+Triple-Loop Learning,,framework,knowledge management,Extension questioning the framework of inquiry itself.,organizing-schema,,high,enriched,v4
+Knowledge Café,,practice,knowledge management,Facilitated small-group conversations rotating to surface collective insights.,organizing-schema,,high,enriched,v4
+Lessons Learned,,practice,knowledge management,Structured capture of insights from completed work for future application.,organizing-schema,,high,enriched,v4
+Three-Act Structure,,framework,narrative studies,"Setup, confrontation, resolution — dominant Western dramatic structure.",organizing-schema,,high,enriched,v4
+Five-Act Structure,Freytag's Pyramid,framework,narrative studies,"Exposition, rising action, climax, falling action, denouement.",organizing-schema,,high,enriched,v4
+Save the Cat Beat Sheet,,framework,narrative studies,Snyder's fifteen-beat screenplay structure widely used in Hollywood.,organizing-schema,,high,enriched,v4
+Story Circle,,framework,narrative studies,Harmon's eight-step distillation of Campbell's monomyth for episodic storytelling.,organizing-schema,,high,enriched,v4
+Pixar Story Spine,,framework,narrative studies,Once upon a time / every day / one day / because of that / until finally / and ever since then.,organizing-schema,,high,enriched,v4
+Dramatica Theory,,framework,narrative studies,Phillips and Huntley's framework treating story as an analogy for a single mind solving a problem.,organizing-schema,,high,enriched,v4
+Polti's 36 Dramatic Situations,,framework,narrative studies,Catalog of underlying dramatic conflicts found across all stories.,organizing-schema,,high,enriched,v4
+Vogeler's Writer's Journey,,framework,narrative studies,Writer's adaptation of Campbell's monomyth for screenwriters.,organizing-schema,,high,enriched,v4
+Aristotle's Poetics,,framework,narrative studies,"Foundational analysis of tragedy with concepts of mimesis, catharsis, hamartia, peripeteia.",organizing-schema,,high,enriched,v4
+Show Don't Tell,,technique,narrative studies,Craft principle preferring scene and sensory detail over exposition.,organizing-schema,,high,enriched,v4
+In Medias Res,,technique,narrative studies,Beginning a narrative in the middle of action rather than at the chronological start.,organizing-schema,,high,enriched,v4
+Neuro-Linguistic Programming,NLP,framework,psychology,"Bandler and Grinder's framework linking neurology, language, and patterned behavior; widely used in coaching despite weak empirical support.",organizing-schema,Cultural penetration is high; specific claims about modeling excellence and neural correlates have been disconfirmed in mainstream cognitive science.,high,enriched,v4
+Spiral Dynamics,,framework,psychology,"Beck and Cowan's value-systems hierarchy adapted from Graves' research, used in organizational and developmental contexts.",organizing-schema,Adapted from Clare Graves' work but Graves himself never published comprehensive empirical validation; no peer-reviewed validation of the value-meme hierarchy.,high,enriched,v4
+Integral Theory,AQAL,framework,psychology,"Wilber's metasystematic synthesis integrating quadrants, levels, lines, states, and types of human development.",organizing-schema,Influential in transpersonal psychology and integral studies; not empirically validated and explicitly questions empirical validation as sole criterion of truth.,high,enriched,v4
+Pomodoro Technique,,technique,psychology,Cirillo's time-management technique using 25-minute focus intervals separated by short breaks.,organizing-schema,,high,enriched,v4
+Basel III,,framework,governance and compliance,"Bank capital, leverage, and liquidity standards from the Basel Committee on Banking Supervision, post-2008.",regulatory-standard,Implemented through national regulators with local variation; Basel IV finalization is in progress.,high,enriched,v4
+CAMELS Rating,,framework,governance and compliance,"US bank examination rating: Capital, Assets, Management, Earnings, Liquidity, Sensitivity to market risk.",regulatory-standard,,high,enriched,v4
+Dodd-Frank Act,,framework,governance and compliance,"US 2010 financial reform legislation establishing CFPB, FSOC, Volcker Rule, and resolution authority.",regulatory-standard,,high,enriched,v4
+BSA/AML,Bank Secrecy Act; Anti-Money Laundering,framework,governance and compliance,US framework requiring financial institutions to detect and report suspicious activity.,regulatory-standard,,high,enriched,v4
+KYC,Know Your Customer,framework,governance and compliance,Customer due diligence requirements identifying who is doing business with a financial institution.,regulatory-standard,,high,enriched,v4
+Community Reinvestment Act,CRA,framework,governance and compliance,"US 1977 law requiring banks to meet credit needs of all communities they serve, including low-income areas.",regulatory-standard,,high,enriched,v4
+FFIEC IT Examination Handbook,,framework,governance and compliance,Federal Financial Institutions Examination Council guidance for examining IT operations at supervised institutions.,regulatory-standard,,high,enriched,v4
+CCAR,Comprehensive Capital Analysis and Review,framework,governance and compliance,Federal Reserve's annual capital adequacy assessment of large bank holding companies.,regulatory-standard,,high,enriched,v4
+DFAST,Dodd-Frank Act Stress Test,framework,governance and compliance,Annual stress testing required for banks above asset thresholds under Dodd-Frank.,regulatory-standard,,high,enriched,v4
+CECL,Current Expected Credit Loss,framework,governance and compliance,US GAAP standard requiring forward-looking estimation of expected credit losses over instrument lifetime.,regulatory-standard,,high,enriched,v4
+IFRS 9,,framework,governance and compliance,"International accounting standard for financial instruments, including expected credit loss model.",regulatory-standard,,high,enriched,v4
+ALCO Framework,Asset-Liability Committee,framework,governance and compliance,"Bank governance framework for managing interest rate risk, liquidity, and balance sheet structure.",organizing-schema,Conceptual governance framework rather than a codified standard; specific structure varies considerably across institutions.,high,enriched,v4
+Sarbanes-Oxley,SOX,framework,governance and compliance,US 2002 law mandating financial reporting controls and executive certifications for public companies.,regulatory-standard,,high,enriched,v4
+COSO Internal Control-Integrated Framework,COSO IC,framework,governance and compliance,"Five-component framework for designing internal controls: control environment, risk assessment, control activities, information and communication, monitoring.",regulatory-standard,,high,enriched,v4
+COSO ERM,Enterprise Risk Management,framework,governance and compliance,Enterprise-level extension of COSO internal control framework integrating strategy and performance with risk.,regulatory-standard,,high,enriched,v4
+ISO 31000,,framework,governance and compliance,International standard providing principles and generic guidelines on risk management.,regulatory-standard,,high,enriched,v4
+Three Lines Model,Three Lines of Defense,framework,governance and compliance,"IIA framework distinguishing operational management, risk and compliance functions, and internal audit assurance.",organizing-schema,2020 IIA update renamed and refined the older 'Three Lines of Defense' framing; conceptual framework rather than a codified standard.,high,enriched,v4
+FAIR,Factor Analysis of Information Risk,framework,cybersecurity,Quantitative risk framework decomposing risk into loss event frequency and loss magnitude with probabilistic factors.,regulatory-standard,Quantitative methodology now standardized as Open FAIR through The Open Group; distinct from qualitative risk-rating approaches.,high,enriched,v4
+ORSA,Own Risk and Solvency Assessment,framework,governance and compliance,Insurance-sector self-assessment of all material risks against capital and solvency.,regulatory-standard,,high,enriched,v4
+NIST Cybersecurity Framework,NIST CSF,framework,cybersecurity,"Six core functions (Govern, Identify, Protect, Detect, Respond, Recover) plus implementation tiers and profiles.",regulatory-standard,,high,enriched,v4
+NIST 800-53,,framework,cybersecurity,Catalog of security and privacy controls for federal information systems and organizations.,regulatory-standard,,high,enriched,v4
+NIST Risk Management Framework,NIST RMF; NIST 800-37,framework,cybersecurity,"Seven-step process for integrating security, privacy, and risk management into the system development lifecycle.",regulatory-standard,,high,enriched,v4
+ISO/IEC 27001,ISO 27001,framework,cybersecurity,International standard specifying requirements for an information security management system (ISMS).,regulatory-standard,,high,enriched,v4
+ISO/IEC 27002,ISO 27002,framework,cybersecurity,International standard providing guidance on information security controls.,regulatory-standard,,high,enriched,v4
+CIS Controls,CIS Critical Security Controls,framework,cybersecurity,Center for Internet Security's prioritized set of cybersecurity actions for organizations.,regulatory-standard,,high,enriched,v4
+MITRE ATT&CK,,framework,cybersecurity,"Globally accessible knowledge base of adversary tactics, techniques, and procedures based on real-world observations.",organizing-schema,Knowledge base structure rather than a prescriptive control framework; widely used as reference and threat-modeling input.,high,enriched,v4
+Cyber Kill Chain,Lockheed Martin Kill Chain,framework,cybersecurity,"Seven-phase model of intrusion: reconnaissance, weaponization, delivery, exploitation, installation, command-and-control, actions on objectives.",organizing-schema,Lockheed Martin's framework biases toward perimeter-centric thinking; less aligned with cloud and zero-trust architectures.,high,enriched,v4
+Diamond Model of Intrusion Analysis,,framework,cybersecurity,"Four-feature framework for intrusion events: adversary, capability, infrastructure, victim.",organizing-schema,,high,enriched,v4
+STRIDE,,framework,cybersecurity,"Microsoft threat modeling categorization: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege.",organizing-schema,,high,enriched,v4
+PASTA,Process for Attack Simulation and Threat Analysis,framework,cybersecurity,Seven-stage risk-centric threat modeling methodology.,organizing-schema,,high,enriched,v4
+Zero Trust Architecture,Zero Trust,framework,cybersecurity,Security model assuming no implicit trust based on network location; every access decision is verified.,organizing-schema,Coined by Forrester's John Kindervag; codified into NIST 800-207 for operational guidance.,high,enriched,v4
+Defense in Depth,Layered Security,framework,cybersecurity,Strategy using multiple overlapping security controls so failure of any single layer does not compromise the system.,organizing-schema,,high,enriched,v4
+CMMC,Cybersecurity Maturity Model Certification,framework,cybersecurity,DoD certification framework for protecting federal contract information and controlled unclassified information.,regulatory-standard,,high,enriched,v4
+HITRUST CSF,HITRUST Common Security Framework,framework,cybersecurity,"Certifiable framework integrating HIPAA, NIST, ISO, PCI, and other authoritative sources.",regulatory-standard,,high,enriched,v4
+FedRAMP,Federal Risk and Authorization Management Program,framework,cybersecurity,US government program standardizing security assessment and authorization for cloud services.,regulatory-standard,,high,enriched,v4
+PCI DSS,Payment Card Industry Data Security Standard,framework,cybersecurity,Industry standard for organizations handling branded credit cards from major card networks.,regulatory-standard,,high,enriched,v4
+GDPR,General Data Protection Regulation,framework,governance and compliance,EU regulation on data protection and privacy applicable to processing of EU residents' personal data.,regulatory-standard,Has substantial extraterritorial reach; non-EU organizations processing EU residents' data must comply.,high,enriched,v4
+CCPA,California Consumer Privacy Act,framework,governance and compliance,California state law granting consumers rights over personal information collected by businesses.,regulatory-standard,,high,enriched,v4
+HIPAA,Health Insurance Portability and Accountability Act,framework,governance and compliance,US law establishing privacy and security standards for protected health information.,regulatory-standard,,high,enriched,v4
+Privacy by Design,PbD,framework,cybersecurity,Cavoukian's seven foundational principles for embedding privacy into the design of systems and processes.,organizing-schema,,high,enriched,v4
+FIPPs,Fair Information Practice Principles,framework,governance and compliance,"Foundational set of principles (notice, choice, access, security, accountability) underlying most privacy regimes.",organizing-schema,,high,enriched,v4
+Differential Privacy,,framework,mathematics,Formal definition guaranteeing that the inclusion or exclusion of any single record does not significantly affect query outputs.,formal-scientific,,high,enriched,v4
+ISO 9001,,framework,governance and compliance,International standard for quality management systems with seven principles including process approach and continuous improvement.,regulatory-standard,,high,enriched,v4
+ITIL,Information Technology Infrastructure Library,framework,governance and compliance,"Framework for IT service management including service strategy, design, transition, operation, and continual improvement.",regulatory-standard,,high,enriched,v4
+COBIT,Control Objectives for Information and Related Technologies,framework,governance and compliance,ISACA framework for governance and management of enterprise IT.,regulatory-standard,,high,enriched,v4
+TOGAF,The Open Group Architecture Framework,framework,governance and compliance,Enterprise architecture framework with Architecture Development Method (ADM) and content metamodel.,regulatory-standard,,high,enriched,v4
+Zachman Framework,,framework,governance and compliance,"Enterprise architecture taxonomy intersecting six perspectives with six abstractions (what, how, where, who, when, why).",organizing-schema,,high,enriched,v4
+CMMI,Capability Maturity Model Integration,framework,governance and compliance,"Five-level process maturity model: Initial, Managed, Defined, Quantitatively Managed, Optimizing.",regulatory-standard,,high,enriched,v4
+SOC 2,Service Organization Controls 2,framework,governance and compliance,"AICPA framework for reporting on controls relevant to security, availability, processing integrity, confidentiality, and privacy.",regulatory-standard,,high,enriched,v4
+SSAE 18,,framework,governance and compliance,Statement on Standards for Attestation Engagements 18 — current AICPA standard governing service organization audits.,regulatory-standard,,high,enriched,v4
+TCFD,Task Force on Climate-related Financial Disclosures,framework,governance and compliance,"Voluntary framework for climate-related financial risk disclosures across governance, strategy, risk, and metrics.",regulatory-standard,,high,enriched,v4
+SASB,Sustainability Accounting Standards Board,framework,governance and compliance,"Industry-specific sustainability disclosure standards, now under the IFRS Foundation's ISSB.",regulatory-standard,,high,enriched,v4
+GRI,Global Reporting Initiative,framework,governance and compliance,"Most widely used sustainability reporting framework with universal, sector, and topic standards.",regulatory-standard,,high,enriched,v4
+LEED,Leadership in Energy and Environmental Design,framework,governance and compliance,"USGBC certification system for green buildings across categories like energy, water, materials, and indoor environment.",regulatory-standard,,high,enriched,v4
+PMBOK Guide,PMBOK; PMI Guide,framework,project management,"PMI's Project Management Body of Knowledge defining processes, knowledge areas, and the basis for the PMP certification.",regulatory-standard,,high,pending,v4.2
+PRINCE2,Projects in Controlled Environments,framework,project management,AXELOS's process-based project management methodology widely used in UK government and international contexts.,regulatory-standard,,high,pending,v4.2
+PRINCE2 Agile,,framework,project management,AXELOS framework composing PRINCE2 governance with agile delivery techniques drawn primarily from DSDM and Scrum.,regulatory-standard,,high,pending,v4.2
+IPMA Competence Baseline,ICB,framework,project management,"International Project Management Association's competence-based framework for individual project, programme, and portfolio managers.",regulatory-standard,,high,pending,v4.2
+ISO 21500,,framework,project management,"International standard providing guidance on project management concepts and processes, foundational to the ISO 21500 series.",regulatory-standard,,high,pending,v4.2
+ISO 21502,,framework,project management,"International standard providing guidance on project management practices, replacing ISO 21500:2012 as the practice-focused standard.",regulatory-standard,,high,pending,v4.2
+P3.express,,framework,project management,Open-license lightweight project management methodology designed for medium-sized organizations.,organizing-schema,,high,pending,v4.2
+OPM3,Organizational Project Management Maturity Model,framework,project management,"PMI's framework assessing an organization's project management maturity across knowledge, assessment, and improvement domains.",regulatory-standard,,high,pending,v4.2
+P3M3,Portfolio Programme Project Management Maturity Model,framework,project management,"AXELOS maturity model assessing organizational capability across portfolio, programme, and project management.",regulatory-standard,,high,pending,v4.2
+Managing Successful Programmes,MSP,framework,project management,AXELOS programme management methodology for delivering transformational change through coordinated projects.,regulatory-standard,,high,pending,v4.2
+Management of Risk,M_o_R,framework,project management,"AXELOS risk management methodology providing principles, approach, processes, and techniques across organizational levels.",regulatory-standard,,high,pending,v4.2
+DSDM,Atern; Dynamic Systems Development Method,framework,project management,"Agile project delivery framework emphasizing fixed time and cost with variable scope, foundational to PRINCE2 Agile.",organizing-schema,,high,pending,v4.2
+Crystal Methods,Crystal family,framework,computer science,"Cockburn's family of agile methodologies sized to project criticality and team size, ranging from Crystal Clear to Crystal Magenta.",organizing-schema,,high,pending,v4.2
+Feature-Driven Development,FDD,framework,computer science,Iterative development methodology organized around designing and building client-valued features in short iterations.,organizing-schema,,high,pending,v4.2
+Rational Unified Process,RUP,framework,computer science,"IBM's iterative software development process organized around inception, elaboration, construction, and transition phases.",organizing-schema,,high,pending,v4.2
+Disciplined Agile,DA; DAD,framework,project management,"PMI's hybrid agile framework providing a toolkit of practices drawn from Scrum, Kanban, XP, and other sources.",regulatory-standard,,high,pending,v4.2
+Nexus,,framework,computer science,Scrum.org's framework for scaling Scrum across multiple teams working on a single product.,organizing-schema,,high,pending,v4.2
+Scrum at Scale,S@S,framework,computer science,Sutherland's framework for scaling Scrum across an organization through Scrum of Scrums and Executive Action Teams.,organizing-schema,,high,pending,v4.2
+Critical Path Method,CPM,framework,engineering,Network analysis technique identifying the longest sequence of dependent activities and the project duration they determine.,formal-scientific,,high,pending,v4.2
+PERT,Program Evaluation Review Technique,framework,engineering,Probabilistic project scheduling technique using three-point estimates to model activity duration uncertainty.,formal-scientific,,high,pending,v4.2
+Critical Chain Project Management,CCPM,framework,project management,"Goldratt's application of Theory of Constraints to project management, replacing task-level safety with project-level buffers.",organizing-schema,,high,pending,v4.2
+Earned Value Management,EVM,framework,project management,"Project performance measurement integrating scope, schedule, and cost; standardized in ANSI/EIA-748 and required in US federal contracting.",regulatory-standard,,high,pending,v4.2
+Gantt Chart Methodology,,framework,project management,"Time-decomposition framework visualizing tasks as horizontal bars on a timeline, originating with Henry Gantt's industrial scheduling work.",organizing-schema,,high,pending,v4.2
+Last Planner System,LPS,framework,engineering,"Lean construction scheduling framework emphasizing pull planning, weekly work plans, and learning from variance.",organizing-schema,,high,pending,v4.2
+DoD 5000 Series,DoDI 5000,framework,project management,US Department of Defense's framework governing acquisition of weapons systems and other major defense programs.,regulatory-standard,,high,pending,v4.2
+NASA NPR 7120.5,,framework,engineering,NASA Procedural Requirements governing program and project management for spaceflight and research.,regulatory-standard,,high,pending,v4.2
+ICH-GCP,Good Clinical Practice,framework,medicine,"International Council for Harmonisation guidelines for the design, conduct, and reporting of clinical trials involving human subjects.",regulatory-standard,,high,pending,v4.2
+Construction Manager at Risk,CMAR,framework,engineering,Construction project delivery method in which the construction manager commits to deliver within a guaranteed maximum price.,doctrinal-institutional,,high,pending,v4.2
+Integrated Project Delivery,IPD,framework,engineering,"Collaborative construction project delivery method aligning contracts, risk-sharing, and team integration around shared outcomes.",organizing-schema,,high,pending,v4.2
+Design-Bid-Build,,framework,engineering,"Traditional construction project delivery method with sequential design, competitive bidding, and construction phases under separate contracts.",doctrinal-institutional,,high,pending,v4.2
+Design-Build,,framework,engineering,Construction project delivery method consolidating design and construction responsibilities under a single contract.,doctrinal-institutional,,high,pending,v4.2
+Annales School,,framework,history,"French historical school emphasizing long-duration structural history (longue durée), mentalités, and social-scientific integration over event-history.",philosophical-tradition,,high,pending,v4.2
+Marxist Historiography,Historical Materialism (history),framework,history,"Historical analysis treating class struggle, modes of production, and material conditions as the primary engines of historical change.",philosophical-tradition,,high,pending,v4.2
+Whig History,Whig Interpretation,framework,history,"Progressivist historical narrative reading the past as inevitable advance toward present liberal institutions, named and critiqued by Herbert Butterfield.",philosophical-tradition,,high,pending,v4.2
+Great Man Theory,,framework,history,Carlyle's view of history as fundamentally the biography of exceptional individuals; widely critiqued and largely abandoned in academic history.,philosophical-tradition,,high,pending,v4.2
+Cambridge School,,framework,history,"Skinner and Pocock's contextualist approach to intellectual history, recovering historical meaning through linguistic and contextual reconstruction.",philosophical-tradition,,high,pending,v4.2
+Microhistory,,framework,history,Italian historical school using detailed reconstruction of small-scale events and individuals to illuminate broader historical patterns.,philosophical-tradition,,high,pending,v4.2
+Counterfactual History,What-If History,framework,history,Historical method using disciplined speculation about alternative outcomes to illuminate causation and contingency in actual events.,philosophical-tradition,,high,pending,v4.2
+History from Below,People's History,framework,history,"Historical approach reconstructing the experiences and agency of ordinary people, workers, and marginalized groups rather than elites.",philosophical-tradition,,high,pending,v4.2
+Postcolonial History,,framework,history,Historical approach critiquing colonial frameworks and recovering perspectives marginalized by colonial-era historiography.,philosophical-tradition,,high,pending,v4.2
+Linguistic Turn,,framework,history,Hayden White's and others' framework treating historical writing as fundamentally narrative construction shaped by rhetorical and linguistic choices.,philosophical-tradition,,high,pending,v4.2
+Big History,,framework,history,"David Christian's framework presenting history as a unified narrative from cosmic origins through the present, integrating multiple disciplines.",organizing-schema,,high,pending,v4.2
+Environmental History,,framework,history,"Historical approach foregrounding human-environment interaction as a central driver of historical change, associated with Crosby and Worster.",philosophical-tradition,,high,pending,v4.2
+Subaltern Studies,,framework,history,"South Asian historical school recovering the agency and consciousness of subaltern groups, originating with Ranajit Guha's collective.",philosophical-tradition,,high,pending,v4.2
+Source Criticism,Quellenkritik,framework,history,"Niebuhr and Ranke's methodology for classifying and evaluating historical sources for authenticity, authority, and bias.",philosophical-tradition,,high,pending,v4.2
+Prosopography,Collective Biography,framework,history,Historical method analyzing groups through systematic biographical data on their members to reveal social and political patterns.,structured-empirical,,high,pending,v4.2
+Oral History Methodology,,framework,history,"Systematic recording, transcription, and analysis of personal testimony as historical evidence, especially for underdocumented populations.",structured-empirical,,high,pending,v4.2
+Cliometrics,Quantitative Economic History,framework,history,"Application of quantitative methods and economic theory to historical analysis, foundational to modern economic history.",structured-empirical,,high,pending,v4.2
+Comparative Historical Analysis,,framework,history,Skocpol and Tilly's methodology systematically comparing historical cases to identify causal patterns in macro-social processes.,structured-empirical,,high,pending,v4.2
+Hegelian Dialectic,Dialectical Method,framework,philosophy,"Hegel's framework of historical and conceptual development through thesis-antithesis-synthesis, foundational to subsequent dialectical traditions.",philosophical-tradition,,high,pending,v4.2
+Vico's Corsi e Ricorsi,Vichian Cycles,framework,history,"Giambattista Vico's cyclical theory of historical recurrence through ages of gods, heroes, and men, articulated in the New Science.",philosophical-tradition,,high,pending,v4.2
+Spenglerian Cycles,Decline of the West,framework,history,Oswald Spengler's morphological theory treating civilizations as organic entities with predictable life cycles of growth and decline.,philosophical-tradition,,high,pending,v4.2
+Toynbee's Civilizations,Challenge and Response,framework,history,Arnold Toynbee's framework analyzing twenty-one civilizations through their responses to environmental and historical challenges.,philosophical-tradition,,high,pending,v4.2
+Kondratiev Waves,K-waves; Long Waves,framework,economics,"Approximately fifty-year economic cycles theorized by Nikolai Kondratiev, later integrated with Schumpeterian innovation theory.",structured-empirical,Empirical evidence for the cycle's regularity is contested; the framework has been more influential in heterodox economics than in mainstream macroeconomics.,high,pending,v4.2
+Demographic Transition Theory,,framework,sociology,"Stage model describing how populations move from high birth and death rates to low rates as societies industrialize, associated with Notestein.",structured-empirical,,high,pending,v4.2
+Malthusian Trap,Malthusian Catastrophe,framework,economics,"Thomas Malthus's theory that population growth eventually outpaces food production, producing recurring crises of subsistence.",structured-empirical,Strong-form predictions have been substantially falsified in modern economies; weak-form applications to pre-industrial societies remain influential through the Clark hypothesis and unified growth theory.,high,pending,v4.2
+Hayden White's Tropics,Metahistory,framework,history,"Hayden White's framework analyzing historical writing through four master tropes (metaphor, metonymy, synecdoche, irony) governing emplotment.",philosophical-tradition,,high,pending,v4.2
+Theosophy,Blavatskian Theosophy,framework,theology,"Blavatsky's synthetic spiritual system describing hidden masters, root races, and planes of existence; foundational to modern Western esotericism.",esoteric-tradition,"Specific historical and metaphysical claims (root races, hidden masters in Tibet) have no empirical support and the framework's race-evolutionary apparatus has been criticized as proto-racialist; influence on later esoteric movements is nonetheless substantial.",high,pending,v4.2
+Anthroposophy,Steinerism,framework,theology,"Rudolf Steiner's spiritual science framework describing spiritual hierarchies, etheric and astral bodies, and karmic evolution; basis of Waldorf education and biodynamic agriculture.",esoteric-tradition,Specific spiritual-scientific claims have no empirical support; Waldorf education and biodynamic agriculture have practitioner adoption but limited rigorous evidence base for their distinctive claims.,high,pending,v4.2
+Hermeticism,Corpus Hermeticum tradition,framework,theology,"Western esoteric tradition descending from late-antique Greek-Egyptian texts attributed to Hermes Trismegistus, organized around principles like 'as above, so below' and the seven Hermetic principles.",esoteric-tradition,,high,pending,v4.2
+Hermetic Qabalah,Western Qabalah,framework,theology,"Western occult adaptation of Jewish Kabbalistic Tree of Life integrated with Hermetic, Tarot, and astrological correspondences; distinct from traditional Jewish Kabbalah.",esoteric-tradition,"Often conflated with traditional Jewish Kabbalah but represents a substantially different tradition with different sources, practitioners, and aims.",high,pending,v4.2
+Thelema,Crowleyan Thelema,framework,theology,Aleister Crowley's spiritual system organized around the Law of Thelema ('Do what thou wilt') and the doctrine of True Will.,esoteric-tradition,,high,pending,v4.2
+Rosicrucianism,,framework,theology,Western esoteric tradition originating in early-17th-century manifestos and continued through modern organizations like AMORC and the Rosicrucian Fellowship.,esoteric-tradition,"Contemporary Rosicrucian organizations differ substantially in lineage, practice, and authority; the original manifesto authors remain unidentified.",high,pending,v4.2
+Neo-Platonic Emanation,Plotinian Cosmology,framework,philosophy,"Plotinus's cosmological framework of reality emanating from the One through the Nous (Intellect) and Soul down to matter; profoundly influential on Christian, Islamic, and Jewish mystical traditions.",philosophical-tradition,,high,pending,v4.2
+Gnosticism,,framework,theology,Late-antique religious tradition organized around the demiurge-pleroma-sophia cosmology and salvation through gnosis (direct knowledge of divine reality).,esoteric-tradition,,high,pending,v4.2
+Fourth Way,Gurdjieff Work,framework,theology,"Gurdjieff and Ouspensky's framework integrating self-remembering, the three centers, and the enneagram of process (distinct from the personality enneagram) toward conscious development.",esoteric-tradition,Gurdjieff's source claims (Sarmoung Brotherhood) are unverifiable; the system's effectiveness claims rest on practitioner testimony rather than empirical evaluation.,high,pending,v4.2
+A Course in Miracles,ACIM,framework,theology,"Helen Schucman's spiritual text and curriculum synthesizing Christian language with Vedantic non-dualism, organized around the distinction between the ego and the Holy Spirit.",esoteric-tradition,,high,pending,v4.2
+Swedenborgianism,New Church teachings,framework,theology,"Emanuel Swedenborg's framework of correspondences between spiritual and natural worlds; influential on Blake, Emerson, James, and Borges.",esoteric-tradition,,high,pending,v4.2
+The White Goddess,Triple Goddess Archetype,framework,narrative studies,Robert Graves's mythopoetic framework arguing for a single triple-goddess archetype underlying European mythology and poetic inspiration.,philosophical-tradition,"Specific historical claims about pre-Christian European goddess religion have been rejected by mainstream classical scholarship; influence on second-wave feminism, neopaganism, and Joseph Campbell is nonetheless substantial.",high,pending,v4.2
+Orgone Theory,Orgonomy,framework,psychology,Wilhelm Reich's theory of a universal life-force energy claimed to be physically measurable and accumulable through specially constructed devices.,organizing-schema,Specific empirical claims about orgone energy have been comprehensively rejected by physics; orgone accumulators were prohibited by FDA injunction in 1954. The framework persists primarily in alternative-medicine and esoteric contexts rather than physics or contemplative practice.,high,pending,v4.2
+Family Constellations,Hellinger Constellations; Knowing Field,framework,psychology,Bert Hellinger's therapeutic methodology using group representation of family members to surface and resolve transgenerational dynamics.,organizing-schema,No rigorous empirical support for the methodology's distinctive claims about systemic transmission; some clinical adoption in continental European contexts but not widely accepted in mainstream psychotherapy.,high,pending,v4.2
+Principled Negotiation,Harvard Negotiation Project method,framework,negotiation,"Fisher and Ury's framework separating people from problem, focusing on interests rather than positions, generating options, and using objective criteria.",organizing-schema,,high,pending,v4.2
+BATNA,Best Alternative to a Negotiated Agreement,tool,negotiation,"Fisher and Ury's concept of one's best fallback option outside the current negotiation, used as the threshold for accepting any agreement.",organizing-schema,,high,pending,v4.2
+ZOPA,Zone of Possible Agreement,tool,negotiation,The range between parties' reservation prices within which any agreement is mutually acceptable.,organizing-schema,,high,pending,v4.2
+Integrative vs Distributive Bargaining,Mutual Gains vs Win-Lose,framework,negotiation,Walton and McKersie's foundational distinction between negotiations expanding joint value and negotiations dividing fixed value.,structured-empirical,,high,pending,v4.2
+Thomas-Kilmann Conflict Mode Instrument,TKI,framework,psychology,"Five-mode framework for conflict-handling styles: competing, collaborating, compromising, avoiding, accommodating.",organizing-schema,Empirical support is moderate; the instrument's psychometric properties are weaker than its widespread organizational use suggests.,high,pending,v4.2
+Nonviolent Communication,NVC,framework,psychology,"Marshall Rosenberg's framework structuring communication around observation, feeling, need, and request.",organizing-schema,Practitioner adoption is substantial but rigorous empirical validation is limited; some critics have noted that the method's self-presentation as 'nonviolent' begs the question.,high,pending,v4.2
+Interest-Based Relational Approach,IBR,framework,negotiation,Conflict-resolution approach prioritizing relationship preservation alongside interest satisfaction.,organizing-schema,,high,pending,v4.2
+Difficult Conversations Framework,Three Conversations Model,framework,negotiation,"Stone, Patton, and Heen's framework distinguishing the 'what happened' conversation, the feelings conversation, and the identity conversation.",organizing-schema,,high,pending,v4.2
+Crucial Conversations,,framework,negotiation,"Patterson, Grenny, McMillan, and Switzler's framework for high-stakes conversations involving strong emotions and opposing opinions.",organizing-schema,,high,pending,v4.2
+Transformative Mediation,,framework,law,Bush and Folger's mediation framework focused on empowering parties and fostering recognition rather than reaching settlement.,organizing-schema,,high,pending,v4.2
+Facilitative Mediation,,framework,law,Mediation framework in which the mediator facilitates communication and negotiation without offering opinions on the merits.,organizing-schema,,high,pending,v4.2
+Evaluative Mediation,,framework,law,Mediation framework in which the mediator offers opinions on the strengths and weaknesses of parties' positions and likely outcomes.,organizing-schema,,high,pending,v4.2
+Restorative Circles,,framework,law,"Restorative practice framework using structured group dialogue to address harm, develop understanding, and rebuild relationships.",organizing-schema,,high,pending,v4.2
+Dialogic Organization Development,Dialogic OD,framework,management,Bushe and Marshak's framework treating organizational change as emerging from shifts in conversation and meaning-making rather than diagnostic interventions.,organizing-schema,,high,pending,v4.2
+Powell Doctrine,,framework,military science,"Colin Powell's set of decision criteria for committing US military force, including clear objectives, public support, and exit strategy.",doctrinal-institutional,,high,pending,v4.2
+Deliberate Practice,,framework,psychology,"Anders Ericsson's framework characterizing the specific, effortful, feedback-driven practice associated with expert performance.",structured-empirical,The popular ten-thousand-hours formulation oversimplifies Ericsson's research; subsequent work (Macnamara et al.) has shown that deliberate practice explains less variance in expert performance than originally claimed.,high,pending,v4.2
+Periodization,Block Periodization; Linear Periodization,framework,performance,Matveyev's framework structuring athletic training in cycles of varying intensity and volume to optimize peak performance.,structured-empirical,,high,pending,v4.2
+Long-Term Athlete Development,LTAD,framework,performance,"Istvan Balyi's framework describing athletic development phases across the lifespan, used in national sport development systems.",organizing-schema,,high,pending,v4.2
+Coerver Method,,framework,performance,Wiel Coerver's skill-based soccer coaching methodology emphasizing individual ball mastery through structured progression.,organizing-schema,,high,pending,v4.2
+Mental Skills Training,Sport Psychology Skills,framework,performance,"Sport psychology toolkit covering goal-setting, imagery, self-talk, arousal regulation, and concentration applied to athletic performance.",structured-empirical,,high,pending,v4.2
+Inner Game,Self 1 / Self 2,framework,performance,Timothy Gallwey's framework distinguishing the conscious 'Self 1' from the embodied 'Self 2' in performance contexts; widely influential beyond sports.,organizing-schema,,high,pending,v4.2
+Marginal Gains,Aggregation of Marginal Gains,framework,performance,"Dave Brailsford's framework systematically pursuing one-percent improvements across many small factors, associated with British Cycling's competitive success.",organizing-schema,,high,pending,v4.2
+Superforecasting,Good Judgment Project,framework,political science,Philip Tetlock's framework characterizing the practices and dispositions associated with consistently accurate forecasting under uncertainty.,structured-empirical,,high,pending,v4.2
+Scenario Planning (Wack),Shell Scenarios,framework,management,"Pierre Wack's narrative scenario methodology developed at Royal Dutch Shell, focused on shifting executives' mental models rather than predicting futures.",organizing-schema,,high,pending,v4.2
+Reference Class Forecasting,Outside View,framework,management,"Kahneman and Tversky's method, developed for projects by Bent Flyvbjerg, using base rates from comparable past cases to correct for the planning fallacy.",structured-empirical,,high,pending,v4.2
+Prediction Markets,,framework,economics,Aggregating dispersed information about future events through trading mechanisms that produce price-based probability estimates.,structured-empirical,,high,pending,v4.2
+Foresight Cone,Cone of Plausibility,framework,management,"Voros's framework distinguishing possible, plausible, probable, and preferable futures across an expanding cone of uncertainty.",organizing-schema,,high,pending,v4.2
+Causal Layered Analysis,CLA,framework,management,"Sohail Inayatullah's four-layer futures methodology analyzing the litany, social causes, worldviews, and myths underlying any contested future.",organizing-schema,,high,pending,v4.2
+Backcasting,,framework,management,Foresight method working backward from a desired future state to identify the actions and decisions needed to reach it.,organizing-schema,,high,pending,v4.2
+Delphi Method,,framework,management,RAND-developed structured method for eliciting expert consensus through iterated anonymous rounds with controlled feedback.,structured-empirical,,high,pending,v4.2
+Self-Organized Criticality,SOC,framework,mathematics,"Per Bak's framework characterizing systems that naturally tune themselves to critical states producing power-law-distributed avalanches, originating with the sandpile model.",formal-scientific,,high,pending,v4.2
+Statistical Complexity,Epsilon-Machines,framework,mathematics,"Crutchfield's measure of the size of the minimal predictive model of a stochastic process, explicitly designed to distinguish complex from random processes.",formal-scientific,,high,pending,v4.2
+Effective Complexity,,framework,mathematics,"Gell-Mann and Lloyd's measure separating regular from random components in a description, capturing the structured rather than random part.",formal-scientific,,high,pending,v4.2
+Logical Depth,Bennett Depth,framework,mathematics,"Charles Bennett's measure of the computational resources required to produce an object from its shortest description, capturing how much 'work' a structured object encodes.",formal-scientific,,high,pending,v4.2
+Fractal Dimension,Hausdorff Dimension,framework,mathematics,"Generalization of integer dimension capturing the scaling behavior of self-similar objects, formalized through Mandelbrot's work and earlier Hausdorff measure theory.",formal-scientific,,high,pending,v4.2
+Extended Evolutionary Synthesis,EES,framework,biology,"Research programme extending the Modern Synthesis to incorporate developmental plasticity, niche construction, inclusive inheritance, and evolvability.",philosophical-tradition,Disputed within mainstream evolutionary biology about whether the proposed extensions add explanatory power beyond the standard Modern Synthesis.,high,pending,v4.2
+NIST AI Risk Management Framework,NIST AI RMF,framework,cybersecurity,"NIST's voluntary framework for managing AI risks across govern, map, measure, and manage functions, released January 2023 with a generative AI profile in 2024.",regulatory-standard,,high,pending,v4.2
+EU AI Act,,framework,governance and compliance,"European Union regulation establishing a risk-based framework for AI systems, including prohibited practices, high-risk requirements, and general-purpose AI obligations.",regulatory-standard,,high,pending,v4.2
+ISO/IEC 42001,,framework,governance and compliance,"International standard specifying requirements for an AI management system (AIMS), published 2023.",regulatory-standard,,high,pending,v4.2
+OECD AI Principles,,framework,governance and compliance,"Intergovernmental principles for trustworthy AI adopted by OECD members and partner countries, foundational to subsequent AI governance frameworks.",regulatory-standard,,high,pending,v4.2
+Singapore Model AI Governance Framework,Model AI Governance Framework,framework,governance and compliance,"Singapore IMDA's voluntary framework for organizational AI governance, including a generative AI extension.",regulatory-standard,,high,pending,v4.2
+AI Bill of Rights,Blueprint for an AI Bill of Rights,framework,governance and compliance,US Office of Science and Technology Policy's blueprint articulating five principles for automated systems affecting Americans' rights.,organizing-schema,Non-binding blueprint rather than enforceable regulation; superseded in regulatory effect by subsequent executive orders.,high,pending,v4.2
+NIST Privacy Framework,,framework,governance and compliance,"NIST's voluntary privacy risk management framework parallel in structure to the Cybersecurity Framework, with identify-govern-control-communicate-protect functions.",regulatory-standard,,high,pending,v4.2
+FFIEC AIO Booklet,FFIEC Architecture Infrastructure and Operations,framework,governance and compliance,"Federal Financial Institutions Examination Council's IT Examination Handbook booklet covering architecture, infrastructure, and operational practices.",regulatory-standard,,high,pending,v4.2
+OCC Heightened Standards,12 CFR Part 30 Appendix D,framework,governance and compliance,Office of the Comptroller of the Currency's heightened risk governance standards applicable to large national banks above asset thresholds.,regulatory-standard,,high,pending,v4.2
+Model Risk Management,SR 11-7; OCC 2011-12,framework,governance and compliance,"Federal Reserve and OCC supervisory guidance establishing the foundational US framework for identifying, assessing, and controlling model risk in financial institutions.",regulatory-standard,,high,pending,v4.2
+NIST 800-171,,framework,cybersecurity,NIST publication specifying security requirements for protecting controlled unclassified information in nonfederal systems; foundational to CMMC.,regulatory-standard,,high,pending,v4.2
+OCC Risk Governance Framework,OCC Heightened Standards Risk Governance,framework,governance and compliance,"Risk governance component of the OCC Heightened Standards specifying board, management, and three-lines requirements for large banks.",regulatory-standard,,high,pending,v4.2
+Job Characteristics Model,Hackman-Oldham Model,framework,psychology,"Hackman and Oldham's framework relating five job characteristics (skill variety, task identity, task significance, autonomy, feedback) to motivation and performance through critical psychological states.",structured-empirical,,high,pending,v4.2
+Equity Theory,Adams Equity Theory,framework,psychology,J. Stacy Adams's framework explaining workplace motivation through perceived fairness of input-outcome ratios compared to relevant others.,structured-empirical,,high,pending,v4.2
+Expectancy Theory,Vroom Expectancy Theory,framework,psychology,"Victor Vroom's framework characterizing motivation as the product of expectancy (effort-performance), instrumentality (performance-outcome), and valence (outcome value).",structured-empirical,,high,pending,v4.2
+Goal-Setting Theory,Locke and Latham,framework,psychology,"Locke and Latham's framework establishing that specific, challenging goals improve performance more than vague or easy goals, mediated by attention, effort, persistence, and strategy.",structured-empirical,,high,pending,v4.2
+Resource Dependence Theory,RDT,framework,sociology,Pfeffer and Salancik's framework treating organizations as fundamentally shaped by their dependence on external resources and the strategies they use to manage that dependence.,structured-empirical,,high,pending,v4.2
+Institutional Theory,Neo-Institutionalism,framework,sociology,"DiMaggio and Powell's framework explaining organizational similarity through coercive, mimetic, and normative isomorphic pressures and the pursuit of legitimacy.",philosophical-tradition,,high,pending,v4.2
+Population Ecology of Organizations,Organizational Ecology,framework,sociology,Hannan and Freeman's framework treating organizational populations as subject to selection pressures analogous to biological evolution.,structured-empirical,,high,pending,v4.2
+Garbage Can Model,,framework,management,"Cohen, March, and Olsen's framework characterizing decision-making in organized anarchies as the chance confluence of problems, solutions, participants, and choice opportunities.",philosophical-tradition,,high,pending,v4.2
+Bounded Rationality,,framework,economics,"Herbert Simon's framework treating human decision-making as constrained by cognitive limits, information costs, and time pressure rather than approximating ideal rationality.",structured-empirical,,high,pending,v4.2
+Recognition-Primed Decision Making,RPD,framework,psychology,Gary Klein's framework characterizing how experts make rapid decisions by recognizing situations as similar to past cases and mentally simulating the recognized response.,structured-empirical,,high,pending,v4.2
+Naturalistic Decision Making,NDM,framework,psychology,"Klein, Zsambok, and others' research programme studying how people actually make decisions in real-world high-stakes settings rather than laboratory conditions.",structured-empirical,,high,pending,v4.2
+Implementation Intentions,If-Then Planning,framework,psychology,Peter Gollwitzer's framework using specific if-then plans linking situational cues to intended responses to bridge the intention-behavior gap.,structured-empirical,,high,pending,v4.2
+Tiny Habits,BJ Fogg's Tiny Habits,framework,psychology,BJ Fogg's behavior-change framework anchoring new minimum-viable behaviors to existing routines and celebrating immediate success.,organizing-schema,,high,pending,v4.2
+Atomic Habits,Cue-Craving-Response-Reward,framework,psychology,James Clear's framework characterizing habit formation through the cue-craving-response-reward loop and four laws of behavior change.,organizing-schema,Practitioner-oriented synthesis of existing behavioral psychology rather than original empirical research.,high,pending,v4.2
+Lindy Effect,Lindy's Law,framework,philosophy,Nassim Taleb's formulation of an empirical regularity (originally attributed to Mandelbrot and earlier observers) that the future life expectancy of non-perishable things scales with their current age.,organizing-schema,,high,pending,v4.2
+Antifragility,,framework,philosophy,"Nassim Taleb's framework characterizing systems that gain rather than lose from disorder, volatility, and stress, distinct from both fragility and resilience.",philosophical-tradition,,high,pending,v4.2
+Black Swan Theory,,framework,philosophy,"Nassim Taleb's framework characterizing high-impact rare events that are unpredictable in advance, rationalized after the fact, and undersampled by historical experience.",philosophical-tradition,,high,pending,v4.2
+Double-Entry Bookkeeping,Pacioli System,framework,accounting,"Foundational logic of accounting representing every economic event as offsetting debits and credits across two or more accounts, codified by Pacioli in 1494 and underlying all modern accounting systems.",philosophical-tradition,,high,pending,v4.2
+US GAAP,Generally Accepted Accounting Principles; FASB ASC,framework,accounting,"Body of accounting standards governing US financial reporting, codified in the FASB Accounting Standards Codification.",regulatory-standard,,high,pending,v4.2
+IFRS,International Financial Reporting Standards,framework,accounting,IASB's body of accounting standards used across most of the developed world outside the United States.,regulatory-standard,,high,pending,v4.2
+GASB,Governmental Accounting Standards Board,framework,accounting,"Body of accounting standards governing US state and local governmental entities, established in 1984.",regulatory-standard,,high,pending,v4.2
+FASAB,Federal Accounting Standards Advisory Board,framework,accounting,Body of accounting standards governing US federal government financial reporting.,regulatory-standard,,high,pending,v4.2
+IPSAS,International Public Sector Accounting Standards,framework,accounting,"International accounting standards for public sector entities, the public sector counterpart to IFRS.",regulatory-standard,,high,pending,v4.2
+ASC 606,Revenue from Contracts with Customers,framework,accounting,FASB Accounting Standards Codification topic establishing a five-step framework for revenue recognition; converged with IFRS 15.,regulatory-standard,,high,pending,v4.2
+ASC 842,Leases (US GAAP),framework,accounting,FASB topic requiring most leases to be recognized on the balance sheet as right-of-use assets and lease liabilities.,regulatory-standard,,high,pending,v4.2
+ASC 815,Derivatives and Hedging,framework,accounting,"FASB topic governing recognition, measurement, and disclosure of derivative instruments and hedging activities.",regulatory-standard,,high,pending,v4.2
+ASC 805,Business Combinations,framework,accounting,FASB topic governing the acquisition method of accounting for business combinations including goodwill and intangible asset recognition.,regulatory-standard,,high,pending,v4.2
+IFRS 15,Revenue from Contracts with Customers (IFRS),framework,accounting,IASB standard for revenue recognition; converged with ASC 606 through the FASB-IASB joint revenue project.,regulatory-standard,,high,pending,v4.2
+IFRS 16,Leases (IFRS),framework,accounting,"IASB standard requiring lessees to recognize most leases on the balance sheet, parallel in intent to ASC 842 with implementation differences.",regulatory-standard,,high,pending,v4.2
+IFRS 17,Insurance Contracts,framework,accounting,"IASB standard establishing recognition, measurement, and disclosure principles for insurance contracts, effective 2023.",regulatory-standard,,high,pending,v4.2
+FASB Conceptual Framework,Statements of Financial Accounting Concepts,framework,accounting,"FASB's foundational framework articulating qualitative characteristics, elements, recognition, and measurement principles underlying US GAAP standard-setting.",philosophical-tradition,,high,pending,v4.2
+IASB Conceptual Framework,Conceptual Framework for Financial Reporting,framework,accounting,"IASB's foundational framework articulating the objectives, qualitative characteristics, and recognition principles underlying IFRS standard-setting.",philosophical-tradition,,high,pending,v4.2
+GAAS,Generally Accepted Auditing Standards,framework,accounting,"AICPA's body of auditing standards governing US private company audits, organized into general, fieldwork, and reporting standards.",regulatory-standard,,high,pending,v4.2
+PCAOB Auditing Standards,PCAOB AS,framework,accounting,"Public Company Accounting Oversight Board's auditing standards governing audits of US public companies, established by Sarbanes-Oxley.",regulatory-standard,,high,pending,v4.2
+ISA,International Standards on Auditing,framework,accounting,IAASB's international auditing standards used in over 130 jurisdictions globally.,regulatory-standard,,high,pending,v4.2
+Yellow Book,Government Auditing Standards; GAGAS,framework,accounting,GAO's Generally Accepted Government Auditing Standards governing audits of US government entities and federal funds.,regulatory-standard,,high,pending,v4.2
+Accrual Accounting,,framework,accounting,Recognition principle recording revenues when earned and expenses when incurred regardless of cash timing; the foundation of modern financial reporting.,philosophical-tradition,,high,pending,v4.2
+Cash Accounting,Cash Basis,framework,accounting,Recognition principle recording transactions when cash changes hands; permitted for smaller entities and tax purposes in some jurisdictions.,organizing-schema,,high,pending,v4.2
+Activity-Based Costing,ABC,framework,accounting,Cooper and Kaplan's cost allocation framework assigning overhead to products based on activities consumed rather than volume-based allocation.,structured-empirical,,high,pending,v4.2
+Throughput Accounting,,framework,accounting,"Goldratt's TOC-derived alternative to standard cost accounting prioritizing throughput, inventory, and operating expense over conventional cost allocation.",organizing-schema,,high,pending,v4.2
+Lean Accounting,,framework,accounting,"Accounting methodology aligned with lean operations, replacing standard cost variance analysis with value-stream costing and visual management.",organizing-schema,,high,pending,v4.2
+Triple-Entry Accounting,Grigg Triple-Entry,framework,accounting,Ian Grigg's cryptographic extension of double-entry bookkeeping using digitally signed receipts as a third record verifiable across parties; foundational to blockchain accounting concepts.,organizing-schema,,high,pending,v4.2
+Fund Accounting,,framework,accounting,Accounting framework for nonprofit and governmental entities organizing financial activity around restricted-purpose funds rather than profit-loss tracking.,regulatory-standard,,high,pending,v4.2
+Tax Basis Accounting,Income Tax Basis,framework,accounting,"Accounting framework for measuring transactions according to applicable tax law rather than GAAP or IFRS, used for tax filing purposes.",regulatory-standard,,high,pending,v4.2
+Statutory Accounting Principles,SAP,framework,accounting,"Accounting framework for US insurance companies established by NAIC, emphasizing solvency over earnings measurement.",regulatory-standard,,high,pending,v4.2
+Cost Accounting Standards,CAS,framework,accounting,Accounting standards established by the Cost Accounting Standards Board governing US government contractor cost allocation and measurement.,regulatory-standard,,high,pending,v4.2
+Circle of Fifths,Cycle of Fifths,framework,music theory,"Visual and conceptual framework organizing the twelve pitch classes by perfect-fifth relationships, revealing key signatures, modulation paths, and harmonic distance.",organizing-schema,The visual diagram is an organizing schema; the underlying mathematical structure (cyclic group of order twelve under transposition) is rigorously formal.,high,pending,v4.2
+Tonal Harmony,Common Practice Tonality,framework,music theory,"Major-minor harmonic system governing Western art music roughly 1600-1900, organized around tonic-dominant relationships and functional progressions.",philosophical-tradition,,high,pending,v4.2
+Functional Harmony,Riemannian Function Theory,framework,music theory,"Hugo Riemann's framework analyzing chord progressions through tonic, subdominant, and dominant functions and their substitutions.",philosophical-tradition,,high,pending,v4.2
+Roman Numeral Analysis,,framework,music theory,"Analytical framework labeling chords by their scale-degree position relative to a key, foundational to common-practice harmonic analysis.",organizing-schema,,high,pending,v4.2
+Figured Bass,Thoroughbass,framework,music theory,"Baroque-era shorthand notation system using numerals beneath a bass line to indicate harmonic realization, foundational to Baroque ensemble practice.",philosophical-tradition,,high,pending,v4.2
+Schenkerian Analysis,Schenker Analysis,framework,music theory,Heinrich Schenker's hierarchical reduction analysis revealing background structures (Ursatz) underlying tonal masterworks.,philosophical-tradition,Schenker's writings include culturally chauvinist claims about German musical superiority that are rejected in contemporary scholarship even where the analytical method retains influence.,high,pending,v4.2
+Pitch-Class Set Theory,Set Theory (Music); Forte Set Theory,framework,music theory,Allen Forte's framework analyzing atonal music through pitch-class sets characterized by interval-class content and equivalence under transposition and inversion.,formal-scientific,,high,pending,v4.2
+Twelve-Tone Technique,Dodecaphony; Serialism,framework,music theory,"Schoenberg's compositional system organizing pitch material around ordered rows containing all twelve pitch classes, manipulated through transposition, inversion, and retrograde.",philosophical-tradition,,high,pending,v4.2
+Integral Serialism,Total Serialism,framework,music theory,"Mid-20th-century extension of twelve-tone technique applying serial organization to rhythm, dynamics, and articulation, associated with Boulez and Stockhausen.",philosophical-tradition,,high,pending,v4.2
+Neo-Riemannian Theory,NRT,framework,music theory,"Late-20th-century transformational theory analyzing triadic relationships through parsimonious voice-leading operations (P, L, R), associated with Lewin, Hyer, and Cohn.",formal-scientific,,high,pending,v4.2
+Just Intonation,JI,framework,music theory,"Tuning framework based on simple integer frequency ratios derived from the harmonic series, producing pure intervals at the cost of key flexibility.",formal-scientific,,high,pending,v4.2
+Equal Temperament,12-TET; ET,framework,music theory,"Tuning framework dividing the octave into twelve mathematically equal semitones, optimizing key flexibility at the cost of pure intervals.",formal-scientific,,high,pending,v4.2
+Modal System,Church Modes; Ecclesiastical Modes,framework,music theory,Pre-tonal framework organizing pitch material through eight (later twelve) modes characterized by distinctive interval patterns and finals.,philosophical-tradition,,high,pending,v4.2
+Sonata Form,First-Movement Form,framework,music theory,"Compositional framework organizing movements into exposition, development, and recapitulation sections with characteristic key relationships, defining the Classical era.",philosophical-tradition,,high,pending,v4.2
+Fugue,Fugal Procedure,framework,music theory,"Imitative contrapuntal procedure organized around a subject answered in related voices, formalized through Bach's practice and subsequent theoretical codification.",philosophical-tradition,,high,pending,v4.2
+Species Counterpoint,Fuxian Counterpoint,framework,music theory,"Johann Joseph Fux's pedagogical framework for teaching voice-leading through five graduated species, codified in Gradus ad Parnassum (1725).",philosophical-tradition,,high,pending,v4.2
+Voice Leading Rules,Part-Writing,framework,music theory,"Body of rules governing the linear connection of voices in tonal harmony, of which species counterpoint is the pedagogical version.",philosophical-tradition,,high,pending,v4.2
+Generative Theory of Tonal Music,GTTM,framework,music theory,"Lerdahl and Jackendoff's framework for tonal music cognition explicitly modeled on Chomskyan generative grammar, organized around grouping, metrical, time-span, and prolongational reductions.",structured-empirical,,high,pending,v4.2
+Tonal Pitch Space,TPS,framework,music theory,Fred Lerdahl's spatial model of pitch relationships providing quantitative measures of harmonic distance grounded in cognitive empirical work.,structured-empirical,,high,pending,v4.2
+Raga System,,framework,music theory,"Indian classical framework organizing melodic material through ragas characterized by ascending and descending scales, characteristic phrases, and affective and time-of-day associations.",philosophical-tradition,,high,pending,v4.2
+Tala System,,framework,music theory,Indian classical rhythmic framework organizing time through cyclic patterns (talas) with distinctive accent structures and characteristic divisions.,philosophical-tradition,,high,pending,v4.2
+Maqam System,,framework,music theory,"Arabic, Turkish, and Persian framework organizing melodic material through modes (maqamat) with microtonal intervals and characteristic melodic phrases.",philosophical-tradition,,high,pending,v4.2
+Pentatonic Theory,Five-Note Scales,framework,music theory,"Framework analyzing five-note scales central to East Asian, Celtic, blues, and many other musical traditions, with both major and minor pentatonic forms.",philosophical-tradition,,high,pending,v4.2
+Nashville Number System,NNS,framework,music theory,"Practical chord-progression notation system using scale-degree numbers, developed in Nashville studio practice and widely used in country and pop production.",organizing-schema,,high,pending,v4.2
+Berklee Chord-Scale Theory,Chord-Scale System,framework,music theory,"Berklee College of Music's pedagogical framework matching scales to chord types for jazz improvisation, codifying earlier bebop practice.",organizing-schema,,high,pending,v4.2
+Blues Form,12-Bar Blues,framework,music theory,Compositional framework characterizing the twelve-bar blues progression with its characteristic harmonic motion and call-and-response phrase structure.,philosophical-tradition,,high,pending,v4.2

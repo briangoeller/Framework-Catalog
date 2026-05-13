@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Sourcing — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Event Sourcing</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Persist state as an immutable sequence of events rather than current snapshots.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Event Sourcing is an architectural pattern in which the state of an application is determined by a sequence of immutable events stored in an append-only event store, rather than by mutable records reflecting the current state. To compute current state, the application replays events from the beginning (with snapshots as optimization). The pattern was articulated by Greg Young and Martin Fowler in the mid-2000s, with deep antecedents in financial accounting (the general ledger as event log), version control systems, and database write-ahead logs that have always recorded changes as events. The benefits include complete audit trail (every change is preserved with timestamp and context), temporal queries (what was the state at any past time?), event replay for debugging or new use cases, and natural integration with event-driven architectures. Costs include schema evolution complexity (events written in one format must be readable indefinitely), replay performance for systems with many events (mitigated by snapshots), and substantial cognitive load for developers used to current-state thinking. Event Sourcing is commonly paired with CQRS but can be used independently.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Greg Young; Martin Fowler (codification); long lineage in accounting and database internals <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Mid-2000s codification; Fowler&#x27;s seminal article 2005 <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Fowler, M. (2005). &#x27;Event Sourcing&#x27; (martinfowler.com), Young, G. (2010 onward). Various publications and presentations on Event Sourcing, Vernon, V. (2013). Implementing Domain-Driven Design (Event Sourcing chapter) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Event store (append-only log of immutable events)</li><li>Aggregate state computed by replaying events</li><li>Snapshots as performance optimization</li><li>Event versioning and schema evolution strategies (upcasting, lazy migration)</li><li>Projections (read models built by consuming events)</li><li>Integration with CQRS (often paired)</li><li>Distinction from event-driven architecture (which uses events for communication but may not store them as system of record)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Domains where audit and history matter intrinsically: finance, healthcare, regulated industries, blockchain analogies; complex domains where state evolution is intricate; systems where temporal queries are valuable; foundation for some microservices patterns; integration with CQRS for high-throughput systems.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Schema evolution is genuinely hard — events written years ago must remain readable, requiring careful versioning discipline that many teams don&#x27;t maintain</li><li>cognitive load is high — developers must reason in terms of events rather than current state</li><li>debugging long event streams is operationally challenging</li><li>tooling support varies and many implementations have subtle correctness issues (e.g., handling concurrent writes to the same aggregate)</li><li>compliance with right-to-be-forgotten regulations (GDPR) creates fundamental tension with event-store immutability</li><li>Greg Young&#x27;s caution that &#x27;Event Sourcing is hard, do not use it unless your domain demands it&#x27; is widely quoted but often ignored</li><li>many implementations adopt Event Sourcing for systems that don&#x27;t justify its complexity.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/cqrs.html">CQRS</a>, <a href="../entries/event-driven-architecture.html">Event-Driven Architecture</a>, <a href="../entries/domain-driven-design.html">Domain-Driven Design</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feature-Driven Development — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Feature-Driven Development</h1>
+  <p class="aliases">Also known as: FDD</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Iterative development methodology organized around designing and building client-valued features in short iterations.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Feature-Driven Development (FDD) is the agile software-development methodology developed by Jeff De Luca with Peter Coad during a 1997 Singapore banking-software project, articulated in Peter Coad, Eric Lefebvre, and Jeff De Luca&#x27;s Java Modeling in Color with UML (1999) and consolidated in Stephen Palmer and John Felsing&#x27;s A Practical Guide to Feature-Driven Development (2002). FDD organizes development around small client-valued features (each completable in two weeks or less) discovered through systematic domain modeling. The methodology comprises five processes: Develop an Overall Model, Build a Features List, Plan by Feature, Design by Feature, Build by Feature. FDD distinguishes itself from Scrum and XP through its emphasis on upfront domain modeling and explicit feature-team structures with class ownership. While less prominent than Scrum or XP, FDD has had substantial adoption in larger-scale enterprise contexts requiring more upfront architectural planning than lightweight agile methods provide.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Jeff De Luca (foundational lead author, Singapore banking project 1997); Peter Coad (foundational co-author, color modeling and Java Modeling in Color with UML 1999); Stephen Palmer &amp; John Felsing (foundational consolidation in A Practical Guide to Feature-Driven Development 2002); intellectual antecedents in domain-modeling tradition (Coad&#x27;s earlier object-oriented work), use-case modeling, broader 1990s lightweight-methods movement, Singapore banking-project specific organizational context; Subsequent development through FDD-community practice, modest training infrastructure, integration with broader domain-driven-design tradition (Eric Evans&#x27;s Domain-Driven Design 2003 has substantive parallels though developed independently) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1997 (Singapore banking project initial development); 1999 (Java Modeling in Color with UML); 2002 (Palmer-Felsing Practical Guide); ongoing development <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Coad, P., Lefebvre, E. &amp; De Luca, J. (1999). Java Modeling in Color with UML: Enterprise Components and Process, Palmer, S.R. &amp; Felsing, J.M. (2002). A Practical Guide to Feature-Driven Development, Highsmith, J. (2002). Agile Software Development Ecosystems (covering FDD in broader agile-family context), FDD community publications and De Luca&#x27;s ongoing consulting practice <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Five FDD processes: (1) Develop an Overall Model — domain modeling with domain experts and chief architects, producing class diagrams using color modeling (party/place/thing, role, description, moment-interval)</li><li>(2) Build a Features List — comprehensive features list categorized by subject area, business activity, and feature</li><li>(3) Plan by Feature — feature ownership assignment and milestone scheduling</li><li>(4) Design by Feature — chief programmer team designs features with class-ownership boundaries</li><li>(5) Build by Feature — implementation, code inspection, promotion to build</li><li>Feature granularity: each feature small enough to complete in two weeks or less, expressed as &lt;action&gt; &lt;result&gt; &lt;object&gt; (e.g., &#x27;calculate total of a sale&#x27;)</li><li>Class ownership: each class has single owner responsible for design and implementation, distinguishing FDD from collective-code-ownership tradition in XP</li><li>Feature teams: dynamic teams formed around features, drawing from class owners</li><li>Chief programmer role: senior developer who guides feature design and mentors team members</li><li>Color modeling: class-diagram conventions using colors to indicate archetype (pink = role, blue = description, yellow = moment-interval, green = party/place/thing) — distinctive FDD modeling tradition</li><li>Progress reporting: percent-complete tracking against features list with milestones at design-by-feature and build-by-feature completion</li><li>Application contexts: enterprise software development with substantial domain complexity, particularly banking, insurance, and other regulated industries</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Agile software-development methodology for enterprise contexts with substantial domain complexity; applied principally in: banking software development (original Singapore context), insurance software, regulated-industry application development; intellectual reference for feature-oriented and domain-modeling agile practice; academic and professional reference in agile software development, domain-driven design, and software-engineering methodology literature; complementary to (or contrasting with) Scrum, XP, DSDM, Crystal, and broader Agile-Manifesto family; modest training and certification infrastructure compared to Scrum/XP.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>FDD adoption has been substantially smaller than Scrum and XP, with practitioner debate about whether FDD&#x27;s distinctive emphases (upfront domain modeling, class ownership, color modeling) genuinely improve outcomes versus produce additional ceremony that lighter-weight agile methods avoid</li><li>the class-ownership model contradicts collective-code-ownership principles foundational to XP and subsequent agile practice, with critics arguing single-owner classes produce knowledge silos and bus-factor risk that distributed-ownership approaches mitigate</li><li>the upfront overall-model phase has been argued by lightweight-agile advocates to produce big-design-up-front anti-pattern that the broader agile movement explicitly rejected, reintroducing waterfall-style upfront commitment that subsequent iterative development cannot easily revise</li><li>the chief-programmer role has been argued to reproduce hierarchical software-team structures that flat agile-team models replaced, with implications for team autonomy and decision-making that some agile practitioners find regressive</li><li>color modeling, while a distinctive FDD contribution, has been argued to add modeling overhead without clear corresponding benefit in software outcome — the technique has had limited adoption outside FDD communities</li><li>empirical evidence on FDD effectiveness versus alternative agile methodologies is sparse, with most agile-methodology comparison research focusing on Scrum, XP, and broader Agile adoption rather than FDD specifically</li><li>cross-industry applicability has been argued to be uneven — FDD&#x27;s enterprise-banking-context origin produces some institutional assumptions that may not transfer to other software-development contexts</li><li>integration with modern DevOps and continuous-deployment practices has been incompletely worked out in canonical FDD literature, with the methodology&#x27;s explicit milestones (design complete, build complete) fitting awkwardly with continuous-flow development</li><li>training and certification infrastructure is substantially less developed than Scrum&#x27;s, limiting professional-development pathways into FDD-specific practice.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/the-agile-manifesto.html">The Agile Manifesto</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/crystal-methods.html">Crystal Methods</a>, <a href="../entries/extreme-programming.html">Extreme Programming</a>, <a href="../entries/dsdm.html">DSDM</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_44.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

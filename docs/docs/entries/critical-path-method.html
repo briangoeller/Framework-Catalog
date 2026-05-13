@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Critical Path Method — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Critical Path Method</h1>
+  <p class="aliases">Also known as: CPM</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">engineering</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Network analysis technique identifying the longest sequence of dependent activities and the project duration they determine.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Critical Path Method (CPM) is the deterministic network-based project-scheduling technique developed in 1957 by Morgan R. Walker (DuPont) and James E. Kelley Jr. (Remington Rand) during a joint engineering-management research project to improve scheduling of DuPont chemical-plant maintenance shutdowns. The method represents a project as a directed acyclic graph of activities with their precedence relationships and single-point duration estimates, then computes the longest path through the network — the &#x27;critical path&#x27; — which determines the minimum project duration. Forward-pass and backward-pass computations yield earliest and latest start and finish times for each activity, with float (slack) measuring schedule flexibility for non-critical activities. Activities on the critical path have zero float; any delay there delays the project. CPM was developed in parallel with the US Navy&#x27;s PERT for the Polaris missile program, with the two techniques converging in subsequent practice. CPM remains the foundational scheduling technique embedded in PMBOK, PRINCE2, and most project-management software.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Morgan R. Walker (DuPont, foundational co-author); James E. Kelley Jr. (Remington Rand / Mauchly Associates, foundational co-author); Dr. John Mauchly&#x27;s consulting firm Mauchly Associates facilitated the collaboration; intellectual antecedents in Henry Gantt&#x27;s chart methodology (1910s), broader operations-research developments during World War II, and 1950s linear-programming tradition; subsequent extension and pedagogical consolidation through 1960s operations-research and project-management literature <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1957 (foundational publication, Construction Engineering Conference); subsequent diffusion through 1960s operations-research literature <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Kelley, J.E. &amp; Walker, M.R. (1959). &#x27;Critical-Path Planning and Scheduling&#x27;, Proceedings of the Eastern Joint Computer Conference (foundational publication), Kelley, J.E. (1961). &#x27;Critical-Path Planning and Scheduling: Mathematical Basis&#x27;, Operations Research, Moder, J.J. &amp; Phillips, C.R. (1964). Project Management with CPM and PERT (foundational textbook), PMI (multiple editions). PMBOK Guide (institutional codification of CPM in project-management practice) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Activity-on-arrow (AOA) and activity-on-node (AON) network representations</li><li>Single-point activity duration estimates (deterministic, in contrast to PERT&#x27;s three-point stochastic estimates)</li><li>Precedence relationships: finish-to-start (most common), start-to-start, finish-to-finish, start-to-finish</li><li>Forward pass: compute earliest start (ES) and earliest finish (EF) for each activity from project start</li><li>Backward pass: compute latest finish (LF) and latest start (LS) for each activity from project end</li><li>Total float = LS − ES = LF − EF (schedule flexibility for the activity)</li><li>Free float: float available without delaying immediate successors</li><li>Critical path: sequence of activities with zero total float</li><li>longest path through the network</li><li>project duration</li><li>Resource leveling and resource smoothing as extensions</li><li>Lead and lag relationships</li><li>Crashing: shortening duration by adding resources</li><li>Implementation in project-management software: Microsoft Project, Primavera, Asta Powerproject, Smartsheet, Oracle products</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundational scheduling technique embedded in virtually all project-management methodologies and software; construction project scheduling (commercial, infrastructure, industrial); engineering project scheduling (manufacturing plant shutdowns, plant turnarounds, capital projects); research-program scheduling; academic and professional reference in project management, operations research, and industrial engineering curricula; input to earned-value management (EVM), critical-chain scheduling extensions (CCPM), and broader schedule-and-cost integration.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>CPM&#x27;s deterministic single-point duration estimates have been substantially critiqued — actual project activities have stochastic durations, and CPM&#x27;s deterministic treatment systematically understates schedule risk and produces optimistic project completion estimates (documented across project-overrun research including Bent Flyvbjerg&#x27;s megaproject work)</li><li>the critical-path concept assumes a single longest path that determines project duration, but in practice multiple near-critical paths produce schedule volatility that CPM does not represent — Eliyahu Goldratt&#x27;s Critical Chain Project Management (1997) substantially critiqued CPM on this ground and proposed buffer-management alternatives</li><li>CPM&#x27;s treatment of resource constraints is awkward — pure CPM computes critical path without considering resource availability, with resource leveling as post-hoc adjustment that can substantially change the critical path</li><li>multi-tasking and resource-sharing across activities are difficult to represent rigorously</li><li>Parkinson&#x27;s law dynamics (work expands to fill time available) and student-syndrome behaviors are not addressed</li><li>the method&#x27;s apparent precision (specific computed dates) can produce false confidence about schedule certainty that drives inappropriate management decisions</li><li>modern scheduling research has largely moved to probabilistic Monte Carlo simulation extending CPM with stochastic durations rather than treating CPM as complete in itself.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    <dt>Parent of</dt><dd><a href="../entries/critical-chain-project-management.html">Critical Chain Project Management</a></dd>
+    
+    <dt>Siblings</dt><dd><a href="../entries/pert.html">PERT</a>, <a href="../entries/gantt-chart-methodology.html">Gantt Chart Methodology</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_42.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

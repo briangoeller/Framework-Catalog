@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clean Architecture — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Clean Architecture</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Martin&#x27;s synthesis of hexagonal and onion patterns with strict dependency rule.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Clean Architecture was articulated by Robert C. Martin (&#x27;Uncle Bob&#x27;) in his 2012 blog post and subsequent 2017 book Clean Architecture: A Craftsman&#x27;s Guide to Software Structure and Design, explicitly synthesizing Hexagonal Architecture (Cockburn 2005), Onion Architecture (Palermo 2008), Boundary-Control-Entity (Jacobson), and DCI (Data, Context, Interaction; Reenskaug &amp; Coplien). The four-circle diagram presents Entities (enterprise business rules) at the center, then Use Cases (application business rules), then Interface Adapters (presenters, controllers, gateways), and Frameworks &amp; Drivers (databases, web frameworks, devices) at the outer edge. The Dependency Rule — dependencies point only inward — is the central architectural commitment, with the implication that frameworks and databases are &#x27;details&#x27; that should be deferred and substitutable. Martin&#x27;s synthesis is widely-read but his prescriptive framing has drawn substantial criticism for over-abstraction in simple applications and for the SOLID-Plus-Clean-Architecture combination producing more architectural ceremony than warranted by typical application complexity.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Robert C. Martin (synthesis) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>2012 (blog post); 2017 (Clean Architecture book) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Martin, R.C. (2012). &#x27;The Clean Architecture&#x27; (cleancoder.com), Martin, R.C. (2017). Clean Architecture: A Craftsman&#x27;s Guide to Software Structure and Design <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Four concentric circles: Entities (innermost), Use Cases, Interface Adapters, Frameworks &amp; Drivers</li><li>Dependency Rule (source dependencies point only inward)</li><li>Boundaries between circles defined by interfaces and dependency inversion</li><li>Frameworks and databases as &#x27;details&#x27; deferred to outer ring</li><li>Connection to SOLID principles</li><li>Synthesis of Hexagonal, Onion, BCE, and DCI</li><li>Use Case as central application logic unit</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Application architecture across languages and frameworks; widely cited reference framework in software architecture education; foundation for many enterprise application templates and reference architectures; basis for testable application design; integration with DDD tactical patterns.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Substantial complexity overhead for simple applications — Clean Architecture is overkill for most CRUD apps</li><li>layered structure produces extensive boilerplate (data transfer between layers, mapping, presenter logic)</li><li>&#x27;frameworks are details&#x27; framing is contested for systems where framework choice meaningfully shapes application capability</li><li>some critics argue Clean Architecture is a relabeling of Hexagonal/Onion without distinct contribution</li><li>Robert Martin&#x27;s prescriptive style can feel dogmatic</li><li>large reference codebases adopting Clean Architecture without genuine domain complexity become harder to maintain than simpler structures would be</li><li>the four-circle visual obscures the underlying dependency-inversion principle that is the actual contribution.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/onion-architecture.html">Onion Architecture</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/hexagonal-architecture.html">Hexagonal Architecture</a>, <a href="../entries/onion-architecture.html">Onion Architecture</a>, <a href="../entries/solid-principles.html">SOLID Principles</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/onion-architecture.html">Onion Architecture</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

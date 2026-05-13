@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CQRS — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>CQRS</h1>
+  <p class="aliases">Also known as: Command Query Responsibility Segregation</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Separates read and write models for scalability and clarity.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Command Query Responsibility Segregation, articulated by Greg Young around 2010 and building on Bertrand Meyer&#x27;s earlier Command-Query Separation principle (which applied at the method level — methods either return values or change state, not both), separates the data model used for commands (state-changing operations) from the data model used for queries (read-only operations) at the architectural level. The two models can have different schemas, different storage, different consistency characteristics, and different scaling profiles, with synchronization between them typically asynchronous via events. CQRS is often paired with Event Sourcing (commands produce events, events update both the write store and the read store) but the two are independent — CQRS can use a traditional database for the write side, and Event Sourcing can be used without separate read models. CQRS adds substantial complexity and is typically appropriate only when read and write workloads have substantially different requirements (e.g., complex reporting against simple writes, or vice versa).</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Greg Young (CQRS articulation); Bertrand Meyer (Command-Query Separation precursor); Udi Dahan (related work) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>Bertrand Meyer&#x27;s CQS late 1980s; Greg Young&#x27;s CQRS articulation around 2010 <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Young, G. (2010). &#x27;CQRS Documents&#x27; (multiple online publications), Meyer, B. (1988). Object-Oriented Software Construction (CQS precursor), Fowler, M. (2011). &#x27;CQRS&#x27; (martinfowler.com) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Write side (commands, command handlers, write model, often Aggregates from DDD)</li><li>Read side (queries, query handlers, read model, often denormalized for query performance)</li><li>Asynchronous synchronization (typically via events)</li><li>Eventual consistency between sides</li><li>Distinction from Bertrand Meyer&#x27;s method-level CQS</li><li>Optional pairing with Event Sourcing</li><li>Distinction between simple CQRS (just separate models) and CQRS-ES (with event store)</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Systems with substantially different read and write requirements; reporting and analytics against transactional sources; complex domain models needing separate read denormalization; integration with Event Sourcing for audit and replay; financial and regulated systems where write integrity matters and read patterns vary; foundation for some microservices patterns.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Substantial complexity overhead — CQRS without justifying complexity is anti-pattern</li><li>eventual consistency between command and query sides is operationally difficult to reason about</li><li>risk of stale reads immediately after writes is hard to communicate to product teams expecting strong consistency</li><li>debugging across two models is harder than within one</li><li>the often-cited pairing with Event Sourcing creates additional complexity</li><li>many implementations adopt CQRS for systems that don&#x27;t justify the complexity</li><li>tooling support varies and many DIY implementations have subtle correctness issues</li><li>better-fitted patterns (read replicas, materialized views, separate reporting databases) often suffice.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/event-driven-architecture.html">Event-Driven Architecture</a>, <a href="../entries/event-sourcing.html">Event Sourcing</a>, <a href="../entries/domain-driven-design.html">Domain-Driven Design</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Logical Depth — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Logical Depth</h1>
+  <p class="aliases">Also known as: Bennett Depth</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Charles Bennett&#x27;s measure of the computational resources required to produce an object from its shortest description, capturing how much &#x27;work&#x27; a structured object encodes.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Logical Depth is the formal-scientific complexity measure developed by Charles H. Bennett (IBM Research) in his 1988 paper &#x27;Logical Depth and Physical Complexity&#x27; in The Universal Turing Machine: A Half-Century Survey (edited by Rolf Herken). The measure quantifies the complexity of an object as the computational time required to produce the object from its near-minimal program — that is, how computationally expensive it is to derive the object from its compressed description. Where Kolmogorov complexity measures the size of the minimal program (static information content), logical depth measures the running time of that program (the computational history embedded in the object). Bennett argued that logical depth captures the physical-complexity intuition that complex objects (cells, civilizations, books) embody substantial computational history while both random objects (no compression) and trivially-ordered objects (instant production) are shallow. Logical depth is one of three foundational alternatives to Kolmogorov complexity addressing the structured-process intuition, alongside Effective Complexity (Gell-Mann) and Statistical Complexity (Crutchfield-Young).</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Charles H. Bennett (IBM Research, foundational author); Foundational 1988 paper &#x27;Logical Depth and Physical Complexity&#x27; in The Universal Turing Machine: A Half-Century Survey (Herken ed.); intellectual antecedents in Kolmogorov complexity (Solomonoff 1960, Kolmogorov 1965, Chaitin 1966), computational-complexity theory, broader thermodynamics-of-computation tradition (Landauer, Bennett&#x27;s own foundational reversible-computation work 1973); Subsequent development through Bennett&#x27;s broader thermodynamics-of-computation and quantum-information research, ongoing complexity-measure research <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1988 (foundational publication); ongoing development through complexity-measure research <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Bennett, C.H. (1988). &#x27;Logical Depth and Physical Complexity&#x27;, in Herken (ed.) The Universal Turing Machine: A Half-Century Survey, Bennett, C.H. (1990). &#x27;How to Define Complexity in Physics, and Why&#x27;, in Zurek (ed.) Complexity, Entropy, and the Physics of Information, Lloyd, S. &amp; Pagels, H. (1988). &#x27;Complexity as Thermodynamic Depth&#x27;, Annals of Physics (related thermodynamic-depth measure), Ay, N., Müller, M. &amp; Szkola, A. (2010). &#x27;Effective Complexity and Its Relation to Logical Depth&#x27;, IEEE Transactions on Information Theory (formal comparison) <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Object: typically discrete-symbol sequence or finite computational object</li><li>Program: Turing-machine program producing the object as output</li><li>Near-minimal program: program of length close to (within b bits of) the Kolmogorov-complexity-minimal program — Bennett uses &#x27;b-incompressible&#x27; programs</li><li>Logical depth at significance level b: the running time of the b-incompressible program — the computational time required to produce the object from a near-minimal description</li><li>Distinction from Kolmogorov complexity: Kolmogorov complexity counts the program length (static information)</li><li>logical depth counts the program running time (computational history)</li><li>Inversion property: low logical depth for both fully random objects (cannot be compressed, so the minimal program is trivial-output, requiring no computation time) and fully ordered objects (trivial pattern production)</li><li>high logical depth for objects requiring substantial computational derivation from compressed descriptions</li><li>Slow-growth law (Bennett): logical depth cannot be rapidly increased by computational processes — shallow objects do not become deep through deterministic computation, only through evolutionary or learning processes that accumulate computational history over time</li><li>Physical-complexity intuition: complex physical objects (cells, ecosystems, civilizations, libraries, computer programs) embody substantial computational history that simple measurement cannot capture but logical depth approximates</li><li>Stability under noise: logical-depth concept has been argued by Bennett to be more stable under small perturbations than Kolmogorov complexity, since adding noise increases Kolmogorov complexity (noise is incompressible) but does not increase logical depth</li><li>Computational-uncomputability: like Kolmogorov complexity, logical depth is uncomputable in general (no algorithm can compute logical depth of arbitrary objects)</li><li>Distinction from Statistical Complexity and Effective Complexity: each captures different aspects of structured-process intuition with different formal foundations</li><li>Application contexts: foundational complexity-theory discussions, biological-complexity characterization, philosophical-foundational debates about origin of complexity</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundational complexity measure addressing the intuition that complex objects embody substantial computational history; applied principally in: complexity-theory foundational research, philosophical-foundational discussions of complexity and emergence, biological-complexity characterization, broader thermodynamics-of-computation research; academic and professional reference in computational complexity, statistical physics, information theory, and broader interdisciplinary complexity literature; complementary to Statistical Complexity (Crutchfield-Young), Effective Complexity (Gell-Mann), and other proposed complexity measures; intellectual foundation for slow-growth-law-based discussions of the origin of complexity in physical and biological systems; modest empirical application due to computational-uncomputability of logical depth in general — research applications use approximations and specific-case analysis rather than direct computation.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Logical Depth faces substantive challenges — the measure is computationally uncomputable in general, with no algorithm capable of computing logical depth of arbitrary objects, limiting empirical application to approximations and specific-case analysis</li><li>the b-incompressibility threshold (programs within b bits of Kolmogorov-complexity-minimal) introduces a free parameter whose appropriate value depends on context, with different threshold choices producing different logical-depth values</li><li>comparison with Statistical Complexity (Crutchfield-Young) and Effective Complexity (Gell-Mann) reveals different formal foundations for related intuitions, with practitioner debate about which measure is appropriate for which contexts</li><li>the dependence on Turing-machine model produces invariance only up to additive constant, which limits cross-system comparison precision</li><li>the slow-growth law has substantial intuitive appeal but its formal implications for biological-complexity origin have been argued by some critics to overstate what the formal measure actually establishes — whether biological complexity is genuinely logical-depth-rich requires empirical demonstration that the formal framework does not directly provide</li><li>the framework&#x27;s adoption outside theoretical-complexity research community has been limited, with biology, physics, and computer-science applications more often using simpler complexity proxies</li><li>the foundational philosophical question of whether logical depth captures the &#x27;right&#x27; notion of complexity remains contested, with alternative formalizations (thermodynamic depth, sophistication, algorithmic mutual information) competing for the same intuitive territory</li><li>modern machine-learning approaches to complexity measurement (neural-network-based complexity estimators, transformer-based language-model complexity proxies) have produced fruitful empirical applications without formally connecting to logical depth</li><li>the relationship between logical depth and physically-realized computational history (the fact that physical objects do embody substantial computational history through evolution, learning, manufacturing) is intuitively suggestive but the formal correspondence between the abstract Turing-machine-running-time measure and physically-realized computation remains methodologically complex.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/statistical-complexity.html">Statistical Complexity</a>, <a href="../entries/effective-complexity.html">Effective Complexity</a>, <a href="../entries/self-organized-criticality.html">Self-Organized Criticality</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/information-theory.html">Information Theory</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_44.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

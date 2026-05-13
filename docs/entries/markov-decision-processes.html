@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Markov Decision Processes — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Markov Decision Processes</h1>
+  <p class="aliases">Also known as: MDP</p>
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Sequential decision framework with states, actions, transition probabilities, and rewards.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Markov Decision Processes (MDPs) are the mathematical framework for modeling sequential decision-making in stochastic environments where outcomes are partly random and partly under the control of a decision maker. An MDP is specified by: a set of states S; a set of actions A; transition probabilities P(s&#x27;|s,a) — probability of next state s&#x27; given current state s and action a; reward function R(s,a) — immediate reward for taking action a in state s; discount factor γ in [0,1] for valuing future vs immediate rewards. The Markov property — that transition probabilities depend only on current state and action, not on history — is the central simplifying assumption. Solving an MDP means finding an optimal policy — a mapping from states to actions — that maximizes expected discounted cumulative reward. The framework was substantially developed by Richard Bellman in his 1957 Dynamic Programming, introducing the Bellman equation and the principle of optimality, and elaborated by Ronald Howard&#x27;s 1960 Dynamic Programming and Markov Processes. MDPs are foundational to operations research, control theory, and reinforcement learning (where the agent typically doesn&#x27;t know transition probabilities or rewards in advance and must learn them through interaction). Modern reinforcement learning — Sutton and Barto&#x27;s foundational Reinforcement Learning: An Introduction (1998, 2018), Q-learning (Watkins 1989), policy gradient methods, deep reinforcement learning (DeepMind&#x27;s DQN 2013, AlphaGo 2016) — substantially builds on MDP foundations. Variants include Partially Observable MDPs (POMDPs, where the agent doesn&#x27;t directly observe state), continuous-state and continuous-action MDPs, and risk-sensitive MDPs.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Richard Bellman (foundational 1957 Dynamic Programming); Ronald Howard (1960 Dynamic Programming and Markov Processes); subsequent foundational reinforcement-learning figures including Christopher Watkins, Richard Sutton, Andrew Barto <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1957 (Bellman); 1960 (Howard); 1989 (Watkins Q-learning); 1998-2018 (Sutton-Barto) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Bellman, R. (1957). Dynamic Programming, Howard, R.A. (1960). Dynamic Programming and Markov Processes, Sutton, R.S. &amp; Barto, A.G. (1998, 2nd ed. 2018). Reinforcement Learning: An Introduction, Puterman, M.L. (1994). Markov Decision Processes <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>States, actions, transition probabilities, rewards, discount factor</li><li>Markov property (transition probabilities depend only on current state-action)</li><li>Policy as state-to-action mapping</li><li>Value functions (state value V, action value Q)</li><li>Bellman equation and Bellman optimality equation</li><li>Dynamic programming solutions (value iteration, policy iteration)</li><li>Distinction from POMDPs (partial observability)</li><li>Connection to reinforcement learning (where transitions and rewards are learned)</li><li>Continuous-state and continuous-action variants</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundation of modern reinforcement learning; operations research and stochastic optimization; control theory; foundation for substantial AI work including game-playing agents (AlphaGo, AlphaZero), robotics, autonomous vehicles, recommendation systems; medical decision-making (treatment policies under uncertainty); resource management and scheduling; foundation for many modern AI products and research directions.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Markov property assumption — that future depends only on current state, not on history — is often violated in real systems</li><li>modeling problems as MDPs requires substantial state-space engineering that can be brittle</li><li>high-dimensional state spaces face the &#x27;curse of dimensionality&#x27; that classical dynamic programming can&#x27;t handle</li><li>reward specification (reward hacking, reward misspecification) is a substantial practical problem in reinforcement learning</li><li>partial observability (POMDPs) substantially complicates the framework</li><li>sample complexity for reinforcement-learning algorithms can be enormous</li><li>transferring learned policies across environments is genuinely difficult</li><li>commercial reinforcement-learning applications often face large gaps between simulation performance and real-world performance</li><li>AI safety research has substantial concerns about reward misspecification and Goodhart&#x27;s law in MDP-based agents</li><li>the framework&#x27;s clean mathematical structure can mask the substantial practical engineering required for real applications.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    <dt>Child of</dt><dd><a href="../entries/decision-theory.html">Decision Theory</a></dd>
+    <dt>Siblings</dt><dd><a href="../entries/decision-theory.html">Decision Theory</a>, <a href="../entries/bayesian-inference.html">Bayesian Inference</a></dd>
+    <dt>Derived from</dt><dd><a href="../entries/decision-theory.html">Decision Theory</a></dd>
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

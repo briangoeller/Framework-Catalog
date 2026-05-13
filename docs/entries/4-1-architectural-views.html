@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>4+1 Architectural Views — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>4+1 Architectural Views</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">organizing-schema</span>
+  </p>
+  <p class="one-liner">Kruchten&#x27;s logical, process, development, physical, and scenario views of architecture.</p>
+</header>
+
+<section class="extended-summary">
+  <p>The 4+1 Architectural Views model was articulated by Philippe Kruchten of Rational Software in his 1995 paper &#x27;Architectural Blueprints — The 4+1 View Model of Software Architecture&#x27; (IEEE Software). The model holds that no single diagram or view can adequately describe a non-trivial software architecture, and that architects should produce four primary views serving different stakeholders, plus a fifth &#x27;scenarios&#x27; view that ties them together. The Logical View (end-user concerns, the system&#x27;s functional structure, conceptual classes); the Process View (system designer concerns, concurrency, performance, distribution, runtime processes); the Development View (programmer concerns, module organization, packaging); the Physical View (system engineer concerns, deployment, hardware, network topology); and the Scenarios View (the +1, often called Use Cases or Use Case View, illustrating how the other four views work together for representative scenarios). The model was substantially shaped by and influential within the Rational Unified Process (RUP) and remains a reference framework in software-architecture education, though its UML-era detail conventions feel dated relative to lighter-weight modern alternatives like the C4 Model.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Philippe Kruchten (Rational Software) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1995 (IEEE Software paper) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Kruchten, P. (1995). &#x27;Architectural Blueprints — The 4+1 View Model of Software Architecture&#x27;, IEEE Software <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Four primary views: Logical (functional structure, classes), Process (concurrency, distribution, runtime), Development (module organization, packaging), Physical (deployment, hardware)</li><li>Scenarios view (the +1, ties views together via use cases)</li><li>Each view serves different stakeholders</li><li>Connection to UML and Rational Unified Process</li><li>Substantial influence on subsequent architectural-views frameworks</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Software architecture documentation in enterprise and large-system contexts; teaching framework in software-architecture education; basis for architectural views structure that influenced many subsequent frameworks (including ISO/IEC/IEEE 42010 — Systems and Software Engineering — Architecture Description); reference in IBM Rational Unified Process and similar enterprise methodologies.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>UML-era detail conventions feel heavy relative to modern lighter-weight alternatives like C4 Model</li><li>production of all five views in detail is rarely done in practice — most projects produce one or two views adequately and the rest as afterthought or not at all</li><li>views can become snapshots rather than living documentation, going stale rapidly</li><li>1995 framing predates microservices, cloud-native, event-driven, and serverless architectures, making some view definitions awkward for modern systems</li><li>formal RUP-style architecture-description practice has substantially declined in favor of lighter-weight architecture-as-code approaches</li><li>framework&#x27;s strength is conceptual rather than operational — useful as a thinking tool, less useful as a documentation prescription.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/c4-model.html">C4 Model</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_09.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

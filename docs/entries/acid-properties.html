@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ACID Properties — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>ACID Properties</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">computer science</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Atomicity, Consistency, Isolation, Durability — guarantees for reliable transactions.</p>
+</header>
+
+<section class="extended-summary">
+  <p>ACID is the canonical set of guarantees that database transaction systems provide to applications, articulated by Theo Härder and Andreas Reuter in their 1983 paper &#x27;Principles of Transaction-Oriented Database Recovery&#x27; and building on Jim Gray&#x27;s foundational transaction work in the late 1970s. Atomicity ensures that a transaction either fully completes or has no effect — partial completion is impossible. Consistency ensures that a transaction takes the database from one valid state to another, preserving all defined integrity constraints. Isolation ensures that concurrent transactions produce the same result as if they had executed sequentially, with practical systems offering tiered isolation levels (read uncommitted, read committed, repeatable read, serializable) trading isolation strength for concurrency. Durability ensures that committed transactions survive system failures. ACID guarantees underpin reliable financial, inventory, and other systems-of-record databases, with implementation through write-ahead logging, two-phase commit for distributed cases, and lock-based or multi-version concurrency control.</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Theo Härder; Andreas Reuter (acronym formalization); Jim Gray (foundational transaction theory) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1983 (Härder &amp; Reuter paper); foundational transaction work 1970s onward (Gray) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Härder, T. &amp; Reuter, A. (1983). &#x27;Principles of Transaction-Oriented Database Recovery&#x27;, ACM Computing Surveys, Gray, J. &amp; Reuter, A. (1992). Transaction Processing: Concepts and Techniques <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Atomicity (all-or-nothing)</li><li>Consistency (valid state to valid state)</li><li>Isolation (concurrent transactions appear sequential)</li><li>Durability (committed changes survive failures)</li><li>Implementation via write-ahead logging, two-phase commit, MVCC, locking</li><li>Tiered isolation levels (read uncommitted, read committed, repeatable read, serializable)</li><li>Distinction from BASE</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Foundation of relational database management systems and their use in financial, inventory, accounting, and systems-of-record applications; standard reference for what &#x27;transactional&#x27; means in database design; basis for distributed transaction protocols including two-phase commit and three-phase commit.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>ACID guarantees come at substantial performance and availability costs at scale, particularly under network partitions (the trade-off CAP Theorem makes explicit)</li><li>strict serializability is often more isolation than applications actually need, leading to per-application weaker isolation choices</li><li>distributed ACID via two-phase commit is brittle to coordinator failures</li><li>&#x27;Consistency&#x27; in ACID is a weaker integrity-constraints notion than the &#x27;C&#x27; in CAP, leading to terminological confusion</li><li>ACID-centric thinking can constrain modern distributed-system design where eventual consistency (BASE) is more appropriate.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    
+    
+    <dt>Siblings</dt><dd><a href="../entries/base-properties.html">BASE Properties</a>, <a href="../entries/cap-theorem.html">CAP Theorem</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_08.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>

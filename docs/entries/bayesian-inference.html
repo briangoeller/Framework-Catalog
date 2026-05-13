@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bayesian Inference — Framework Catalog</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+<main class="page">
+
+<header class="entry-header">
+  <p class="breadcrumb"><a href="../index.html">← Catalog</a></p>
+  <h1>Bayesian Inference</h1>
+  
+  <p class="meta">
+    <span class="meta-type">framework</span> ·
+    <span class="meta-discipline">mathematics</span> ·
+    <span class="meta-band">formal-scientific</span>
+  </p>
+  <p class="one-liner">Belief updating via Bayes&#x27; rule, applied across statistics, ML, and epistemology.</p>
+</header>
+
+<section class="extended-summary">
+  <p>Bayesian Inference is the statistical and computational framework for updating probabilistic beliefs (or probability distributions over parameters or hypotheses) in light of observed data, using Bayes&#x27;s theorem: posterior = likelihood × prior / evidence. The framework descends from Reverend Thomas Bayes&#x27;s posthumous 1763 &#x27;An Essay towards Solving a Problem in the Doctrine of Chances&#x27; (published by Richard Price), with substantial subsequent development by Pierre-Simon Laplace (independently rediscovered and elaborated the principles in the late 18th century), Harold Jeffreys (1939, Theory of Probability — modern Bayesian foundations), Bruno de Finetti (subjective probability foundations), Leonard J. Savage (foundations of statistics, 1954), and the contemporary computational revolution through Markov Chain Monte Carlo methods (Metropolis et al. 1953, Hastings 1970, Gelfand-Smith 1990) that made Bayesian inference practical for high-dimensional problems. Bayesian Inference contrasts with Frequentist Statistics (separately enriched) on the question of what probability means: Bayesians treat probability as quantified belief that updates with evidence, while frequentists treat probability as long-run relative frequency. The framework has had outsized impact on contemporary machine learning (probabilistic graphical models, variational inference, Bayesian deep learning), scientific inference (clinical trials, particle physics, cosmology), and AI (Bayesian decision theory, probabilistic programming languages). Distinct from but philosophically connected to Bayesian Epistemology (separately enriched in philosophy batch).</p>
+</section>
+
+<section class="metadata-grid">
+  <div class="field">
+    <h3>Originators</h3>
+    <p>Thomas Bayes (foundational, posthumous 1763); Pierre-Simon Laplace (independent rediscovery and elaboration); Harold Jeffreys, Bruno de Finetti, Leonard J. Savage (modern foundations); Metropolis-Hastings, Geman-Geman (computational revolution) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Year / Decade</h3>
+    <p>1763 (Bayes posthumous essay); late 18th century (Laplace); 1939 (Jeffreys); 1953-1990s (computational revolution) <span class="conf conf-high">high</span></p>
+  </div>
+  <div class="field">
+    <h3>Primary sources</h3>
+    <p>Bayes, T. (1763 posthumous). &#x27;An Essay towards Solving a Problem in the Doctrine of Chances&#x27;, Jeffreys, H. (1939). Theory of Probability, Gelman, A., Carlin, J.B., Stern, H.S., Dunson, D.B., Vehtari, A. &amp; Rubin, D.B. (2013, 3rd ed.). Bayesian Data Analysis, McElreath, R. (2020, 2nd ed.). Statistical Rethinking <span class="conf conf-high">high</span></p>
+  </div>
+  
+</section>
+
+<section class="field-block">
+  <h3>Core components</h3>
+  <ul><li>Bayes&#x27;s theorem: posterior = likelihood × prior / evidence</li><li>Prior probability distribution</li><li>Likelihood function</li><li>Posterior probability distribution</li><li>Marginal likelihood (evidence)</li><li>Conjugate priors and analytical posteriors</li><li>Markov Chain Monte Carlo (MCMC) for high-dimensional problems</li><li>Variational inference</li><li>Bayesian model averaging</li><li>Bayesian decision theory (combines posterior with utility)</li><li>Distinction from frequentist statistics on probability interpretation</li><li>Subjective vs objective Bayesian variants</li></ul>
+</section>
+
+<section class="field-block">
+  <h3>Primary use case</h3>
+  <p>Statistical inference across scientific disciplines; foundation for substantial modern machine learning (probabilistic graphical models, variational autoencoders, Bayesian neural networks); clinical trial design and analysis (adaptive trials, FDA Bayesian guidance); particle physics and cosmology (parameter estimation, model comparison); A/B testing in technology companies; foundation for probabilistic programming languages (Stan, PyMC, Pyro, Edward); reference framework in modern statistics education.</p>
+</section>
+
+<section class="field-block">
+  <h3>Common criticisms</h3>
+  <ul><li>Choice of prior is contested — subjective Bayesians accept wide latitude in priors, but the resulting analyses can vary substantially with prior choice, raising concerns about analyst-dependence</li><li>objective Bayesian attempts to specify default priors (Jeffreys priors, reference priors, maximum entropy) have not produced consensus</li><li>computational expense remains substantial despite MCMC advances</li><li>convergence diagnostics for MCMC are imperfect, with potential for misleading inferences from non-converged chains</li><li>the foundational frequentist-Bayesian debate continues — frequentists argue Bayesian methods sacrifice objectivity by requiring prior specification</li><li>integration with model-checking and goodness-of-fit assessment is less developed than in some frequentist traditions</li><li>for some scientific contexts (regulatory clinical trials especially), Bayesian methods face institutional resistance despite mathematical equivalence under appropriate priors</li><li>commercial &#x27;Bayesian&#x27; implementations vary substantially in fidelity to underlying principles.</li></ul>
+</section>
+
+<section class="lineage">
+  <h3>Lineage</h3>
+  <dl>
+    <dt>Parent of</dt><dd><a href="../entries/bayesian-networks.html">Bayesian Networks</a>, <a href="../entries/markov-decision-processes.html">Markov Decision Processes</a></dd>
+    
+    <dt>Siblings</dt><dd><a href="../entries/frequentist-statistics.html">Frequentist Statistics</a>, <a href="../entries/bayesian-epistemology.html">Bayesian Epistemology</a>, <a href="../entries/decision-theory.html">Decision Theory</a></dd>
+    
+  </dl>
+</section>
+
+
+
+<footer class="entry-footer">
+  <p>Source batch: <code>batch_20.jsonl</code></p>
+</footer>
+
+</main>
+<script src="../static/filter.js" defer></script>
+</body>
+</html>
